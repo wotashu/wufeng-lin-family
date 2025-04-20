@@ -110,45 +110,45 @@ wufeng_lin_family = {
     },
     "Eldest Daughter": {
         "spouse": "Eldest Daughter's Spouse",
-        "children": ["Jack"],
+        "children": ["Jack Chen"],
     },
     "Second Daughter": {
         "spouse": "Second Daughter's Spouse",
-        "children": ["William", "Evan"],
+        "children": ["William Chiang", "Evan Chiang"],
     },
-    "Third Daughter": {
+    "Hsing Lin": {
         "spouse": "Third Daughter's Spouse",
-        "children": ["Talot", "Bassima", "Shurouq"],
+        "children": ["Talot Algusane", "Bassima Algusane", "Shurouq Algusane"],
     },
     "Long Ming Lin": {
         "spouse": "Long Ming Lin's Spouse",
         "children": ["Jonathan Long Lin", "Kristina Mimi Lin", "Geoffrey Bruce Lin"],
     },
-    "Jack": {"children": ["Jason", "Sabrina"]},
-    "Jason": {},
-    "Sabrina": {
-        "spouse": "Sabrina's Spouse",
-        "children": [],
+    "Jack": {"children": ["Jason Chen", "Sabrina Chen"]},
+    "Jason Chen": {},
+    "Sabrina Chen": {
+        "spouse": "Chris Woon",
+        "children": ["Maiya Woon", "Sage Woon"],
     },
-    "William": {},
-    "Evan": {
-        "spouse": "Evan's Spouse",
-        "children": ["Eva"],
+    "William Chiang": {},
+    "Evan Chiang": {
+        "former_spouse": "Nanthawan Chai",
+        "children": ["Eva Chiang"],
     },
-    "Eva": {},
-    "Talot": {},
-    "Bassima": {},
-    "Shurouq": {
-        "spouse": "Shurouq's Spouse",
-        "children": {"Maya": {}},
+    "Eva Chiang": {},
+    "Talot Algusane": {},
+    "Bassima Algusane": {},
+    "Shurouq Algusane": {
+        "spouse": "Jon Spanyol",
+        "children": ["Maya Spanyol"],
     },
-    "Maya": {},
+    "Maya Spanyol": {},
     "Jonathan Long Lin": {},
     "Kristina Mimi Lin": {
-        "spouse": "Kristina Mimi Lin's Spouse",
-        "children": ["Teddy"],
+        "spouse": "Christian Sidor",
+        "children": ["Teddy Sidor"],
     },
-    "Teddy": {},
+    "Teddy Sidor": {},
     "Geoffrey Bruce Lin": {
         "spouse": "Geoffrey Bruce Lin's Spouse",
         "children": [],
