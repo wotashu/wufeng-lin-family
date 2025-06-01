@@ -1,0 +1,186 @@
+{
+    "Lin Ming-jiang": {
+        "name": {
+            "hanzi": "林名江",
+            "pinyin": "Lín Míngjiāng",
+            "wade_giles": "Lin² Ming²-chiang¹",
+            "english": "Lin Ming-jiang"
+        },
+        "generation": 1,
+        "children": [
+            "Lin Shi",
+            "Lin Shou",
+            "Lin Zong"
+        ]
+    },
+    "Lin Shi": {
+        "name": {
+            "hanzi": "林石",
+            "pinyin": "Lín Shí",
+            "wade_giles": "Lin² Shih²",
+            "english": "Lin Shi"
+        },
+        "generation": 2,
+        "note": "臺灣祖 (Taiwan Ancestor)",
+        "children": [
+            "Lin Xun",
+            "Lin Shui",
+            "Lin Lai",
+            "Lin Li",
+            "Lin Liu",
+            "Lin Lu"
+        ]
+    },
+    "Lin Shou": {
+        "name": {
+            "hanzi": "林壽",
+            "pinyin": "Lín Shòu",
+            "wade_giles": "Lin² Shou⁴",
+            "english": "Lin Shou"
+        },
+        "generation": 2,
+        "children": []
+    },
+    "Lin Zong": {
+        "name": {
+            "hanzi": "林摠",
+            "pinyin": "Lín Zǒng",
+            "wade_giles": "Lin² Tsung³",
+            "english": "Lin Zong"
+        },
+        "generation": 2,
+        "children": []
+    },
+    "Lin Xun": {
+        "name": {
+            "hanzi": "林遜",
+            "pinyin": "Lín Xùn",
+            "wade_giles": "Lin² Hsün⁴",
+            "english": "Lin Xun"
+        },
+        "generation": 3,
+        "children": [
+            "Lin Qiong-yao",
+            "Lin Jia-yin",
+            "Lin Zhi-fang"
+        ]
+    },
+    "Lin Shui": {
+        "name": {
+            "hanzi": "林水",
+            "pinyin": "Lín Shuǐ",
+            "wade_giles": "Lin² Shui³",
+            "english": "Lin Shui"
+        },
+        "generation": 3,
+        "children": []
+    },
+    "Lin Lai": {
+        "name": {
+            "hanzi": "林賴",
+            "pinyin": "Lín Lài",
+            "wade_giles": "Lin² Lai⁴",
+            "english": "Lin Lai"
+        },
+        "generation": 3,
+        "children": []
+    },
+    "Lin Li": {
+        "name": {
+            "hanzi": "林隸",
+            "pinyin": "Lín Lì",
+            "wade_giles": "Lin² Li⁴",
+            "english": "Lin Li"
+        },
+        "generation": 3,
+        "children": []
+    },
+    "Lin Liu": {
+        "name": {
+            "hanzi": "林六",
+            "pinyin": "Lín Liù",
+            "wade_giles": "Lin² Liu⁴",
+            "english": "Lin Liu"
+        },
+        "generation": 3,
+        "children": []
+    },
+    "Lin Lu": {
+        "name": {
+            "hanzi": "林陸",
+            "pinyin": "Lín Lù",
+            "wade_giles": "Lin² Lu⁴",
+            "english": "Lin Lu"
+        },
+        "generation": 3,
+        "children": []
+    },
+    "Lin Qiong-yao": {
+        "name": {
+            "hanzi": "林瓊瑤",
+            "pinyin": "Lín Qióngyáo",
+            "wade_giles": "Lin² Ch'iung²-yao²",
+            "english": "Lin Qiong-yao"
+        },
+        "generation": 4,
+        "children": []
+    },
+    "Lin Jia-yin": {
+        "name": {
+            "hanzi": "林甲寅",
+            "pinyin": "Lín Jiǎyín",
+            "wade_giles": "Lin² Chia³-yin²",
+            "english": "Lin Jia-yin"
+        },
+        "generation": 4,
+        "note": "霧峰祖 (Wufeng Ancestor)",
+        "children": [
+            "Lin Ding-bang",
+            "Lin Dian-guo",
+            "Lin Zhen-xiang"
+        ]
+    },
+    "Lin Zhi-fang": {
+        "name": {
+            "hanzi": "林志芳",
+            "pinyin": "Lín Zhìfāng",
+            "wade_giles": "Lin² Chih⁴-fang¹",
+            "english": "Lin Zhi-fang"
+        },
+        "generation": 4,
+        "note": "太平祖 (Taiping Ancestor), see below",
+        "children": []
+    },
+    "Lin Ding-bang": {
+        "name": {
+            "hanzi": "林定邦",
+            "pinyin": "Lín Dìngbāng",
+            "wade_giles": "Lin² Ting⁴-pang¹",
+            "english": "Lin Ding-bang"
+        },
+        "generation": 5,
+        "note": "霧峰下厝祖 (Wufeng Xia Cuo Ancestor), see below",
+        "children": []
+    },
+    "Lin Dian-guo": {
+        "name": {
+            "hanzi": "林奠國",
+            "pinyin": "Lín Diàn Guó",
+            "wade_giles": "Lin² Tien⁴-kuo²",
+            "english": "Lin Dian-guo"
+        },
+        "generation": 5,
+        "note": "霧峰頂厝祖 (Wufeng Ding Cuo Ancestor), see below",
+        "children": []
+    },
+    "Lin Zhen-xiang": {
+        "name": {
+            "hanzi": "林振祥",
+            "pinyin": "Lín Zhènxiáng",
+            "wade_giles": "Lin² Chen⁴-hsiang²",
+            "english": "Lin Zhen-xiang"
+        },
+        "generation": 5,
+        "children": []
+    }
+}

@@ -1,0 +1,552 @@
+{
+    "Lin Ming-chiang": {
+        "name": {
+            "hanzi": "林名江",
+            "kanji": "リン・メイコウ",
+            "pinyin": "Lín Míngjiāng",
+            "wade_giles": "Lin Ming-chiang",
+            "english": "Lin Ming-chiang"
+        },
+        "gender": "Male",
+        "note": "霧峰林家 (Wufeng Lin Family) founder",
+        "children": [
+            "Lin Shih",
+            "Lin Shou",
+            "Lin Tsung"
+        ]
+    },
+    "Lin Shih": {
+        "name": {
+            "hanzi": "林石",
+            "kanji": "リン・セキ",
+            "pinyin": "Lín Shí",
+            "wade_giles": "Lin Shih",
+            "english": "Lin Shih"
+        },
+        "gender": "Male",
+        "note": "臺灣祖 (Taiwan's ancestor)",
+        "children": [
+            "Lin Xun",
+            "Lin Shui",
+            "Lin Lai",
+            "Lin Li",
+            "Lin Liu",
+            "Lin Lu"
+        ]
+    },
+    "Lin Shou": {
+        "name": {
+            "hanzi": "林壽",
+            "kanji": "リン・ジュ",
+            "pinyin": "Lín Shòu",
+            "wade_giles": "Lin Shou",
+            "english": "Lin Shou"
+        },
+        "gender": "Male"
+    },
+    "Lin Tsung": {
+        "name": {
+            "hanzi": "林摠",
+            "kanji": "リン・ソウ",
+            "pinyin": "Lín Zǒng",
+            "wade_giles": "Lin Tsung",
+            "english": "Lin Tsung"
+        },
+        "gender": "Male"
+    },
+    "Lin Xun": {
+        "name": {
+            "hanzi": "林遜",
+            "kanji": "リン・シュン",
+            "pinyin": "Lín Xùn",
+            "wade_giles": "Lin Hsün",
+            "english": "Lin Xun"
+        },
+        "gender": "Male",
+        "children": [
+            "林瓊瑤",
+            "Lin Chia-yin"
+        ]
+    },
+    "Lin Shui": {
+        "name": {
+            "hanzi": "林水",
+            "kanji": "リン・スイ",
+            "pinyin": "Lín Shuǐ",
+            "wade_giles": "Lin Shui",
+            "english": "Lin Shui"
+        },
+        "gender": "Male"
+    },
+    "Lin Lai": {
+        "name": {
+            "hanzi": "林賴",
+            "kanji": "リン・ライ",
+            "pinyin": "Lín Lài",
+            "wade_giles": "Lin Lai",
+            "english": "Lin Lai"
+        },
+        "gender": "Male"
+    },
+    "Lin Li": {
+        "name": {
+            "hanzi": "林隸",
+            "kanji": "リン・レイ",
+            "pinyin": "Lín Lì",
+            "wade_giles": "Lin Li",
+            "english": "Lin Li"
+        },
+        "gender": "Male",
+        "children": [
+            "Lin Zhifang"
+        ]
+    },
+    "Lin Liu": {
+        "name": {
+            "hanzi": "林六",
+            "kanji": "リン・リュウ",
+            "pinyin": "Lín Liù",
+            "wade_giles": "Lin Liu",
+            "english": "Lin Liu"
+        },
+        "gender": "Male"
+    },
+    "Lin Lu": {
+        "name": {
+            "hanzi": "林陸",
+            "kanji": "リン・リク",
+            "pinyin": "Lín Lù",
+            "wade_giles": "Lin Lu",
+            "english": "Lin Lu"
+        },
+        "gender": "Male"
+    },
+    "Lin Chia-yin": {
+        "name": {
+            "hanzi": "林甲寅",
+            "kanji": "リン・カヒン",
+            "pinyin": "Lín Jiǎyín",
+            "wade_giles": "Lin Chia-yin",
+            "english": "Lin Chia-yin"
+        },
+        "gender": "Male",
+        "note": "霧峰祖 (Ancestor of Wufeng)",
+        "children": [
+            "Lin Ting-pang",
+            "Lin Tien-kuo",
+            "Lin Chen-hsiang"
+        ]
+    },
+    "Lin Zhifang": {
+        "name": {
+            "hanzi": "林志芳",
+            "kanji": "リン・シホウ",
+            "pinyin": "Lín Zhìfāng",
+            "wade_giles": "Lin Chih-fang",
+            "english": "Lin Zhifang"
+        },
+        "gender": "Male",
+        "note": "太平祖 (Ancestor of Taiping)",
+        "children": []
+    },
+    "Lin Ting-pang": {
+        "name": {
+            "hanzi": "林定邦",
+            "kanji": "リン・テイホウ",
+            "pinyin": "Lín Dìngbāng",
+            "wade_giles": "Lin Ting-pang",
+            "english": "Lin Ting-pang"
+        },
+        "gender": "Male",
+        "note": "霧峰下厝祖 (Ancestor of Wufeng Lower House)",
+        "spouse": "戴蔥娘",
+        "children": [
+            "Lin Wen-ch'a",
+            "Lin Wen-ming",
+            "Lin Wen-ts'ai"
+        ]
+    },
+    "Lin Tien-kuo": {
+        "name": {
+            "hanzi": "林奠國",
+            "kanji": "リン・テンコク",
+            "pinyin": "Lín Diànguó",
+            "wade_giles": "Lin Tien-kuo",
+            "english": "Lin Tien-kuo"
+        },
+        "gender": "Male",
+        "note": "霧峰頂厝祖 (Ancestor of Wufeng Upper House)",
+        "children": []
+    },
+    "Lin Chen-hsiang": {
+        "name": {
+            "hanzi": "林振祥",
+            "kanji": "リン・シンショウ",
+            "pinyin": "Lín Zhènxiáng",
+            "wade_giles": "Lin Chen-hsiang",
+            "english": "Lin Chen-hsiang"
+        },
+        "gender": "Male"
+    },
+    "Lin Wen-ch'a": {
+        "name": {
+            "hanzi": "林文察",
+            "kanji": "リン・ブンシャツ",
+            "pinyin": "Lín Wénchá",
+            "wade_giles": "Lin Wen-ch'a",
+            "english": "Lin Wen-ch'a"
+        },
+        "gender": "Male",
+        "note": "清振威將軍, 太子太保, 福建省陸路提督",
+        "children": [
+            "Lin Chao-tung",
+            "Lin Chao-yong",
+            "Lin Chao-tsung"
+        ]
+    },
+    "Lin Wen-ming": {
+        "name": {
+            "hanzi": "林文明",
+            "kanji": "リン・ブンメイ",
+            "pinyin": "Lín Wénmíng",
+            "wade_giles": "Lin Wen-ming",
+            "english": "Lin Wen-ming"
+        },
+        "gender": "Male",
+        "note": "清副將",
+        "children": [
+            "林朝昌",
+            "林朝選",
+            "林朝崧"
+        ]
+    },
+    "Lin Wen-ts'ai": {
+        "name": {
+            "hanzi": "林文彩",
+            "kanji": "リン・ブンサイ",
+            "pinyin": "Lín Wéncǎi",
+            "wade_giles": "Lin Wen-ts'ai",
+            "english": "Lin Wen-ts'ai"
+        },
+        "gender": "Male"
+    },
+    "Lin Chao-tung": {
+        "name": {
+            "hanzi": "林朝棟",
+            "kanji": "リン・チョウトウ",
+            "pinyin": "Lín Zhāodòng",
+            "wade_giles": "Lin Chao-tung",
+            "english": "Lin Chao-tung"
+        },
+        "gender": "Male",
+        "note": "清道員, 棟軍統領",
+        "alias": "蔭堂",
+        "children": [
+            "林資鍠",
+            "林資銓",
+            "林資鏗",
+            "林資鏘",
+            "林資鑣"
+        ]
+    },
+    "Lin Chao-yong": {
+        "name": {
+            "hanzi": "林朝雍",
+            "kanji": "リン・チョウヨウ",
+            "pinyin": "Lín Zhāoyōng",
+            "wade_giles": "Lin Chao-yung",
+            "english": "Lin Chao-yong"
+        },
+        "gender": "Male",
+        "note": "清秀才",
+        "alias": "熙堂",
+        "children": [
+            "Lin Tzu-shu"
+        ]
+    },
+    "Lin Chao-tsung": {
+        "name": {
+            "hanzi": "林朝宗",
+            "kanji": "リン・チョウソウ",
+            "pinyin": "Lín Zhāozōng",
+            "wade_giles": "Lin Chao-tsung",
+            "english": "Lin Chao-tsung"
+        },
+        "gender": "Male",
+        "note": "清秀才",
+        "alias": "輯堂",
+        "children": [
+            "Lin Tzu-pin"
+        ]
+    },
+    "Lin Tzu-shu": {
+        "name": {
+            "hanzi": "林資樹",
+            "kanji": "リン・シジュ",
+            "pinyin": "Lín Zīshù",
+            "wade_giles": "Lin Tzu-shu",
+            "english": "Lin Tzu-shu"
+        },
+        "gender": "Male",
+        "alias": "根生"
+    },
+    "Lin Tzu-pin": {
+        "name": {
+            "hanzi": "林資彬",
+            "kanji": "リン・シヒン",
+            "pinyin": "Lín Zībīn",
+            "wade_giles": "Lin Tzu-pin",
+            "english": "Lin Tzu-pin"
+        },
+        "gender": "Male",
+        "note": "林本堂株式會社社長 (President of Lin Bentang Company)",
+        "children": [
+            "Lin Cheng-fang"
+        ]
+    },
+    "Lin Cheng-fang": {
+        "name": {
+            "hanzi": "林正方",
+            "kanji": "リン・セイホウ",
+            "pinyin": "Lín Zhèngfāng",
+            "wade_giles": "Lin Cheng-fang",
+            "english": "Lin Cheng-fang"
+        },
+        "gender": "Male",
+        "note": "林本堂公司董事長 (Chairman of Lin Bentang Company)",
+        "children": [
+            "Lin Chun-ming"
+        ]
+    },
+    "Lin Chun-ming": {
+        "name": {
+            "hanzi": "林俊明",
+            "kanji": "リン・シュンメイ",
+            "pinyin": "Lín Jùnmíng",
+            "wade_giles": "Lin Chun-ming",
+            "english": "Lin Chun-ming"
+        },
+        "gender": "Male"
+    },
+    "Lin Chao-xuan": {
+        "name": {
+            "hanzi": "林朝選",
+            "pinyin": "Lín Cháoxuǎn",
+            "wade_giles": "Lin² Ch'ao²-hsüan³",
+            "english": "Lin Chao-xuan"
+        },
+        "note": "清廣東省候補知縣, 日治霧峰庄庄長",
+        "children": [
+            "林資修"
+        ]
+    },
+    "林資修": {
+        "name": {
+            "hanzi": "林資修"
+        },
+        "note": "櫟社創社人, 霧峰三詩人",
+        "alias": "幼春",
+        "children": [
+            "Lin Hsien-tang"
+        ]
+    },
+    "Lin Hsien-tang": {
+        "name": {
+            "hanzi": "林獻堂",
+            "pinyin": "Lín Xiàntáng",
+            "wade_giles": "Lin Hsien-tang",
+            "english": "Lin Hsien-tang"
+        },
+        "note": "臺灣民主運動先驅, 台灣文化協會創辦人",
+        "alias": "杏壇",
+        "children": [
+            "林宗賢",
+            "林宗義",
+            "林宗仁"
+        ]
+    },
+    "Lin Tsung-hsien": {
+        "name": {
+            "hanzi": "林宗賢",
+            "pinyin": "Lín Zōngxián",
+            "wade_giles": "Lin Tsung-hsien"
+        },
+        "note": "林獻堂之子",
+        "children": [
+            "林雲龍"
+        ]
+    },
+    "Lin Tsung-yi": {
+        "name": {
+            "hanzi": "林宗義",
+            "pinyin": "Lín Zōngyì",
+            "wade_giles": "Lin Tsung-yi"
+        },
+        "note": "林獻堂之子"
+    },
+    "Lin Tsung-jen": {
+        "name": {
+            "hanzi": "林宗仁",
+            "pinyin": "Lín Zōngrén",
+            "wade_giles": "Lin Tsung-jen"
+        },
+        "note": "林獻堂之子"
+    },
+    "Lin Yun-long": {
+        "name": {
+            "hanzi": "林雲龍",
+            "pinyin": "Lín Yúnlóng",
+            "wade_giles": "Lin Yun-long"
+        },
+        "note": "民國臺灣省議員, 彰化銀行公股董事",
+        "children": [
+            "Eldest Daughter",
+            "Second Daughter",
+            "Hsing Lin",
+            "Long Ming Lin"
+        ]
+    },
+    "Eldest Daughter": {
+        "name": {
+            "hanzi": "長女",
+            "english": "Eldest Daughter"
+        },
+        "children": [
+            "Jack Chen"
+        ]
+    },
+    "Jack Chen": {
+        "name": {
+            "english": "Jack Chen"
+        },
+        "children": [
+            "Jason Chen",
+            "Sabrina Chen"
+        ]
+    },
+    "Jason Chen": {
+        "name": {
+            "english": "Jason Chen"
+        }
+    },
+    "Sabrina Chen": {
+        "name": {
+            "english": "Sabrina Chen"
+        },
+        "spouse": "Chris Woon",
+        "children": [
+            "Maiya Woon",
+            "Sage Woon"
+        ]
+    },
+    "Maiya Woon": {
+        "name": {
+            "english": "Maiya Woon"
+        }
+    },
+    "Sage Woon": {
+        "name": {
+            "english": "Sage Woon"
+        }
+    },
+    "Second Daughter": {
+        "name": {
+            "hanzi": "次女",
+            "english": "Second Daughter"
+        },
+        "children": [
+            "William Chiang",
+            "Evan Chiang"
+        ]
+    },
+    "William Chiang": {
+        "name": {
+            "english": "William Chiang"
+        }
+    },
+    "Evan Chiang": {
+        "name": {
+            "english": "Evan Chiang"
+        },
+        "former_spouse": "Nanthawan Chai",
+        "children": [
+            "Eva Chiang"
+        ]
+    },
+    "Eva Chiang": {
+        "name": {
+            "english": "Eva Chiang"
+        }
+    },
+    "Hsing Lin": {
+        "name": {
+            "hanzi": "林杏",
+            "english": "Hsing Lin"
+        },
+        "children": [
+            "Talot Algusane",
+            "Bassima Algusane",
+            "Shurouq Algusane"
+        ]
+    },
+    "Talot Algusane": {
+        "name": {
+            "english": "Talot Algusane"
+        }
+    },
+    "Bassima Algusane": {
+        "name": {
+            "english": "Bassima Algusane"
+        }
+    },
+    "Shurouq Algusane": {
+        "name": {
+            "english": "Shurouq Algusane"
+        },
+        "spouse": "Jon Spanyol",
+        "children": [
+            "Maya Spanyol"
+        ]
+    },
+    "Maya Spanyol": {
+        "name": {
+            "english": "Maya Spanyol"
+        }
+    },
+    "Long Ming Lin": {
+        "name": {
+            "hanzi": "林龍明",
+            "english": "Long Ming Lin"
+        },
+        "children": [
+            "Jonathan Long Lin",
+            "Kristina Mimi Lin",
+            "Geoffrey Bruce Lin"
+        ]
+    },
+    "Jonathan Long Lin": {
+        "name": {
+            "english": "Jonathan Long Lin"
+        }
+    },
+    "Kristina Mimi Lin": {
+        "name": {
+            "english": "Kristina Mimi Lin"
+        },
+        "spouse": "Christian Sidor",
+        "children": [
+            "Teddy Sidor"
+        ]
+    },
+    "Teddy Sidor": {
+        "name": {
+            "english": "Teddy Sidor"
+        }
+    },
+    "Geoffrey Bruce Lin": {
+        "name": {
+            "english": "Geoffrey Bruce Lin"
+        },
+        "spouse": "Catherine White"
+    }
+}
