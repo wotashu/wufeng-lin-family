@@ -17,6 +17,11 @@ house_color_map = {
     "Overseas House": "#FF0000",  # Orange
 }
 
+gender_shape_map = {
+    "Male": "dot",
+    "Female": "triangle",
+}
+
 
 def load_family_members(json_path: Path):
     """
@@ -71,6 +76,13 @@ def get_color_by_house(house: str) -> str:
     return house_color_map.get(house, "#000000")  # Default black if not found
 
 
+def get_shape_by_gender(gender: str) -> str:
+    """
+    Return a shape based on the gender.
+    """
+    return gender_shape_map.get(gender, "dot")  # Default to dot if not found
+
+
 def create_family_graph(members: list[FamilyMember]):
     """
     Create an undirected NetworkX graph from a list of FamilyMember instances.
@@ -93,10 +105,17 @@ def create_family_graph(members: list[FamilyMember]):
         key = get_member_key(member)
         house = member.house if member.house else "unknown"
         color = get_color_by_house(house)
+        gender = member.gender if member.gender else "Male"
+        gender = get_shape_by_gender(gender)
         # Prepare metadata as pretty JSON for hover tooltip.
         metadata = json.dumps(member.model_dump(), ensure_ascii=False, indent=2)
         G.add_node(
-            key, label=key, color=color, title=metadata, data=member.model_dump()
+            key,
+            label=key,
+            color=color,
+            title=metadata,
+            data=member.model_dump(),
+            shape=gender,
         )
 
     # Connect relationships using alternate mapping.
@@ -125,7 +144,7 @@ def create_family_graph(members: list[FamilyMember]):
             if sp_key not in G.nodes:
                 sp_key = alt_mapping.get(member.spouse, sp_key)
             if sp_key in G.nodes and sp_key != child_key:
-                G.add_edge(child_key, sp_key, width=2, color="lightgrey")
+                G.add_edge(child_key, sp_key, width=2, color="lightgrey", dashes=True)
         # Process former_spouses relationships.
         if member.former_spouses:
             for former in member.former_spouses:
@@ -136,7 +155,9 @@ def create_family_graph(members: list[FamilyMember]):
                 if fs_key not in G.nodes:
                     fs_key = alt_mapping.get(former, fs_key)
                 if fs_key in G.nodes and fs_key != child_key:
-                    G.add_edge(child_key, fs_key, width=2, color="lightgrey")
+                    G.add_edge(
+                        child_key, fs_key, width=2, color="darkgrey", dashes=True
+                    )
         # Process concubines relationships.
         if hasattr(member, "concubines") and member.concubines:
             # Expecting concubines to be a list.
@@ -148,7 +169,7 @@ def create_family_graph(members: list[FamilyMember]):
                 if c_key not in G.nodes:
                     c_key = alt_mapping.get(concubine, c_key)
                 if c_key in G.nodes and c_key != child_key:
-                    G.add_edge(child_key, c_key, width=2, color="lightgrey")
+                    G.add_edge(child_key, c_key, width=2, color="black", dashes=True)
         # Process concubine_of relationship.
         if hasattr(member, "concubine_of") and member.concubine_of:
             if isinstance(member.concubine_of, str):
@@ -158,7 +179,7 @@ def create_family_graph(members: list[FamilyMember]):
             if co_key not in G.nodes:
                 co_key = alt_mapping.get(member.concubine_of, co_key)
             if co_key in G.nodes and co_key != child_key:
-                G.add_edge(child_key, co_key, width=2, color="lightgrey")
+                G.add_edge(child_key, co_key, width=2, color="black", dashes=True)
     return G
 
 
