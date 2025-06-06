@@ -800,6 +800,7 @@
             "english": "Lin Chuizhu"
         },
         "gender": "Male",
+        "house": "Upper House",
         "generation": 7,
         "parents": [
             "林烈堂"
@@ -1132,6 +1133,7 @@
         },
         "generation": 10,
         "gender": "Male",
+        "house": "Upper House",
         "historical_significance": "A leading Taiwanese contemporary painter and conceptual artist",
         "birth_year": 1964,
         "death_year": null,
