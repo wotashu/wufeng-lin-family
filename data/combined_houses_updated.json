@@ -1408,7 +1408,8 @@
         "house": "Overseas House",
         "gender": "Female",
         "parents": [
-            "Sabrina Chen"
+            "Sabrina Woon-Chen",
+            "Chris Woon"
         ]
     },
     {
@@ -1419,7 +1420,8 @@
         "generation": 12,
         "house": "Overseas House",
         "parents": [
-            "Sabrina Chen"
+            "Sabrina Woon-Chen",
+            "Chris Woon"
         ]
     },
     {
@@ -1554,7 +1556,7 @@
         "gender": "Male",
         "house": "Overseas House",
         "generation": 10,
-        "spouse": "Shurouq Algusane",
+        "spouse": "Shurouq Spanyol",
         "parents": [],
         "children": [
             "Maya Spanyol"
@@ -1569,7 +1571,7 @@
         "house": "Overseas House",
         "gender": "Female",
         "parents": [
-            "Shurouq Algusane",
+            "Shurouq Spanyol",
             "Jon Spanyol"
         ]
     },
