@@ -213,16 +213,18 @@ def main():
     # Disable physics so nodes remain at assigned positions.
     net.set_options(
         """
-    {
-        "physics": false,
-        "nodes": {
-            "font": {
-                "size": 16,
-                "face": "arial"
+        {
+            "physics": {
+                "enabled": false
+            },
+            "nodes": {
+                "font": {
+                    "size": 16,
+                    "face": "arial"
+                }
             }
         }
-    }
-    """
+        """
     )
 
     # Save the interactive graph as HTML.
