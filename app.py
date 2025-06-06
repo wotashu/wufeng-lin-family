@@ -210,6 +210,17 @@ def main():
     net.set_options(
         """
     {
+        "layout": {
+            "hierarchical": {
+                "enabled": true,
+                "levelSeparation": 150,
+                "nodeSpacing": 200,
+                "treeSpacing": 200,
+                "direction": "DU",          // Flips the tree so the root is at the bottom.
+                "sortMethod": "directed",
+                "blockShifting": false       // Allows nodes with non-hierarchical relationships to align.
+            }
+        },
         "nodes": {
             "font": {
                 "size": 16,
@@ -217,7 +228,7 @@ def main():
             }
         },
         "physics": {
-            "enabled": true,
+            "enabled": False,
             "hierarchicalRepulsion": {
                 "centralGravity": 0,
                 "springLength": 100,
