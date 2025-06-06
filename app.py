@@ -185,34 +185,35 @@ def main():
     net.set_options(
         """
     {
-        "layout": {
-            "hierarchical": {
-                "enabled": true,
-                "levelSeparation": 150,
-                "nodeSpacing": 200,
-                "treeSpacing": 200,
-                "direction": "UD",
-                "sortMethod": "directed"
-            }
-        },
-        "nodes": {
-            "font": {
-                "size": 16,
-                "face": "arial"
-            }
-        },
-        "physics": {
-            "hierarchicalRepulsion": {
-                "centralGravity": 0,
-                "springLength": 100,
-                "springConstant": 0.01,
-                "nodeDistance": 120,
-                "damping": 0.09
-            },
-            "minVelocity": 0.75
-        }
+      "layout": {
+          "hierarchical": {
+              "enabled": true,
+              "levelSeparation": 150,
+              "nodeSpacing": 200,
+              "treeSpacing": 200,
+              "direction": "DU",
+              "sortMethod": "directed"
+              "blockShifting": false,
+          }
+      },
+      "nodes": {
+          "font": {
+              "size": 16,
+              "face": "arial"
+          }
+      },
+      "physics": {
+          "hierarchicalRepulsion": {
+              "centralGravity": 0,
+              "springLength": 100,
+              "springConstant": 0.01,
+              "nodeDistance": 120,
+              "damping": 0.09
+          },
+          "minVelocity": 0.75
+      }
     }
-        """
+    """
     )
 
     # Save the interactive graph as HTML.
