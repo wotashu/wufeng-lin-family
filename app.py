@@ -9,19 +9,6 @@ from unidecode import unidecode
 
 from src.models import FamilyMember
 
-house_color_map = {
-    "Whole family (before split)": "#0000FF",  # Blue
-    "Whole family (before split, settled in Wu-feng)": "#00CCFF",  # Blue
-    "Upper House": "#B700FF",  # Red
-    "Lower House": "#00FF15",  # Green
-    "Overseas House": "#FF0000",  # Orange
-}
-
-gender_shape_map = {
-    "Male": "dot",
-    "Female": "triangle",
-}
-
 
 def load_family_members(json_path: Path):
     """
@@ -73,6 +60,14 @@ def get_color_by_house(house: str) -> str:
     """
     Return a color code based on the house name.
     """
+
+    house_color_map = {
+        "Whole family (before split)": "#0000FF",  # Blue
+        "Whole family (before split, settled in Wu-feng)": "#00CCFF",  # Blue
+        "Upper House": "#B700FF",  # Red
+        "Lower House": "#00FF15",  # Green
+        "Overseas House": "#FF0000",  # Orange
+    }
     return house_color_map.get(house, "#000000")  # Default black if not found
 
 
@@ -80,7 +75,11 @@ def get_shape_by_gender(gender: str) -> str:
     """
     Return a shape based on the gender.
     """
-    return gender_shape_map.get(gender, "dot")  # Default to dot if not found
+    gender_shape_map = {
+        "Male": "dot",
+        "Female": "triangle",
+    }
+    return gender_shape_map.get(gender, "elipse")  # Default to dot if not found
 
 
 def create_family_graph(members: list[FamilyMember]):
