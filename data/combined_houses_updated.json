@@ -503,7 +503,9 @@
         "children": [
             "林獻堂"
         ],
-        "former_spouse": "林文欽"
+        "former_spouses": [
+            "林文欽"
+        ]
     },
     {
         "name": {
@@ -1206,6 +1208,25 @@
         ],
         "parents": [
             "林雲龍"
+        ],
+        "former_spouses": [
+            "Mimi Nero"
+        ]
+    },
+    {
+        "name": {
+            "english": "Mimi Nero"
+        },
+        "house": null,
+        "former_spouse": "Long Ming Lin",
+        "parents": [
+            "Bruce Nero",
+            "Lynn Nero"
+        ],
+        "children": [
+            "Jonathan Long Lin",
+            "Kristina Mimi Lin",
+            "Geoffrey Bruce Lin"
         ]
     },
     {
@@ -1213,7 +1234,8 @@
             "english": "Jonathan Long Lin"
         },
         "parents": [
-            "Long Ming Lin"
+            "Long Ming Lin",
+            "Mimi Nero"
         ],
         "birth_year": 1982
     },
@@ -1226,7 +1248,8 @@
             "Teddy Sidor"
         ],
         "parents": [
-            "Long Ming Lin"
+            "Long Ming Lin",
+            "Mimi Nero"
         ],
         "birth_year": 1984
     },
@@ -1245,7 +1268,8 @@
             "english": "Teddy Sidor"
         },
         "parents": [
-            "Kristina Mimi Lin"
+            "Kristina Mimi Lin",
+            "Christian Sidor"
         ],
         "birth_year": 2020
     },
@@ -1255,7 +1279,8 @@
         },
         "spouse": "Catherine White",
         "parents": [
-            "Long Ming Lin"
+            "Long Ming Lin",
+            "Mimi Nero"
         ]
     },
     {
