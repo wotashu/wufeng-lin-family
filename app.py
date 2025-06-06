@@ -79,7 +79,7 @@ def get_shape_by_gender(gender: str) -> str:
         "Male": "dot",
         "Female": "triangle",
     }
-    return gender_shape_map.get(gender, "elipse")  # Default to dot if not found
+    return gender_shape_map.get(gender, "square")  # Default to square if not found
 
 
 def create_family_graph(members: list[FamilyMember]):

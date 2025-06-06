@@ -1337,6 +1337,7 @@
         "name": {
             "english": "Jack Chen"
         },
+        "gender": "Male",
         "house": "Overseas House",
         "generation": 10,
         "children": [
@@ -1351,6 +1352,7 @@
         "name": {
             "english": "Jason Chen"
         },
+        "gender": "Male",
         "generation": 11,
         "house": "Overseas House",
         "parents": [
@@ -1377,6 +1379,7 @@
         "name": {
             "english": "Chris Woon"
         },
+        "gender": "Male",
         "house": "Overseas House",
         "spouse": "Sabrina Chen",
         "parents": [],
@@ -1400,6 +1403,7 @@
         "name": {
             "english": "Sage Woon"
         },
+        "gender": "Male",
         "generation": 12,
         "house": "Overseas House",
         "parents": [
@@ -1426,6 +1430,7 @@
         "name": {
             "english": "William Chiang"
         },
+        "gender": "Male",
         "generation": 10,
         "house": "Overseas House",
         "parents": [
@@ -1436,6 +1441,7 @@
         "name": {
             "english": "Evan Chiang"
         },
+        "gender": "Male",
         "generation": 10,
         "house": "Overseas House",
         "former_spouse": "Nanthawan Chai",
@@ -1491,6 +1497,7 @@
         "name": {
             "english": "Talot Algusane"
         },
+        "gender": "Male",
         "generation": 10,
         "house": "Overseas House",
         "parents": [
@@ -1527,6 +1534,7 @@
         "name": {
             "english": "Jon Spanyol"
         },
+        "gender": "Male",
         "house": "Overseas House",
         "spouse": "Shurouq Algusane",
         "parents": [],
@@ -1551,6 +1559,7 @@
             "hanzi": "林龍明",
             "english": "Long Ming Lin"
         },
+        "gender": "Male",
         "generation": 9,
         "house": "Overseas House",
         "children": [
@@ -1586,6 +1595,7 @@
         "name": {
             "english": "Bruce Nero"
         },
+        "gender": "Male",
         "house": null,
         "spouse": "Lynn Nero",
         "parents": [],
@@ -1609,6 +1619,7 @@
         "name": {
             "english": "Jonathan Long Lin"
         },
+        "gender": "Male",
         "generation": 10,
         "house": "Overseas House",
         "parents": [
@@ -1638,6 +1649,7 @@
         "name": {
             "english": "Christian Sidor"
         },
+        "gender": "Male",
         "house": "Overseas House",
         "spouse": "Kristina Mimi Lin",
         "parents": [],
@@ -1649,6 +1661,7 @@
         "name": {
             "english": "Teddy Sidor"
         },
+        "gender": "Male",
         "generation": 11,
         "house": "Overseas House",
         "parents": [
@@ -1661,6 +1674,8 @@
         "name": {
             "english": "Geoffrey Bruce Lin"
         },
+        "gender": "Male",
+        "birth_year": 1988,
         "generation": 10,
         "house": "Overseas House",
         "spouse": "Catherine White",
