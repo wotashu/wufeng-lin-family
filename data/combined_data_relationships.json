@@ -1,0 +1,2957 @@
+[
+  {
+    "name": {
+      "hanzi": "林石",
+      "pinyin": "Lín Shí",
+      "english": "Lin Shi"
+    },
+    "house": "Whole family (before split)",
+    "generation": 1,
+    "gender": "Male",
+    "historical_significance": "Pioneer ancestor who crossed to Taiwan in 1746 [3], became prosperous, but was implicated and died during the Lin Shuang-wen Rebellion in 1788 [5, 6].",
+    "birth_year": null,
+    "death_year": 1788,
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "陳氏",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林遜",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林石二弟",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林石三弟",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "陳氏"
+    },
+    "house": "Whole family (before split)",
+    "generation": 1,
+    "gender": "Female",
+    "relation": "Wife of Lin Shih [7]",
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "林石",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林遜",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林石二弟",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林石三弟",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林石二弟"
+    },
+    "house": "Whole family (before split)",
+    "generation": 2,
+    "gender": "Male",
+    "relation": "Second younger brother of Lin Shih [8, 9]",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林石",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "陳氏",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林石三弟"
+    },
+    "house": "Whole family (before split)",
+    "generation": 2,
+    "gender": "Male",
+    "relation": "Third younger brother of Lin Shih [8, 9]",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林石",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "陳氏",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林遜",
+      "pinyin": "Lín Xùn",
+      "english": "Lin Xun"
+    },
+    "house": "Whole family (before split)",
+    "generation": 2,
+    "gender": "Male",
+    "historical_significance": "Eldest son of Lin Shih, businessman and peacemaker [10], died young at age 21 in 1780 [10].",
+    "birth_year": null,
+    "death_year": 1780,
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "黃氏",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林石",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "陳氏",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林甲寅",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "黃氏",
+      "english": "Mrs. Huang"
+    },
+    "house": "Whole family (before split)",
+    "generation": 2,
+    "gender": "Female",
+    "historical_significance": "Widow of Lin Sun, led the family to move to Wu-feng after the rebellion [11], died 1835 [5].",
+    "death_year": 1835,
+    "relation": "Wife/Widow of Lin Sun [12]",
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "林遜",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "Clerk in sea-defense prefecture",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林甲寅",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "Clerk in sea-defense prefecture"
+    },
+    "house": null,
+    "generation": 1,
+    "gender": "Male",
+    "historical_significance": "Father of Mrs. Huang, intervened to prevent her departure from Taiwan [12].",
+    "relationships": [
+      {
+        "type": "child",
+        "target": "黃氏",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林甲寅",
+      "pinyin": "Lín Jiǎyín",
+      "english": "Lin Jiayin"
+    },
+    "house": "Whole family (before split, settled in Wu-feng)",
+    "generation": 3,
+    "gender": "Male",
+    "historical_significance": "Son of Lin Sun, founder of the famous line in Wu-feng [13], businessman and landlord, died 1839 [14, 15].",
+    "birth_year": 1782,
+    "death_year": 1839,
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "林甲寅妻",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林遜",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "黃氏",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林定邦",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林奠國",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林甲寅三子",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林甲寅四子",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林甲寅妻"
+    },
+    "house": "Whole family (before split, settled in Wu-feng)",
+    "generation": 3,
+    "gender": "Female",
+    "relation": "Wife of Lin Chia-yin [13]",
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "林甲寅",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林定邦",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林奠國",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林甲寅三子",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林甲寅四子",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林甲寅三子"
+    },
+    "house": null,
+    "generation": 4,
+    "gender": "Male",
+    "relation": "Third son of Lin Chia-yin [14]",
+    "historical_significance": "His descendants were middling farmers or small shopkeepers [14].",
+    "death_year": 1842,
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林甲寅",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林甲寅妻",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林甲寅四子"
+    },
+    "house": null,
+    "generation": 4,
+    "gender": "Male",
+    "relation": "Fourth son of Lin Chia-yin (adopted) [13]",
+    "historical_significance": "Had a marginal status in the family [13].",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林甲寅",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林甲寅妻",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林定邦",
+      "pinyin": "Lín Dìngbāng",
+      "english": "Lin Dingbang"
+    },
+    "house": "Lower House",
+    "generation": 4,
+    "gender": "Male",
+    "historical_significance": "Eldest son of Lin Chia-yin, founder of the Lower House lineage [3], local strongman, died 1848 [16].",
+    "birth_year": 1808,
+    "death_year": 1848,
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林甲寅",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林甲寅妻",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林文察",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林文明",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林文彩",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "戴夫人"
+    },
+    "house": "Lower House",
+    "generation": 3,
+    "gender": "Female",
+    "historical_significance": "Mother of Lin Wen-ming, a formidable matriarch who spent years seeking justice for her son [17, 18], died 1883 [18].",
+    "death_year": 1883,
+    "relation": "Wife of Lin Ting-pang [17]",
+    "relationships": [
+      {
+        "type": "child",
+        "target": "林文察",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林文明",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林文彩",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林奠國",
+      "pinyin": "Lín Diànguó",
+      "english": "Lin Dianguo"
+    },
+    "house": "Upper House",
+    "generation": 4,
+    "gender": "Male",
+    "historical_significance": "Son of Lin Chia-yin, founder of the Upper House lineage [3], local strongman, involved in military service [16], died in jail in 1880 [9].",
+    "birth_year": 1814,
+    "death_year": 1880,
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林甲寅",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林甲寅妻",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林文鳳",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林文典",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林文欽",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林奠國妻妾"
+    },
+    "house": "Upper House",
+    "generation": 4,
+    "gender": "Female",
+    "relation": "Wives/Concubines of Lin Tien-kuo",
+    "relationships": [
+      {
+        "type": "child",
+        "target": "林文鳳",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林文典",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林文欽",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "羅夫人",
+      "pinyin": "Luó Fūrén",
+      "english": "Luo Furen"
+    },
+    "house": "Upper House",
+    "generation": 4,
+    "gender": "Female",
+    "historical_significance": "Matriarch of the Upper House, known for warmth, generosity, and compassion [19], died 1921 [19].",
+    "birth_year": 1832,
+    "death_year": 1921,
+    "relation": "Concubine/Main wife of Lin Tien-kuo [17, 19]",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "Peasant family near Wu-feng",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林文欽",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "Peasant family near Wu-feng"
+    },
+    "house": null,
+    "generation": 3,
+    "gender": null,
+    "relation": "Family of Mrs. Lo [19]",
+    "relationships": [
+      {
+        "type": "child",
+        "target": "羅夫人",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林文察",
+      "pinyin": "Lín Wénchá",
+      "english": "Lin Wencha"
+    },
+    "house": "Lower House",
+    "generation": 5,
+    "gender": "Male",
+    "historical_significance": "Son of Lin Ting-pang, formidable strongman and General who served the Qing on the mainland and in Taiwan [3, 16], died in battle 1864 [20]. Posthumously granted high honors [20].",
+    "birth_year": 1828,
+    "death_year": 1864,
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "林文察妻妾",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林定邦",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "戴夫人",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林朝棟",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林朝揚",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林朝宗",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林文察妻妾"
+    },
+    "house": "Lower House",
+    "generation": 5,
+    "gender": "Female",
+    "relation": "Wife/Concubines of Lin Wen-ch'a [21]",
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "林文察",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林朝棟",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林朝揚",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林朝宗",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林文明",
+      "pinyin": "Lín Wénmíng",
+      "english": "Lin Wenming"
+    },
+    "house": "Lower House",
+    "generation": 5,
+    "gender": "Male",
+    "historical_significance": "Son of Lin Ting-pang, strongman known for roughness and violence, died 1870 in Chang-hua yamen [3, 22]. His death led to protracted litigation for the family [23].",
+    "birth_year": 1833,
+    "death_year": 1870,
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "林文明正妻",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林定邦",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "戴夫人",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林朝昌",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林朝璿",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林文明其他兒子",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林濬堂",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林文明正妻"
+    },
+    "house": "Lower House",
+    "generation": 5,
+    "gender": "Female",
+    "historical_significance": "Mother of Lin Ch'ao-hsuan [24], died 1883 [18].",
+    "death_year": 1883,
+    "relation": "Main wife of Lin Wen-ming [18, 24]",
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "林文明",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林朝璿",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林文明妾"
+    },
+    "house": "Lower House",
+    "generation": 5,
+    "gender": "Female",
+    "relation": "Concubines of Lin Wen-ming",
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "林文明",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林朝昌",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林文明其他兒子",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林濬堂",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林文彩",
+      "pinyin": "Lín Wéncǎi",
+      "english": "Lin Wencai"
+    },
+    "house": "Lower House",
+    "generation": 5,
+    "gender": "Male",
+    "relation": "Son of Lin Ting-pang [16]",
+    "historical_significance": "Had descendants, received little from the common estate [25].",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林定邦",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "戴夫人",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林文鳳",
+      "pinyin": "Lín Wénfēng",
+      "english": "Lin Wenfeng"
+    },
+    "house": "Upper House",
+    "generation": 5,
+    "gender": "Male",
+    "historical_significance": "Eldest son of Lin Tien-kuo, became leader of the Upper House branch after his father's imprisonment, known for using money and persuasion rather than force [9], died 1882 [9].",
+    "birth_year": 1840,
+    "death_year": 1882,
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林奠國",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林奠國妻妾",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林烈堂",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林澄堂",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Sons of Lin Wen-feng",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "Sons of Lin Wen-feng"
+    },
+    "house": "Upper House",
+    "generation": 6,
+    "gender": "Male",
+    "relation": "Sons of Lin Wen-feng [24]",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林文鳳",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林文典",
+      "pinyin": "Lín Wéndiǎn",
+      "english": "Lin Wendian"
+    },
+    "house": "Upper House",
+    "generation": 5,
+    "gender": "Male",
+    "historical_significance": "Son of Lin Tien-kuo, disdained formal learning [1], died young in 1877 [1].",
+    "birth_year": 1852,
+    "death_year": 1877,
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林奠國",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林奠國妻妾",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林季堂",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林文欽",
+      "pinyin": "Lín Wénqīn",
+      "english": "Lin Wenqin"
+    },
+    "house": "Upper House",
+    "generation": 5,
+    "gender": "Male",
+    "historical_significance": "Son of Lin Tien-kuo and Mrs. Lo [3, 17], became head of the Upper House branch in 1882 [26], known for supporting arts and social movements, acquired gentry degrees [3, 27], philanthropist, died 1899 [26].",
+    "birth_year": 1854,
+    "death_year": 1899,
+    "formerspouse": "林文欽妻",
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "林文欽繼妻",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林奠國",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "羅夫人",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林獻堂",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林文欽其他兒子",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "concubine",
+        "target": "林文欽繼妻",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林文欽妻"
+    },
+    "house": "Upper House",
+    "generation": 5,
+    "gender": "Female",
+    "historical_significance": "Adulterous first wife of Lin Wen-ch'in, sent back to her family [19].",
+    "relation": "First wife of Lin Wen-ch'in [19]",
+    "relationships": [
+      {
+        "type": "former_spouse",
+        "target": "林文欽",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林獻堂",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林文欽繼妻"
+    },
+    "house": "Upper House",
+    "generation": 5,
+    "gender": "Female",
+    "relation": "Second wife of Lin Wen-ch'in [19]",
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "林文欽",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林文欽妾"
+    },
+    "house": "Upper House",
+    "generation": 5,
+    "gender": "Female",
+    "relation": "Concubine of Lin Wen-ch'in [19]",
+    "relationships": [
+      {
+        "type": "concubine_of",
+        "target": "林文欽",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林文欽其他兒子"
+    },
+    "house": "Upper House",
+    "generation": 6,
+    "gender": "Male",
+    "relation": "Other sons of Lin Wen-ch'in [19]",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林文欽",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林朝棟",
+      "pinyin": "Lín Cháodòng",
+      "english": "Lin Chaodong"
+    },
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Male",
+    "historical_significance": "Eldest son of Lin Wen-ch'a, became leader of the Lower House, General who served in the Sino-French war, patron of Liu Ming-ch'uan [3, 26, 28]. Exiled himself to the mainland after 1895 [29], died 1904 [30].",
+    "birth_year": 1851,
+    "death_year": 1904,
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林文察",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林文察妻妾",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林季商",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林資詮",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林朝棟三子",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "楊夫人"
+    },
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Female",
+    "historical_significance": "Wife of Lin Ch'ao-tung, known for strong will and intelligence, rescued her husband during a siege [21, 30, 31].",
+    "relation": "Wife of Lin Ch'ao-tung [21, 30]",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "Notable Chang-hua family",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Lin Chi-shang (born after barrenness)",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Lin Ch'ao-tung third son",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "Notable Chang-hua family"
+    },
+    "house": null,
+    "generation": 5,
+    "gender": null,
+    "relation": "Family of Mrs. Yang [30]",
+    "relationships": [
+      {
+        "type": "child",
+        "target": "楊夫人",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "Lin Chi-shang (born after barrenness)"
+    },
+    "house": "Lower House",
+    "generation": 7,
+    "gender": "Male",
+    "relation": "Eldest son of Lin Ch'ao-tung and Mrs. Yang [32]",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林朝棟",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "楊夫人",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "Lin Ch'ao-tung third son"
+    },
+    "house": "Lower House",
+    "generation": 7,
+    "gender": "Male",
+    "relation": "Third son of Lin Ch'ao-tung and Mrs. Yang [32]",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林朝棟",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "楊夫人",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林文察妾生子"
+    },
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Male",
+    "relation": "Sons of Lin Wen-ch'a by concubines [32]",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林文察",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林文察妻妾",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林季商 (born by concubine)",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林資詮",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Lin Chi-shang"
+    },
+    "house": "Lower House",
+    "generation": 7,
+    "gender": "Male",
+    "relation": "Son of Lin Ch'ao-tung by concubine [32]",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林朝棟",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林文察妾生子",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林朝揚",
+      "pinyin": "Lín Cháoyáng",
+      "english": "Lin Chaoyang"
+    },
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Male",
+    "relation": "Son of Lin Wen-ch'a [20]",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林文察",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林文察妻妾",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林朝宗",
+      "pinyin": "Lín Cháozōng",
+      "english": "Lin Chaozong"
+    },
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Male",
+    "relation": "Son of Lin Wen-ch'a [20]",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林文察",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林文察妻妾",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林朝昌",
+      "pinyin": "Lín Cháochāng",
+      "english": "Lin Chaochang"
+    },
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Male",
+    "relation": "Eldest son of Lin Wen-ming [30]",
+    "birth_year": 1853,
+    "death_year": 1914,
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林文明",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林文明妾",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林朝璿",
+      "pinyin": "Lín Cháoxuán",
+      "english": "Lin Chaoxuan"
+    },
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Male",
+    "historical_significance": "Son of Lin Wen-ming, Gentry, expert in local security [22, 33], served in local defense in 1895 [34].",
+    "birth_year": 1859,
+    "death_year": 1909,
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林文明",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林文明正妻",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林幼春",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林文明其他兒子"
+    },
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Male",
+    "relation": "Other sons of Lin Wen-ming (total 6 sons including Ch'ao-ch'ang, Ch'ao-hsuan, Chun-t'ang) [24, 35]",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林文明",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林文明妾",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林濬堂",
+      "pinyin": "Lín Jùntáng",
+      "english": "Lin Juntang"
+    },
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Male",
+    "historical_significance": "Adopted sixth son of Lin Wen-ming, poet [36].",
+    "birth_year": 1875,
+    "death_year": 1915,
+    "relation": "Adopted son of Lin Wen-ming [36]",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林文明",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林烈堂",
+      "pinyin": "Lín Liètáng",
+      "english": "Lin Lietang"
+    },
+    "house": "Upper House",
+    "generation": 6,
+    "gender": "Male",
+    "relation": "Son of Lin Wen-feng [37]",
+    "birth_year": 1876,
+    "death_year": 1947,
+    "note": "Japanese-ruled Taichung Office Counselor",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林文鳳",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林垂拱",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林垂珠",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林垂拱",
+      "pinyin": "Lín Chuí Gǒng",
+      "english": "Lin Chuigong"
+    },
+    "note": "Chief of Ohira Village under Japanese rule",
+    "house": "Upper House",
+    "gender": "Male",
+    "generation": 7,
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林烈堂",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林垂珠",
+      "pinyin": "Lín Chuí Zhū",
+      "english": "Lin Chuizhu"
+    },
+    "gender": "Male",
+    "house": "Upper House",
+    "generation": 7,
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林烈堂",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林育英",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林育英",
+      "pinyin": "Lín Yù Yīng",
+      "english": "Lin Yuyuing"
+    },
+    "gender": "Female",
+    "house": "Upper House",
+    "generation": 8,
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林垂珠",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林振廷",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林振廷",
+      "pinyin": "Lín Zhèn Tíng",
+      "english": "Lin Zhenting"
+    },
+    "gender": "Male",
+    "note": "Founder of Jingxunlou",
+    "generation": 9,
+    "house": "Upper House",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林育英",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林帛亨",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林帛亨",
+      "pinyin": "Lín Bó Hēng",
+      "english": "Hans Lin"
+    },
+    "note": "a Taiwanese racing driver and Elda Formula One race commentator. The Japanese call him 'Fire Fox'. He won the 2005 Asian Formula Renault championship and served as a Formula One race commentator for TVSports and FOX Sports.",
+    "gender": "Male",
+    "generation": 10,
+    "house": "Upper House",
+    "birth_year": 1980,
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "馮媛甄",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林振廷",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Daughter of 林帛亨 and Abby Fung",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "馮媛甄",
+      "pinyin": "Féng Yuán Zhēn",
+      "english": "Abby Fung",
+      "wade_giles": "Fung Yuan-Chen"
+    },
+    "generation": 10,
+    "gender": "Female",
+    "note": "A Taiwanese female artist, she is known as 'Little Lin Chi-ling' for her sweet baby voice and beauty that resembles supermodel Lin Chi-ling.",
+    "birth_year": 1982,
+    "house": "Upper House",
+    "relationships": [
+      {
+        "type": "child",
+        "target": "Daughter of 林帛亨 and Abby Fung",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Daughter of 林帛亨 and Abby Fung"
+    },
+    "gender": "Female",
+    "generation": 11,
+    "house": "Upper House",
+    "birth_year": 2018,
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "馮媛甄",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林帛亨",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林澄堂",
+      "pinyin": "Lín Chéngtáng",
+      "english": "Lin Chengtang"
+    },
+    "house": "Upper House",
+    "generation": 6,
+    "gender": "Male",
+    "relation": "Son of Lin Wen-feng [37]",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林文鳳",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林垂明",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林垂訓",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林垂明",
+      "pinyin": "Lín Chuí Míng",
+      "english": "Lin Chuiming"
+    },
+    "house": "Upper House",
+    "generation": 7,
+    "gender": "Male",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林澄堂",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林垂訓",
+      "pinyin": "Lín Chuí Xùn",
+      "english": "Lin Chuixun"
+    },
+    "house": "Upper House",
+    "generation": 7,
+    "gender": "Male",
+    "note": "Wufeng Township Mayor",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林澄堂",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林季堂",
+      "pinyin": "Lín Jìtáng",
+      "english": "Lin Jitang"
+    },
+    "house": "Upper House",
+    "generation": 6,
+    "gender": "Male",
+    "relation": "Son of Lin Wen-tien [37]",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林文典",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林文典遺孀",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林文典遺孀"
+    },
+    "house": "Upper House",
+    "generation": 6,
+    "gender": "Female",
+    "historical_significance": "Widow of Lin Wen-tien, raised their son Chi-t'ang with a sense of responsibility [37].",
+    "relation": "Widow of Lin Wen-tien [37]",
+    "relationships": [
+      {
+        "type": "child",
+        "target": "林季堂",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林獻堂",
+      "kanji": "林獻堂",
+      "pinyin": "Lín Xiàntáng",
+      "wade_giles": "Lin Hsien-t'ang",
+      "english": "Lin Xiantang"
+    },
+    "house": "Upper House",
+    "generation": 6,
+    "gender": "Male",
+    "historical_significance": "Eldest son of Lin Wen-ch'in [1], prominent cultural leader, poet, and leader of the Taiwanese autonomy movement [2]. Born 1881, died 1956 [1]. Accompanied by his son Lin Youlong on a trip in 1936 [4].",
+    "birth_year": 1881,
+    "death_year": 1956,
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "林獻堂妻",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林文钦",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林文钦妻",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林擧龍",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林猶龍",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林雲龍",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林獻堂妻"
+    },
+    "house": "Upper House",
+    "generation": 6,
+    "gender": "Female",
+    "relation": "Wife of Lin Hsien-tang (father) [38]",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "Yang family from Chang-hua",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Lin Hsien-t'ang's wife's children (likely including Lin Youlong and Lin Hsien-tang孫)",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "Yang family from Chang-hua"
+    },
+    "house": null,
+    "generation": 5,
+    "gender": null,
+    "relation": "Family of Lin Hsien-tang's wife [38]",
+    "relationships": [
+      {
+        "type": "child",
+        "target": "林獻堂妻",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林季商",
+      "pinyin": "Lín Jìshāng",
+      "english": "Lin Jishang"
+    },
+    "house": "Lower House",
+    "generation": 7,
+    "gender": "Male",
+    "historical_significance": "Son of Lin Ch'ao-tung [20]. Assumed control of his father's assets [39]. Expressed political commitment through military service on the mainland [40]. Born 1878, died 1925 [39].",
+    "birth_year": 1878,
+    "death_year": 1925,
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林朝棟",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "楊夫人",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "Lin Chi-shang",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林資詮",
+      "pinyin": "Lín Zīquán",
+      "tzu": "仲衡",
+      "wade_giles": "Chung-heng",
+      "english": "Lin Ziquan"
+    },
+    "house": "Lower House",
+    "generation": 7,
+    "gender": "Male",
+    "historical_significance": "Second son of Lin Ch'ao-tung, poet [36].",
+    "birth_year": 1877,
+    "death_year": null,
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林朝棟",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "Lin 文察妾生子",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林幼春",
+      "pinyin": "Lín Yòuchūn",
+      "english": "Lin Youchun"
+    },
+    "house": "Lower House",
+    "generation": 7,
+    "gender": "Male",
+    "historical_significance": "Eldest son of Lin Ch'ao-hsuan, poet and cultural leader [36]. Born 1880, died 1939 [36]. Core member of the Oak Poetry Society [41].",
+    "birth_year": 1880,
+    "death_year": 1939,
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林朝璿",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "何氏 (first wife)",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "何氏",
+      "pinyin": "Hé Shì",
+      "english": "He Shi"
+    },
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Female",
+    "relation": "First wife of Lin Ch'ao-hsuan [24]",
+    "former_spouse": "林朝璿",
+    "relationships": [
+      {
+        "type": "child",
+        "target": "林幼春",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林攀龍",
+      "pinyin": "Lín Pān Lóng",
+      "english": "Lin Panlong"
+    },
+    "house": "Upper House",
+    "generation": 8,
+    "gender": "Male",
+    "historical_significance": "Son of 林獻堂. Frequently mentioned in the diary assisting his father in various matters, including managing requests and discussing political situations [4, 5, 7, 10, 12-15].",
+    "birth_year": 1901,
+    "death_year": 1983,
+    "note": "Son of 林獻堂. Plays an active role assisting his father according to the diary entries.",
+    "relation": "Son of 林獻堂 and Lin Xiantang's Wife, Brother of 林猶龍 and 林雲龍",
+    "relationships": [
+      {
+        "type": "child",
+        "target": "林博正",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林博正",
+      "pinyin": "Lín Bó Zhèng",
+      "english": "Lin Bozheng"
+    },
+    "house": "Upper House",
+    "generation": 9,
+    "gender": "Male",
+    "historical_significance": "Chairman of Ming Tai Property & Casualty Insurance",
+    "birth_year": null,
+    "death_year": null,
+    "note": "",
+    "relation": "Heir to Lin Panlong, adopted",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林攀龍",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林猶龍",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林明弘",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林明弘",
+      "pinyin": "Lín Míng Hóng",
+      "english": "Michael Lin"
+    },
+    "generation": 10,
+    "gender": "Male",
+    "house": "Upper House",
+    "historical_significance": "A leading Taiwanese contemporary painter and conceptual artist",
+    "birth_year": 1964,
+    "death_year": null,
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林博正",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林猶龍",
+      "pinyin": "Lín Yóulóng",
+      "english": "Lin Youlong"
+    },
+    "house": "Upper House",
+    "generation": 8,
+    "gender": "Male",
+    "historical_significance": "Son of 林獻堂. Frequently mentioned in the diary, involved in family affairs, accompanying his father on visits and trips [4, 7, 8, 10, 12-17]. Noted as being involved in inspecting accounts [10].",
+    "birth_year": null,
+    "death_year": null,
+    "note": "Son of 林獻堂. Appears frequently in diary entries, involved in family business/affairs.",
+    "relation": "Son of 林獻堂 and Lin Xiantang's Wife, Brother of 林擧龍 and 林雲龍",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林獻堂",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林政光",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林博正",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林政光",
+      "pinyin": "Lín Zhèng Guāng",
+      "english": "Lin Zhengguang"
+    },
+    "house": "Upper House",
+    "generation": 9,
+    "gender": "Male",
+    "note": "Chairman of Mingtai High School",
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "林芳媖",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林猶龍",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林承峰",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林芳媖",
+      "pinyin": "Lín Fāng Yīng",
+      "english": "Lin Fangying"
+    },
+    "house": "Upper House",
+    "generation": 9,
+    "gender": "Female",
+    "note": "Chairman of Mingtai High School",
+    "birth_year": null,
+    "death_year": null,
+    "relation": "Wife of Lin Zhengguang",
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "林政光",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "林承峰",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林承峰",
+      "pinyin": "Lín Chéng Fēng",
+      "english": "Lin Chengfeng"
+    },
+    "house": "Upper House",
+    "generation": 10,
+    "gender": "Male",
+    "note": "Director of Lin Xiantang museum",
+    "birth_year": null,
+    "death_year": null,
+    "relation": "Song of Lin Zhengguang and Lin Fanying",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林政光",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林芳媖",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "閔開",
+      "pinyin": "Mǐn Kāi",
+      "english": "Min Kai"
+    },
+    "house": "Upper House",
+    "generation": 8,
+    "gender": "Female",
+    "historical_significance": "Daughter of 林獻堂, mentioned in the diary as being involved in family matters and receiving gifts [4, 7, 10, 12-15, 17].",
+    "birth_year": null,
+    "death_year": null,
+    "note": "Daughter of 林獻堂. Involved in family matters, mentioned in diary entries.",
+    "relation": "Daughter of 林獻堂 and Lin Xiantang's Wife",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林獻堂",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林獻堂妻",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林雲龍",
+      "pinyin": "Lín Yúnlóng",
+      "english": "Lin Yunlong"
+    },
+    "house": "Upper House",
+    "generation": 8,
+    "gender": "Male",
+    "historical_significance": "Son of 林獻堂. Mentioned in the diary [4, 7, 10, 12-15, 17], noted as being involved in the timber business (三振材木商行) [10].",
+    "birth_year": null,
+    "death_year": null,
+    "note": "Son of 林獻堂. His involvement in business is mentioned in the diary.",
+    "relation": "Son of 林獻堂 and Lin Xiantang's Wife, Brother of 林擧龍 and 林猶龍",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林獻堂",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林獻堂妻",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Eldest Daughter",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Second Daughter",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Hsing Lin",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Long Ming Lin",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "何氏",
+      "pinyin": "Hé Shì",
+      "english": "He Shi"
+    },
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Female",
+    "relation": "Second wife of Lin Ch'ao-hsuan, sister of his first wife [24]",
+    "former_spouse": "林朝璿",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "Mother of Miss Ho (first and second wife)",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "Mother of Miss Ho (first and second wife)"
+    },
+    "house": "Lower House",
+    "generation": 5,
+    "gender": "Female",
+    "relation": "Mother of Lin Ch'ao-hsuan's wives [24]",
+    "relationships": [
+      {
+        "type": "child",
+        "target": "何氏 (first wife)",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "何氏 (second wife)",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林雲龍妻",
+      "english": "Lin Yunlong's Wife"
+    },
+    "gender": "Female",
+    "house": "Upper House",
+    "generation": 8,
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "林雲龍",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "鈴木竹",
+      "english": "Suzuki Take"
+    },
+    "gender": "Female",
+    "house": "Upper House",
+    "generation": 8,
+    "relationships": [
+      {
+        "type": "child",
+        "target": "Eldest Daughter",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Second Daughter",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Hsing Lin",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Long Ming Lin",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "concubine_of",
+        "target": "林雲龍",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "長女",
+      "english": "Eldest Daughter"
+    },
+    "generation": 9,
+    "house": "Upper House",
+    "gender": "Female",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林雲龍",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Jack Chen",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Jack Chen"
+    },
+    "gender": "Male",
+    "house": "Overseas House",
+    "generation": 10,
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "Eldest Daughter",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Jason Chen",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Sabrina Chen",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Jason Chen"
+    },
+    "gender": "Male",
+    "generation": 11,
+    "house": "Overseas House",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "Jack Chen",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Sabrina Woon-Chen"
+    },
+    "generation": 11,
+    "house": "Overseas House",
+    "gender": "Female",
+    "relationships": [
+      {
+        "type": "former_spouse",
+        "target": "Chris Woon",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "Jack Chen",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Maiya Woon",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Sage Woon",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Chris Woon"
+    },
+    "gender": "Male",
+    "generation": 11,
+    "house": "Overseas House",
+    "relationships": [
+      {
+        "type": "former_spouse",
+        "target": "Sabrina Woon-Chen",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Maiya Woon",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Sage Woon",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Maiya Woon"
+    },
+    "generation": 12,
+    "house": "Overseas House",
+    "gender": "Female",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "Sabrina Woon-Chen",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "Chris Woon",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Sage Woon"
+    },
+    "gender": "Male",
+    "generation": 12,
+    "house": "Overseas House",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "Sabrina Woon-Chen",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "Chris Woon",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "次女",
+      "english": "Second Daughter"
+    },
+    "generation": 9,
+    "house": "Overseas House",
+    "gender": "Female",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林雲龍",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "William Chiang",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Evan Chiang",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "William Chiang"
+    },
+    "gender": "Male",
+    "generation": 10,
+    "house": "Overseas House",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "Second Daughter",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Evan Chiang"
+    },
+    "gender": "Male",
+    "generation": 10,
+    "house": "Overseas House",
+    "relationships": [
+      {
+        "type": "former_spouse",
+        "target": "Nanthawan Chai",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "Second Daughter",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Eva Chiang",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Nanthawan Chai"
+    },
+    "house": "Overseas House",
+    "gender": "Female",
+    "generation": 10,
+    "relationships": [
+      {
+        "type": "former_spouse",
+        "target": "Evan Chiang",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Eva Chiang",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Eva Chiang"
+    },
+    "generation": 11,
+    "house": "Overseas House",
+    "gender": "Female",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "Evan Chiang",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "Nanthawan Chai",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林杏",
+      "english": "Hsing Lin"
+    },
+    "generation": 9,
+    "gender": "Female",
+    "house": "Overseas House",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林雲龍",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Talot Algusane",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Bassima Algusane",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Shurouq Algusane",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Talot Algusane"
+    },
+    "gender": "Male",
+    "generation": 10,
+    "house": "Overseas House",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "Hsing Lin",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Bassima Algusane"
+    },
+    "generation": 10,
+    "house": "Overseas House",
+    "gender": "Female",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "Hsing Lin",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Shurouq Spanyol"
+    },
+    "generation": 10,
+    "house": "Overseas House",
+    "gender": "Female",
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "Jon Spanyol",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "Hsing Lin",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Maya Spanyol",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Jon Spanyol"
+    },
+    "gender": "Male",
+    "house": "Overseas House",
+    "generation": 10,
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "Shurouq Spanyol",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Maya Spanyol",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Ruby Spanyol"
+    },
+    "generation": 11,
+    "birth_year": 2022,
+    "house": "Overseas House",
+    "gender": "Female",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "Shurouq Spanyol",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "Jon Spanyol",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林龍明",
+      "english": "Long Ming Lin"
+    },
+    "gender": "Male",
+    "generation": 9,
+    "house": "Overseas House",
+    "relationships": [
+      {
+        "type": "former_spouse",
+        "target": "Mimi Nero",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "林雲龍",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Jonathan Long Lin",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Kristina Mimi Lin",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Geoffrey Bruce Lin",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Mimi Nero"
+    },
+    "house": "Overseas House",
+    "generation": 9,
+    "gender": "Female",
+    "former_spouse": "Long Ming Lin",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "Bruce Nero",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "Lynn Nero",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Jonathan Long Lin",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Kristina Mimi Lin",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Geoffrey Bruce Lin",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Bruce Nero"
+    },
+    "gender": "Male",
+    "generation": 8,
+    "house": null,
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "Lynn Nero",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Mimi Nero",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Lynn Nero"
+    },
+    "house": null,
+    "generation": 8,
+    "gender": "Female",
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "Bruce Nero",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Mimi Nero",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Jonathan Long Lin"
+    },
+    "gender": "Male",
+    "generation": 10,
+    "house": "Overseas House",
+    "birth_year": 1982,
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "Long Ming Lin",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "Mimi Nero",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Kristina Mimi Lin"
+    },
+    "generation": 10,
+    "house": "Overseas House",
+    "birth_year": 1984,
+    "gender": "Female",
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "Christian Sidor",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "Long Ming Lin",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "Mimi Nero",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Teddy Sidor",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Christian Sidor"
+    },
+    "generation": 10,
+    "gender": "Male",
+    "house": "Overseas House",
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "Kristina Mimi Lin",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "child",
+        "target": "Teddy Sidor",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Teddy Sidor"
+    },
+    "gender": "Male",
+    "generation": 11,
+    "house": "Overseas House",
+    "birth_year": 2020,
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "Kristina Mimi Lin",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "Christian Sidor",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Geoffrey Bruce Lin"
+    },
+    "gender": "Male",
+    "birth_year": 1988,
+    "generation": 10,
+    "house": "Overseas House",
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "Catherine White",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "Long Ming Lin",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "Mimi Nero",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Catherine White"
+    },
+    "generation": 10,
+    "house": "Overseas House",
+    "gender": "Female",
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "Geoffrey Bruce Lin",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  }
+]
