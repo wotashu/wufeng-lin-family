@@ -205,32 +205,38 @@ def main():
     # Build an interactive graph using Pyvis.
     net = Network(notebook=True, height="700px", width="100%", directed=False)
     net.from_nx(family_graph)
-    positions = nx.spring_layout(family_graph)
-
-    # Optionally, you can scale the positions.
-    scale = 1000
-    for node in net.nodes:
-        # Get the computed position for the node ID
-        pos = positions.get(node["id"], (0, 0))
-        node["x"] = pos[0] * scale
-        node["y"] = pos[1] * scale
-        node["fixed"] = True
-
-    # Disable physics so nodes remain at computed positions.
     net.set_options(
         """
-        {
-            "physics": {
-                "enabled": false
-            },
-            "nodes": {
-                "font": {
-                    "size": 16,
-                    "face": "arial"
-                }
+    {
+        "layout": {
+            "hierarchical": {
+                "enabled": true,
+                "levelSeparation": 150,
+                "nodeSpacing": 200,
+                "treeSpacing": 200,
+                "direction": "DU",
+                "sortMethod": "directed",
+                "blockShifting": false
             }
+        },
+        "nodes": {
+            "font": {
+                "size": 16,
+                "face": "arial"
+            }
+        },
+        "physics": {
+            "hierarchicalRepulsion": {
+                "centralGravity": 0,
+                "springLength": 100,
+                "springConstant": 0.01,
+                "nodeDistance": 120,
+                "damping": 0.09
+            },
+            "minVelocity": 0.75
         }
-        """
+    }
+    """
     )
 
     # Save the interactive graph as HTML.
