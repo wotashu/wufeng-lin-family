@@ -643,7 +643,7 @@
     },
     {
         "name": {
-            "hanzi": "Lin Chi-shang (born by concubine)"
+            "english": "Lin Chi-shang"
         },
         "house": "Lower House",
         "generation": 7,
@@ -831,6 +831,7 @@
             "pinyin": "Lín Zhèn Tíng",
             "english": "Lin Zhenting"
         },
+        "gender": "Male",
         "note": "Founder of Jingxunlou",
         "generation": 9,
         "house": "Upper House",
@@ -848,6 +849,7 @@
             "english": "Hans Lin"
         },
         "note": "a Taiwanese racing driver and Elda Formula One race commentator. The Japanese call him 'Fire Fox'. He won the 2005 Asian Formula Renault championship and served as a Formula One race commentator for TVSports and FOX Sports.",
+        "gender": "Male",
         "generation": 10,
         "parents": [
             "林振廷"
@@ -866,6 +868,7 @@
             "english": "Abby Fung",
             "wade_giles": "Fung Yuan-Chen"
         },
+        "gender": "Female",
         "note": "A Taiwanese female artist, she is known as 'Little Lin Chi-ling' for her sweet baby voice and beauty that resembles supermodel Lin Chi-ling.",
         "birth_year": 1982,
         "children": [
@@ -877,6 +880,7 @@
         "name": {
             "english": "Daughter of 林帛亨 and Abby Fung"
         },
+        "gender": "Female",
         "parents": [
             "馮媛甄",
             "林帛亨"
@@ -1028,7 +1032,7 @@
         "parents": [
             "林朝棟",
             "楊夫人",
-            "Lin Chi-shang (born by concubine)"
+            "Lin Chi-shang"
         ],
         "children": []
     },
