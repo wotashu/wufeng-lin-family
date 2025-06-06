@@ -1297,6 +1297,7 @@
             "hanzi": "林雲龍妻",
             "english": "Lin Yunlong's Wife"
         },
+        "gender": "Female",
         "house": "Upper House",
         "generation": null,
         "spouse": "林雲龍"
@@ -1306,6 +1307,7 @@
             "hanzi": "鈴木竹",
             "english": "Suzuki Take"
         },
+        "gender": "Female",
         "house": "Upper House",
         "generation": null,
         "children": [
@@ -1323,6 +1325,7 @@
         },
         "generation": 9,
         "house": "Upper House",
+        "gender": "Female",
         "children": [
             "Jack Chen"
         ],
@@ -1360,6 +1363,7 @@
         },
         "generation": 11,
         "house": "Overseas House",
+        "gender": "Female",
         "spouse": "Chris Woon",
         "children": [
             "Maiya Woon",
@@ -1387,6 +1391,7 @@
         },
         "generation": 12,
         "house": "Overseas House",
+        "gender": "Female",
         "parents": [
             "Sabrina Chen"
         ]
@@ -1408,6 +1413,7 @@
         },
         "generation": 9,
         "house": "Overseas House",
+        "gender": "Female",
         "children": [
             "William Chiang",
             "Evan Chiang"
@@ -1446,6 +1452,7 @@
         },
         "house": "Overseas House",
         "former_spouse": "Evan Chiang",
+        "gender": "Female",
         "parents": [],
         "children": [
             "Eva Chiang"
@@ -1457,6 +1464,7 @@
         },
         "generation": 11,
         "house": "Overseas House",
+        "gender": "Female",
         "parents": [
             "Evan Chiang",
             "Nanthawan Chai"
@@ -1468,6 +1476,7 @@
             "english": "Hsing Lin"
         },
         "generation": 9,
+        "gender": "Female",
         "house": "Overseas House",
         "children": [
             "Talot Algusane",
@@ -1494,6 +1503,7 @@
         },
         "generation": 10,
         "house": "Overseas House",
+        "gender": "Female",
         "parents": [
             "Hsing Lin"
         ]
@@ -1505,6 +1515,7 @@
         "generation": 10,
         "house": "Overseas House",
         "spouse": "Jon Spanyol",
+        "gender": "Female",
         "children": [
             "Maya Spanyol"
         ],
@@ -1529,6 +1540,7 @@
         },
         "generation": 11,
         "house": "Overseas House",
+        "gender": "Female",
         "parents": [
             "Shurouq Algusane",
             "Jon Spanyol"
@@ -1558,6 +1570,7 @@
             "english": "Mimi Nero"
         },
         "house": "Overseas House",
+        "gender": "Female",
         "former_spouse": "Long Ming Lin",
         "parents": [
             "Bruce Nero",
@@ -1585,6 +1598,7 @@
             "english": "Lynn Nero"
         },
         "house": null,
+        "gender": "Female",
         "spouse": "Bruce Nero",
         "parents": [],
         "children": [
@@ -1617,7 +1631,8 @@
             "Long Ming Lin",
             "Mimi Nero"
         ],
-        "birth_year": 1984
+        "birth_year": 1984,
+        "gender": "Female"
     },
     {
         "name": {
@@ -1661,6 +1676,7 @@
         "house": "Overseas House",
         "spouse": "Geoffrey Bruce Lin",
         "parents": [],
-        "children": []
+        "children": [],
+        "gender": "Female"
     }
 ]
