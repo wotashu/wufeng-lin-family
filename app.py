@@ -182,24 +182,44 @@ def main():
     # Build an interactive graph using Pyvis.
     net = Network(notebook=True, height="700px", width="100%", directed=False)
     net.from_nx(family_graph)
+
+    # Compute positions based on the 'generation' field.
+    generation_groups = {}
+    for node_id, data in family_graph.nodes(data=True):
+        # Get generation value; default to 0 if missing.
+        gen = data["data"].get("generation", 0) or 0
+        if gen not in generation_groups:
+            generation_groups[gen] = []
+        generation_groups[gen].append(node_id)
+
+    # Compute positions: nodes in each generation are evenly spaced horizontally.
+    positions = {}
+    y_scale = 200  # Vertical spacing between generations.
+    x_scale = 200  # Horizontal spacing between nodes.
+    for gen, nodes in generation_groups.items():
+        count = len(nodes)
+        for i, node in enumerate(sorted(nodes)):
+            x = (i - (count - 1) / 2) * x_scale
+            y = gen * y_scale  # Generation defines the vertical level.
+            positions[node] = (x, y)
+
+    # Apply precomputed positions to the Pyvis nodes and fix them.
+    for node in net.nodes:
+        pos = positions.get(node["id"], (0, 0))
+        node["x"] = pos[0]
+        node["y"] = pos[1]
+        node["fixed"] = True
+
+    # Disable physics so nodes remain at assigned positions.
     net.set_options(
         """
     {
+        "physics": false,
         "nodes": {
             "font": {
                 "size": 16,
                 "face": "arial"
             }
-        },
-        "physics": {
-            "hierarchicalRepulsion": {
-                "centralGravity": 0,
-                "springLength": 100,
-                "springConstant": 0.01,
-                "nodeDistance": 120,
-                "damping": 0.09
-            },
-            "minVelocity": 0.75
         }
     }
     """
