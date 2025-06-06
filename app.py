@@ -107,6 +107,7 @@ def create_family_graph(members: list[FamilyMember]):
         gender = member.gender if member.gender else "Male"
         gender = get_shape_by_gender(gender)
         generation = member.generation if member.generation else -1
+
         # Prepare metadata as pretty JSON for hover tooltip.
         metadata = json.dumps(member.model_dump(), ensure_ascii=False, indent=2)
         G.add_node(
@@ -199,24 +200,15 @@ def main():
         f"Graph has {family_graph.number_of_nodes()} nodes and {family_graph.number_of_edges()} edges."
     )
 
-    # Group nodes by generation.
-    generation_dict = {}
-    for node, attr in family_graph.nodes(data=True):
-        gen = attr.get("data", {}).get("generation", 0)
-        generation_dict.setdefault(gen, []).append(node)
-
-    # Create shells ordered by generation (from inner to outer).
-    shells = [generation_dict[gen] for gen in sorted(generation_dict.keys())]
-
     # Build an interactive graph using Pyvis.
     net = Network(notebook=True, height="700px", width="100%", directed=False)
     net.from_nx(family_graph)
-    # Compute positions using the shell_layout.
-    positions = nx.shell_layout(family_graph, nlist=shells)
+    positions = nx.multipartite_layout(family_graph, subset_key="generation")
 
-    # Optionally scale positions if needed.
+    # Optionally, you can scale the positions.
     scale = 1000
     for node in net.nodes:
+        # Get the computed position for the node ID
         pos = positions.get(node["id"], (0, 0))
         node["x"] = pos[0] * scale
         node["y"] = pos[1] * scale
