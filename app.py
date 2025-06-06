@@ -192,7 +192,7 @@ def main():
               "nodeSpacing": 200,
               "treeSpacing": 200,
               "direction": "DU",
-              "sortMethod": "directed"
+              "sortMethod": "directed",
               "blockShifting": false
           }
       },
