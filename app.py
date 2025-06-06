@@ -133,7 +133,7 @@ def create_family_graph(members: list[FamilyMember]):
             if parent_key not in G.nodes:
                 parent_key = alt_mapping.get(parent, parent)
             if parent_key in G.nodes and parent_key != child_key:
-                G.add_edge(child_key, parent_key, width=4)
+                G.add_edge(parent_key, child_key, width=4, arrows="to")
         # Process children relationships.
         for child in member.children:
             ch_key = child
@@ -205,7 +205,7 @@ def main():
     )
 
     # Build an interactive graph using Pyvis.
-    net = Network(notebook=True, height="700px", width="100%", directed=False)
+    net = Network(notebook=True, height="700px", width="100%", directed=True)
     net.from_nx(family_graph)
     net.set_options(
         """
