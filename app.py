@@ -205,7 +205,10 @@ def main():
     # Build an interactive graph using Pyvis.
     net = Network(notebook=True, height="700px", width="100%", directed=False)
     net.from_nx(family_graph)
-    positions = nx.multipartite_layout(family_graph)
+    positions = nx.multipartite_layout(
+        family_graph,
+        subset_key="generation",
+    )
 
     # Optionally, you can scale the positions.
     scale = 1000
