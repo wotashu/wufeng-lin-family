@@ -81,11 +81,13 @@
         ],
         "children": [
             "林甲寅"
-        ]
+        ],
+        "spouse": "黃氏"
     },
     {
         "name": {
-            "hanzi": "黃氏"
+            "hanzi": "黃氏",
+            "english": "Mrs. Huang"
         },
         "house": "Whole family (before split)",
         "generation": null,
@@ -98,7 +100,8 @@
         ],
         "children": [
             "林甲寅"
-        ]
+        ],
+        "spouse": "林遜"
     },
     {
         "name": {
