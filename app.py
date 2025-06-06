@@ -11,9 +11,10 @@ from src.models import FamilyMember
 
 house_color_map = {
     "Whole family (before split)": "#0000FF",  # Blue
-    "Upper House": "#FF0000",  # Red
-    "Lower House": "#00FF00",  # Green
-    "Overseas House": "#FFA500",  # Orange
+    "Whole family (before split, settled in Wu-feng)": "#00CCFF",  # Blue
+    "Upper House": "#B700FF",  # Red
+    "Lower House": "#00FF15",  # Green
+    "Overseas House": "#FF0000",  # Orange
 }
 
 
