@@ -107,9 +107,6 @@ def create_family_graph(members: list[FamilyMember]):
         gender = member.gender if member.gender else "Male"
         gender = get_shape_by_gender(gender)
         generation = member.generation if member.generation else -1
-        y_position = 1000 - (
-            generation * 100
-        )  # Adjust vertical position based on generation
         # Prepare metadata as pretty JSON for hover tooltip.
         metadata = json.dumps(member.model_dump(), ensure_ascii=False, indent=2)
         G.add_node(
