@@ -202,16 +202,7 @@ def main():
     # Build an interactive graph using Pyvis.
     net = Network(notebook=True, height="700px", width="100%", directed=False)
     net.from_nx(family_graph)
-    positions = nx.multipartite_layout(family_graph, subset_key="generation")
-
-    # Optionally, you can scale the positions.
-    scale = 1000
-    for node in net.nodes:
-        # Get the computed position for the node ID
-        pos = positions.get(node["id"], (0, 0))
-        node["x"] = pos[0] * scale
-        node["y"] = pos[1] * scale
-        node["fixed"] = True
+    nx.multipartite_layout(family_graph, subset_key="generation")
 
     # Disable physics so nodes remain at computed positions.
     net.set_options(
