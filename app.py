@@ -199,10 +199,20 @@ def main():
         f"Graph has {family_graph.number_of_nodes()} nodes and {family_graph.number_of_edges()} edges."
     )
 
+    # Group nodes by generation.
+    generation_dict = {}
+    for node, attr in family_graph.nodes(data=True):
+        gen = attr.get("data", {}).get("generation", 0)
+        generation_dict.setdefault(gen, []).append(node)
+
+    # Create shells ordered by generation (from inner to outer).
+    shells = [generation_dict[gen] for gen in sorted(generation_dict.keys())]
+
     # Build an interactive graph using Pyvis.
     net = Network(notebook=True, height="700px", width="100%", directed=False)
     net.from_nx(family_graph)
-    positions = nx.circular_layout(family_graph)
+    # Compute positions using the shell_layout.
+    positions = nx.shell_layout(family_graph, nlist=shells)
 
     # Optionally scale positions if needed.
     scale = 1000
