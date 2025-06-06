@@ -107,7 +107,9 @@ def create_family_graph(members: list[FamilyMember]):
         gender = member.gender if member.gender else "Male"
         gender = get_shape_by_gender(gender)
         generation = member.generation if member.generation else -1
-
+        y_position = 1000 - (
+            generation * 100
+        )  # Adjust vertical position based on generation
         # Prepare metadata as pretty JSON for hover tooltip.
         metadata = json.dumps(member.model_dump(), ensure_ascii=False, indent=2)
         G.add_node(
@@ -115,9 +117,9 @@ def create_family_graph(members: list[FamilyMember]):
             label=key,
             color=color,
             title=metadata,
-            data=member.model_dump() if member.model_dump() else {},
-            generation=generation,
+            data=member.model_dump(),
             shape=gender,
+            y=y_position,
         )
 
     # Connect relationships using alternate mapping.
@@ -203,7 +205,7 @@ def main():
     # Build an interactive graph using Pyvis.
     net = Network(notebook=True, height="700px", width="100%", directed=False)
     net.from_nx(family_graph)
-    positions = nx.multipartite_layout(family_graph, subset_key="generation")
+    positions = nx.spring_layout(family_graph)
 
     # Optionally, you can scale the positions.
     scale = 1000
