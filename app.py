@@ -111,6 +111,7 @@ def create_family_graph(members: list[FamilyMember]):
             generation * 100
         )  # Adjust vertical position based on generation
         # Prepare metadata as pretty JSON for hover tooltip.
+        use_physics = True if member.generation is None else False
         metadata = json.dumps(member.model_dump(), ensure_ascii=False, indent=2)
         G.add_node(
             key,
@@ -119,7 +120,8 @@ def create_family_graph(members: list[FamilyMember]):
             title=metadata,
             data=member.model_dump(),
             shape=gender,
-            y=y_position,
+            x=y_position,
+            use_physics=use_physics,
         )
 
     # Connect relationships using alternate mapping.
@@ -208,17 +210,6 @@ def main():
     net.set_options(
         """
     {
-        "layout": {
-            "hierarchical": {
-                "enabled": true,
-                "levelSeparation": 150,
-                "nodeSpacing": 200,
-                "treeSpacing": 200,
-                "direction": "DU",
-                "sortMethod": "directed",
-                "blockShifting": false
-            }
-        },
         "nodes": {
             "font": {
                 "size": 16,
@@ -226,6 +217,7 @@ def main():
             }
         },
         "physics": {
+            "enabled": true,
             "hierarchicalRepulsion": {
                 "centralGravity": 0,
                 "springLength": 100,
