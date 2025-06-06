@@ -244,7 +244,7 @@
             "林甲寅妻"
         ],
         "children": [
-            "林文峰",
+            "林文鳳",
             "林文典",
             "林文欽"
         ]
@@ -259,7 +259,7 @@
         "relation": "Wives/Concubines of Lin Tien-kuo",
         "parents": [],
         "children": [
-            "林文峰",
+            "林文鳳",
             "林文典",
             "林文欽"
         ]
@@ -411,7 +411,7 @@
     },
     {
         "name": {
-            "hanzi": "林文峰",
+            "hanzi": "林文鳳",
             "pinyin": "Lín Wénfēng",
             "english": "Lin Wenfeng"
         },
@@ -440,7 +440,7 @@
         "gender": "Male",
         "relation": "Sons of Lin Wen-feng [24]",
         "parents": [
-            "林文峰"
+            "林文鳳"
         ],
         "children": []
     },
@@ -768,9 +768,121 @@
         "gender": "Male",
         "relation": "Son of Lin Wen-feng [37]",
         "parents": [
-            "林文峰"
+            "林文鳳"
+        ],
+        "children": [
+            "林垂拱",
+            "林垂珠"
+        ],
+        "birth_year": 1876,
+        "death_year": 1947,
+        "note": "Japanese-ruled Taichung Office Counselor"
+    },
+    {
+        "name": {
+            "hanzi": "林垂拱",
+            "pinyin": "Lín Chuí Gǒng",
+            "english": "Lin Chuigong"
+        },
+        "note": "Chief of Ohira Village under Japanese rule",
+        "house": "Upper House",
+        "gender": "Male",
+        "generation": 7,
+        "parents": [
+            "林烈堂"
         ],
         "children": []
+    },
+    {
+        "name": {
+            "hanzi": "林垂珠",
+            "pinyin": "Lín Chuí Zhū",
+            "english": "Lin Chuizhu"
+        },
+        "gender": "Male",
+        "generation": 7,
+        "parents": [
+            "林烈堂"
+        ],
+        "children": [
+            "林育英"
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "林育英",
+            "pinyin": "Lín Yù Yīng",
+            "english": "Lin Yuyuing"
+        },
+        "gender": "Female",
+        "house": "Upper House",
+        "generation": 8,
+        "parents": [
+            "林垂珠"
+        ],
+        "children": [
+            "林振廷"
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "林振廷",
+            "pinyin": "Lín Zhèn Tíng",
+            "english": "Lin Zhenting"
+        },
+        "note": "Founder of Jingxunlou",
+        "generation": 9,
+        "house": "Upper House",
+        "parents": [
+            "林育英"
+        ],
+        "children": [
+            "林帛亨"
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "林帛亨",
+            "pinyin": "Lín Bó Hēng",
+            "english": "Lin Boheng"
+        },
+        "note": "a Taiwanese racing driver and Elda Formula One race commentator. The Japanese call him 'Fire Fox'. He won the 2005 Asian Formula Renault championship and served as a Formula One race commentator for TVSports and FOX Sports.",
+        "generation": 10,
+        "parents": [
+            "林振廷"
+        ],
+        "house": "Upper House",
+        "spouse": "馮媛甄",
+        "birth_year": 1980,
+        "children": [
+            "Daughter of 林帛亨 and Abby Fung"
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "馮媛甄",
+            "pinyin": "Féng Yuán Zhēn",
+            "english": "Abby Fung",
+            "wade_giles": "Fung Yuan-Chen"
+        },
+        "note": "A Taiwanese female artist, she is known as 'Little Lin Chi-ling' for her sweet baby voice and beauty that resembles supermodel Lin Chi-ling.",
+        "birth_year": 1982,
+        "children": [
+            "Daughter of 林帛亨 and Abby Fung"
+        ],
+        "house": "Upper House"
+    },
+    {
+        "name": {
+            "english": "Daughter of 林帛亨 and Abby Fung"
+        },
+        "parents": [
+            "馮媛甄",
+            "林帛亨"
+        ],
+        "generation": 11,
+        "house": "Upper House",
+        "birth_year": 2018
     },
     {
         "name": {
@@ -783,9 +895,39 @@
         "gender": "Male",
         "relation": "Son of Lin Wen-feng [37]",
         "parents": [
-            "林文峰"
+            "林文鳳"
         ],
-        "children": []
+        "children": [
+            "林垂明",
+            "林垂訓"
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "林垂明",
+            "pinyin": "Lín Chuí Míng",
+            "english": "Lin Chuiming"
+        },
+        "house": "Upper House",
+        "generation": 7,
+        "gender": "Male",
+        "parents": [
+            "林澄堂"
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "林垂訓",
+            "pinyin": "Lín Chuí Xùn",
+            "english": "Lin Chuixun"
+        },
+        "house": "Upper House",
+        "generation": 7,
+        "gender": "Male",
+        "parents": [
+            "林澄堂"
+        ],
+        "note": "Wufeng Township Mayor"
     },
     {
         "name": {
@@ -952,8 +1094,8 @@
         "generation": 8,
         "gender": "Male",
         "historical_significance": "Son of 林獻堂. Frequently mentioned in the diary assisting his father in various matters, including managing requests and discussing political situations [4, 5, 7, 10, 12-15].",
-        "birth_year": null,
-        "death_year": null,
+        "birth_year": 1901,
+        "death_year": 1983,
         "note": "Son of 林獻堂. Plays an active role assisting his father according to the diary entries.",
         "relation": "Son of 林獻堂 and Lin Xiantang's Wife, Brother of 林猶龍 and 林雲龍",
         "children": [
