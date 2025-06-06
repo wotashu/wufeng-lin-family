@@ -192,6 +192,7 @@ def main():
             }
         },
         "physics": {
+            "enabled": true,
             "hierarchicalRepulsion": {
                 "centralGravity": 0,
                 "springLength": 100,
