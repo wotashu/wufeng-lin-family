@@ -1373,7 +1373,9 @@
         "generation": 11,
         "house": "Overseas House",
         "gender": "Female",
-        "former_spouse": "Chris Woon",
+        "former_spouses": [
+            "Chris Woon"
+        ],
         "children": [
             "Maiya Woon",
             "Sage Woon"
@@ -1389,7 +1391,9 @@
         "gender": "Male",
         "generation": 11,
         "house": "Overseas House",
-        "former_spouse": "Sabrina Woon-Chen",
+        "former_spouses": [
+            "Sabrina Woon-Chen"
+        ],
         "parents": [],
         "children": [
             "Maiya Woon",
@@ -1452,7 +1456,9 @@
         "gender": "Male",
         "generation": 10,
         "house": "Overseas House",
-        "former_spouse": "Nanthawan Chai",
+        "former_spouses": [
+            "Nanthawan Chai"
+        ],
         "children": [
             "Eva Chiang"
         ],
@@ -1465,7 +1471,9 @@
             "english": "Nanthawan Chai"
         },
         "house": "Overseas House",
-        "former_spouse": "Evan Chiang",
+        "former_spouses": [
+            "Evan Chiang"
+        ],
         "gender": "Female",
         "generation": 10,
         "parents": [],
