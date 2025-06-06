@@ -216,9 +216,9 @@ def main():
                 "levelSeparation": 150,
                 "nodeSpacing": 200,
                 "treeSpacing": 200,
-                "direction": "DU",          // Flips the tree so the root is at the bottom.
+                "direction": "DU",
                 "sortMethod": "directed",
-                "blockShifting": false       // Allows nodes with non-hierarchical relationships to align.
+                "blockShifting": false
             }
         },
         "nodes": {
