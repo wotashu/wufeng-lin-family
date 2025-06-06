@@ -1217,7 +1217,6 @@
         "name": {
             "english": "Mimi Nero"
         },
-        "house": null,
         "former_spouse": "Long Ming Lin",
         "parents": [
             "Bruce Nero",
@@ -1227,6 +1226,26 @@
             "Jonathan Long Lin",
             "Kristina Mimi Lin",
             "Geoffrey Bruce Lin"
+        ]
+    },
+    {
+        "name": {
+            "english": "Bruce Nero"
+        },
+        "spouse": "Lynn Nero",
+        "parents": [],
+        "children": [
+            "Mimi Nero"
+        ]
+    },
+    {
+        "name": {
+            "english": "Lynn Nero"
+        },
+        "spouse": "Bruce Nero",
+        "parents": [],
+        "children": [
+            "Mimi Nero"
         ]
     },
     {
