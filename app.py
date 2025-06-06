@@ -77,7 +77,7 @@ def get_shape_by_gender(gender: str) -> str:
     """
     gender_shape_map = {
         "Male": "dot",
-        "Female": "triangle",
+        "Female": "square",
     }
     return gender_shape_map.get(gender, "square")  # Default to square if not found
 
