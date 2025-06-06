@@ -14,7 +14,7 @@ class Name(BaseModel):
 class FamilyMember(BaseModel):
     name: Name
     house: Optional[str] = "Overseas House"
-    generation: Optional[int] = -1
+    generation: int
     gender: Optional[str] = None
     historical_significance: Optional[str] = None
     birth_year: Optional[int] = None
