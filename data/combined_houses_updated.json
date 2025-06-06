@@ -944,9 +944,9 @@
     },
     {
         "name": {
-            "hanzi": "林擧龍",
-            "pinyin": "Lín Jǔlóng",
-            "english": "Lin Julong"
+            "hanzi": "林攀龍",
+            "pinyin": "Lín Pān Lóng",
+            "english": "Lin Panlong"
         },
         "house": "Upper House",
         "generation": 8,
@@ -956,7 +956,47 @@
         "death_year": null,
         "note": "Son of 林獻堂. Plays an active role assisting his father according to the diary entries.",
         "relation": "Son of 林獻堂 and Lin Xiantang's Wife, Brother of 林猶龍 and 林雲龍",
-        "children": []
+        "children": [
+            "林博正"
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "林博正",
+            "pinyin": "Lín Bó Zhèng",
+            "english": "Lin Bozheng"
+        },
+        "house": "Upper House",
+        "generation": 9,
+        "gender": "Male",
+        "historical_significance": "Chairman of Ming Tai Property & Casualty Insurance",
+        "birth_year": null,
+        "death_year": null,
+        "note": "",
+        "relation": "Heir to Lin Panlong, adopted",
+        "children": [
+            "林明弘"
+        ],
+        "parents": [
+            "林攀龍",
+            "林猶龍"
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "林明弘",
+            "pinyin": "Lín Míng Hóng",
+            "english": "Michael Lin"
+        },
+        "generation": 10,
+        "gender": "Male",
+        "historical_significance": "A leading Taiwanese contemporary painter and conceptual artist",
+        "birth_year": 1964,
+        "death_year": null,
+        "children": [],
+        "parents": [
+            "林博正"
+        ]
     },
     {
         "name": {
@@ -972,6 +1012,86 @@
         "death_year": null,
         "note": "Son of 林獻堂. Appears frequently in diary entries, involved in family business/affairs.",
         "relation": "Son of 林獻堂 and Lin Xiantang's Wife, Brother of 林擧龍 and 林雲龍",
+        "children": [
+            "林政光",
+            "林博正"
+        ],
+        "parents": [
+            "林獻堂"
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "林政光",
+            "pinyin": "Lín Zhèng Guāng",
+            "english": "Lin Zhengguang"
+        },
+        "house": "Upper House",
+        "generation": 9,
+        "gender": "Male",
+        "note": "Chairman of Mingtai High School",
+        "parents": [
+            "林猶龍"
+        ],
+        "children": [
+            "林承峰"
+        ],
+        "spouse": "林芳媖"
+    },
+    {
+        "name": {
+            "hanzi": "林芳媖",
+            "pinyin": "Lín Fāng Yīng",
+            "english": "Lin Fangying"
+        },
+        "house": "Upper House",
+        "generation": null,
+        "gender": "Female",
+        "note": "Chairman of Mingtai High School",
+        "birth_year": null,
+        "death_year": null,
+        "relation": "Wife of Lin Zhengguang",
+        "spouse": "林政光",
+        "children": [
+            "林承峰"
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "林承峰",
+            "pinyin": "Lín Chéng Fēng",
+            "english": "Lin Chengfeng"
+        },
+        "house": "Upper House",
+        "generation": 10,
+        "gender": "Male",
+        "note": "Director of Lin Xiantang museum",
+        "birth_year": null,
+        "death_year": null,
+        "relation": "Song of Lin Zhengguang and Lin Fanying",
+        "parents": [
+            "林政光",
+            "林芳媖"
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "閔開",
+            "pinyin": "Mǐn Kāi",
+            "english": "Min Kai"
+        },
+        "house": "Upper House",
+        "generation": 8,
+        "gender": "Female",
+        "historical_significance": "Daughter of 林獻堂, mentioned in the diary as being involved in family matters and receiving gifts [4, 7, 10, 12-15, 17].",
+        "birth_year": null,
+        "death_year": null,
+        "note": "Daughter of 林獻堂. Involved in family matters, mentioned in diary entries.",
+        "relation": "Daughter of 林獻堂 and Lin Xiantang's Wife",
+        "parents": [
+            "林獻堂",
+            "林獻堂妻"
+        ],
         "children": []
     },
     {
