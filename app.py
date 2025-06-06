@@ -119,7 +119,7 @@ def create_family_graph(members: list[FamilyMember]):
             title=metadata,
             data=member.model_dump(),
             shape=gender,
-            x=y_position,
+            y=y_position,
         )
 
     # Connect relationships using alternate mapping.
