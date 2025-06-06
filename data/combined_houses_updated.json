@@ -949,7 +949,7 @@
             "english": "Lin Julong"
         },
         "house": "Upper House",
-        "generation": 1,
+        "generation": 8,
         "gender": "Male",
         "historical_significance": "Son of 林獻堂. Frequently mentioned in the diary assisting his father in various matters, including managing requests and discussing political situations [4, 5, 7, 10, 12-15].",
         "birth_year": null,
@@ -965,7 +965,7 @@
             "english": "Lin Youlong"
         },
         "house": "Upper House",
-        "generation": 1,
+        "generation": 8,
         "gender": "Male",
         "historical_significance": "Son of 林獻堂. Frequently mentioned in the diary, involved in family affairs, accompanying his father on visits and trips [4, 7, 8, 10, 12-17]. Noted as being involved in inspecting accounts [10].",
         "birth_year": null,
@@ -981,7 +981,7 @@
             "english": "Lin Yunlong"
         },
         "house": "Upper House",
-        "generation": 1,
+        "generation": 8,
         "gender": "Male",
         "historical_significance": "Son of 林獻堂. Mentioned in the diary [4, 7, 10, 12-15, 17], noted as being involved in the timber business (三振材木商行) [10].",
         "birth_year": null,
@@ -1030,25 +1030,35 @@
     },
     {
         "name": {
-            "hanzi": "林雲龍",
-            "pinyin": "Lín Yúnlóng",
-            "wade_giles": "Lin Yun-long",
-            "english": "Lin Yunlong"
+            "hanzi": "林雲龍妻",
+            "english": "Lin Yunlong's Wife"
         },
-        "note": "民國臺灣省議員, 彰化銀行公股董事",
+        "house": "Upper House",
+        "generation": null,
+        "spouse": "林雲龍"
+    },
+    {
+        "name": {
+            "hanzi": "鈴木竹",
+            "english": "Suzuki Take"
+        },
+        "house": "Upper House",
+        "generation": null,
         "children": [
             "Eldest Daughter",
             "Second Daughter",
             "Hsing Lin",
             "Long Ming Lin"
         ],
-        "parents": []
+        "concubine_of": "林雲龍"
     },
     {
         "name": {
             "hanzi": "長女",
             "english": "Eldest Daughter"
         },
+        "generation": 9,
+        "house": "Upper House",
         "children": [
             "Jack Chen"
         ],
@@ -1060,6 +1070,8 @@
         "name": {
             "english": "Jack Chen"
         },
+        "house": "Overseas House",
+        "generation": 10,
         "children": [
             "Jason Chen",
             "Sabrina Chen"
@@ -1072,6 +1084,8 @@
         "name": {
             "english": "Jason Chen"
         },
+        "generation": 11,
+        "house": "Overseas House",
         "parents": [
             "Jack Chen"
         ]
@@ -1080,6 +1094,8 @@
         "name": {
             "english": "Sabrina Chen"
         },
+        "generation": 11,
+        "house": "Overseas House",
         "spouse": "Chris Woon",
         "children": [
             "Maiya Woon",
@@ -1091,8 +1107,22 @@
     },
     {
         "name": {
+            "english": "Chris Woon"
+        },
+        "house": "Overseas House",
+        "spouse": "Sabrina Chen",
+        "parents": [],
+        "children": [
+            "Maiya Woon",
+            "Sage Woon"
+        ]
+    },
+    {
+        "name": {
             "english": "Maiya Woon"
         },
+        "generation": 12,
+        "house": "Overseas House",
         "parents": [
             "Sabrina Chen"
         ]
@@ -1101,6 +1131,8 @@
         "name": {
             "english": "Sage Woon"
         },
+        "generation": 12,
+        "house": "Overseas House",
         "parents": [
             "Sabrina Chen"
         ]
@@ -1110,6 +1142,8 @@
             "hanzi": "次女",
             "english": "Second Daughter"
         },
+        "generation": 9,
+        "house": "Overseas House",
         "children": [
             "William Chiang",
             "Evan Chiang"
@@ -1122,6 +1156,8 @@
         "name": {
             "english": "William Chiang"
         },
+        "generation": 10,
+        "house": "Overseas House",
         "parents": [
             "Second Daughter"
         ]
@@ -1130,6 +1166,8 @@
         "name": {
             "english": "Evan Chiang"
         },
+        "generation": 10,
+        "house": "Overseas House",
         "former_spouse": "Nanthawan Chai",
         "children": [
             "Eva Chiang"
@@ -1140,10 +1178,24 @@
     },
     {
         "name": {
+            "english": "Nanthawan Chai"
+        },
+        "house": "Overseas House",
+        "former_spouse": "Evan Chiang",
+        "parents": [],
+        "children": [
+            "Eva Chiang"
+        ]
+    },
+    {
+        "name": {
             "english": "Eva Chiang"
         },
+        "generation": 11,
+        "house": "Overseas House",
         "parents": [
-            "Evan Chiang"
+            "Evan Chiang",
+            "Nanthawan Chai"
         ]
     },
     {
@@ -1151,6 +1203,8 @@
             "hanzi": "林杏",
             "english": "Hsing Lin"
         },
+        "generation": 9,
+        "house": "Overseas House",
         "children": [
             "Talot Algusane",
             "Bassima Algusane",
@@ -1164,6 +1218,8 @@
         "name": {
             "english": "Talot Algusane"
         },
+        "generation": 10,
+        "house": "Overseas House",
         "parents": [
             "Hsing Lin"
         ]
@@ -1172,6 +1228,8 @@
         "name": {
             "english": "Bassima Algusane"
         },
+        "generation": 10,
+        "house": "Overseas House",
         "parents": [
             "Hsing Lin"
         ]
@@ -1180,6 +1238,8 @@
         "name": {
             "english": "Shurouq Algusane"
         },
+        "generation": 10,
+        "house": "Overseas House",
         "spouse": "Jon Spanyol",
         "children": [
             "Maya Spanyol"
@@ -1190,10 +1250,24 @@
     },
     {
         "name": {
+            "english": "Jon Spanyol"
+        },
+        "house": "Overseas House",
+        "spouse": "Shurouq Algusane",
+        "parents": [],
+        "children": [
+            "Maya Spanyol"
+        ]
+    },
+    {
+        "name": {
             "english": "Maya Spanyol"
         },
+        "generation": 11,
+        "house": "Overseas House",
         "parents": [
-            "Shurouq Algusane"
+            "Shurouq Algusane",
+            "Jon Spanyol"
         ]
     },
     {
@@ -1201,6 +1275,8 @@
             "hanzi": "林龍明",
             "english": "Long Ming Lin"
         },
+        "generation": 9,
+        "house": "Overseas House",
         "children": [
             "Jonathan Long Lin",
             "Kristina Mimi Lin",
@@ -1217,6 +1293,7 @@
         "name": {
             "english": "Mimi Nero"
         },
+        "house": "Overseas House",
         "former_spouse": "Long Ming Lin",
         "parents": [
             "Bruce Nero",
@@ -1232,6 +1309,7 @@
         "name": {
             "english": "Bruce Nero"
         },
+        "house": null,
         "spouse": "Lynn Nero",
         "parents": [],
         "children": [
@@ -1242,6 +1320,7 @@
         "name": {
             "english": "Lynn Nero"
         },
+        "house": null,
         "spouse": "Bruce Nero",
         "parents": [],
         "children": [
@@ -1252,6 +1331,8 @@
         "name": {
             "english": "Jonathan Long Lin"
         },
+        "generation": 10,
+        "house": "Overseas House",
         "parents": [
             "Long Ming Lin",
             "Mimi Nero"
@@ -1262,6 +1343,8 @@
         "name": {
             "english": "Kristina Mimi Lin"
         },
+        "generation": 10,
+        "house": "Overseas House",
         "spouse": "Christian Sidor",
         "children": [
             "Teddy Sidor"
@@ -1276,6 +1359,7 @@
         "name": {
             "english": "Christian Sidor"
         },
+        "house": "Overseas House",
         "spouse": "Kristina Mimi Lin",
         "parents": [],
         "children": [
@@ -1286,6 +1370,8 @@
         "name": {
             "english": "Teddy Sidor"
         },
+        "generation": 11,
+        "house": "Overseas House",
         "parents": [
             "Kristina Mimi Lin",
             "Christian Sidor"
@@ -1296,6 +1382,8 @@
         "name": {
             "english": "Geoffrey Bruce Lin"
         },
+        "generation": 10,
+        "house": "Overseas House",
         "spouse": "Catherine White",
         "parents": [
             "Long Ming Lin",
@@ -1306,6 +1394,7 @@
         "name": {
             "english": "Catherine White"
         },
+        "house": "Overseas House",
         "spouse": "Geoffrey Bruce Lin",
         "parents": [],
         "children": []
