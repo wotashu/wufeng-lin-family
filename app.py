@@ -117,7 +117,8 @@ def create_family_graph(members: list[FamilyMember]):
             label=key,
             color=color,
             title=metadata,
-            data=member.model_dump(),
+            data=member.model_dump() if member.model_dump() else {},
+            generation=generation,
             shape=gender,
             y=y_position,
         )
