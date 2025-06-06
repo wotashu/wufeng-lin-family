@@ -184,21 +184,34 @@ def main():
     net.from_nx(family_graph)
     net.set_options(
         """
-        {
-          "nodes": {
+    {
+        "layout": {
+            "hierarchical": {
+                "enabled": true,
+                "levelSeparation": 150,
+                "nodeSpacing": 200,
+                "treeSpacing": 200,
+                "direction": "UD",
+                "sortMethod": "directed"
+            }
+        },
+        "nodes": {
             "font": {
-              "size": 16,
-              "face": "arial"
+                "size": 16,
+                "face": "arial"
             }
-          },
-          "physics": {
-            "barnesHut": {
-              "gravitationalConstant": -8000,
-              "centralGravity": 0.3,
-              "springLength": 95
-            }
-          }
+        },
+        "physics": {
+            "hierarchicalRepulsion": {
+                "centralGravity": 0,
+                "springLength": 100,
+                "springConstant": 0.01,
+                "nodeDistance": 120,
+                "damping": 0.09
+            },
+            "minVelocity": 0.75
         }
+    }
         """
     )
 
