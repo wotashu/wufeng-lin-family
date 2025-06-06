@@ -1,0 +1,164 @@
+{
+    "Lin Dingbang": {
+        "name": {
+            "hanzi": "林定邦",
+            "pinyin": "Lín Dìngbāng",
+            "wade_giles": "Lin² Ting⁴-pang¹",
+            "english": "Lin Dingbang"
+        },
+        "generation": 1,
+        "relation": "霧峰下厝祖 (Wufeng Xia Cuo Ancestor)",
+        "children": [
+            "Lin Wencha",
+            "Lin Wenming",
+            "Lin Wencai"
+        ]
+    },
+    "Lin Wencha": {
+        "name": {
+            "hanzi": "林文察",
+            "pinyin": "Lín Wénchá",
+            "wade_giles": "Lin² Wen²-ch'a²",
+            "english": "Lin Wencha"
+        },
+        "generation": 2,
+        "historical_significance": "清振威將軍 太子太保 福建省陸路提督",
+        "children": [
+            "Lin Chaodong",
+            "Lin Chaoyong",
+            "Lin Chaozong",
+            "Lin Chaochang",
+            "Lin Chaoxuan",
+            "Lin Chaosong"
+        ]
+    },
+    "Lin Wenming": {
+        "name": {
+            "hanzi": "林文明",
+            "pinyin": "Lín Wénmíng",
+            "wade_giles": "Lin² Wen²-ming²",
+            "english": "Lin Wenming"
+        },
+        "generation": 2
+    },
+    "Lin Wencai": {
+        "name": {
+            "hanzi": "林文彩",
+            "pinyin": "Lín Wéncǎi",
+            "wade_giles": "Lin² Wen²-ts'ai³",
+            "english": "Lin Wencai"
+        },
+        "generation": 2
+    },
+    "Lin Chaodong": {
+        "name": {
+            "hanzi": "林朝棟",
+            "pinyin": "Lín Cháodòng",
+            "wade_giles": "Lin² Ch'ao²-tung⁴",
+            "english": "Lin Chaodong"
+        },
+        "generation": 3,
+        "historical_significance": "清道員 棟軍統領",
+        "children": [
+            "Lin Zishu",
+            "Lin Zibin",
+            "Lin Zixiu"
+        ]
+    },
+    "Lin Chaoyong": {
+        "name": {
+            "hanzi": "林朝雍",
+            "pinyin": "Lín Cháoyōng",
+            "wade_giles": "Lin² Ch'ao²-yung¹",
+            "english": "Lin Chaoyong"
+        },
+        "generation": 3
+    },
+    "Lin Chaozong": {
+        "name": {
+            "hanzi": "林朝宗",
+            "pinyin": "Lín Cháozōng",
+            "wade_giles": "Lin² Ch'ao²-tsung¹",
+            "english": "Lin Chaozong"
+        },
+        "generation": 3
+    },
+    "Lin Chaochang": {
+        "name": {
+            "hanzi": "林朝昌",
+            "pinyin": "Lín Cháochāng",
+            "wade_giles": "Lin² Ch'ao²-ch'ang¹",
+            "english": "Lin Chaochang"
+        },
+        "generation": 3
+    },
+    "Lin Chaoxuan": {
+        "name": {
+            "hanzi": "林朝選",
+            "pinyin": "Lín Cháoxuǎn",
+            "wade_giles": "Lin² Ch'ao²-hsüan³",
+            "english": "Lin Chaoxuan"
+        },
+        "generation": 3,
+        "historical_significance": "清廣東省候補知縣 日帝霧峰庄庄長"
+    },
+    "Lin Chaosong": {
+        "name": {
+            "hanzi": "林朝崧",
+            "pinyin": "Lín Cháosōng",
+            "wade_giles": "Lin² Ch'ao²-sung¹",
+            "english": "Lin Chaosong"
+        },
+        "generation": 3,
+        "historical_significance": "櫟社創社人 霧峰三詩人"
+    },
+    "Lin Zishu": {
+        "name": {
+            "hanzi": "林資樹",
+            "pinyin": "Lín Zīshù",
+            "wade_giles": "Lin¹ Tzu¹-shu⁴",
+            "english": "Lin Zishu"
+        },
+        "generation": 4
+    },
+    "Lin Zibin": {
+        "name": {
+            "hanzi": "林資彬",
+            "pinyin": "Lín Zībīn",
+            "wade_giles": "Lin¹ Tzu¹-pin¹",
+            "english": "Lin Zibin"
+        },
+        "generation": 4,
+        "note": "林本堂株式會社社長"
+    },
+    "Lin Zixiu": {
+        "name": {
+            "hanzi": "林資修",
+            "pinyin": "Lín Zīxiū",
+            "wade_giles": "Lin¹ Tzu¹-hsiu¹",
+            "english": "Lin Zixiu"
+        },
+        "generation": 4,
+        "historical_significance": "櫟社創社人 霧峰三詩人"
+    },
+    "Lin Zhengfang": {
+        "name": {
+            "hanzi": "林正方",
+            "pinyin": "Lín Zhèngfāng",
+            "wade_giles": "Lin² Cheng⁴-fang¹",
+            "english": "Lin Zhengfang"
+        },
+        "generation": 5,
+        "note": "林本堂公司董事長"
+    },
+    "Lin Junming": {
+        "name": {
+            "hanzi": "林俊明",
+            "pinyin": "Lín Jùnmíng",
+            "wade_giles": "Lin² Chun⁴-ming²",
+            "english": "Lin Junming"
+        },
+        "generation": 5,
+        "note": "林本堂公司代表人 #草厝 #宮保第 #大花廳 #將軍府"
+    }
+}

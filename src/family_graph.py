@@ -1,8 +1,17 @@
+import json
+
 import networkx as nx
 import streamlit as st
 import streamlit.components.v1 as components
 from pyvis.network import Network
-from wufeng_lin_family import wufeng_lin_family as family_data
+
+from src.models import FamilyMember
+
+with open("data/combined_houses.json", "r", encoding="utf-8") as infile:
+    family_json = json.load(infile)
+
+for item in family_json:
+    FamilyMember(item)
 
 # Initialize a directed graph
 family_graph = nx.DiGraph()

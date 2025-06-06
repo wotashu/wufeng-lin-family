@@ -5,9 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "jupyterlab>=4.4.3",
     "matplotlib>=3.10.1",
     "networkx>=3.4.2",
     "pydantic>=2.11.3",
     "pyvis>=0.3.2",
     "streamlit>=1.44.1",
+    "unidecode>=1.4.0",
 ]

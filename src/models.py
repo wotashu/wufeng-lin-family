@@ -4,7 +4,7 @@ from pydantic import BaseModel
 
 
 class Name(BaseModel):
-    hanzi: str
+    hanzi: Optional[str] = None
     kanji: Optional[str] = None
     pinyin: Optional[str] = None
     wade_giles: Optional[str] = None
@@ -13,6 +13,7 @@ class Name(BaseModel):
 
 class FamilyMember(BaseModel):
     name: Name
+    house: Optional[str] = "Overseas House"
     generation: Optional[int] = None
     gender: Optional[str] = None
     historical_significance: Optional[str] = None
@@ -20,6 +21,7 @@ class FamilyMember(BaseModel):
     death_year: Optional[int] = None
     note: Optional[str] = None
     relation: Optional[str] = None
+    parents: List[Union["FamilyMember", str]] = []  # Allow string or FamilyMember
     children: List[Union["FamilyMember", str]] = []  # Allow string or FamilyMember
 
     class Config:
