@@ -24,7 +24,7 @@
             "hanzi": "陳氏"
         },
         "house": "Whole family (before split)",
-        "generation": null,
+        "generation": -11,
         "gender": "Female",
         "relation": "Wife of Lin Shih [7]",
         "parents": [],
@@ -90,7 +90,7 @@
             "english": "Mrs. Huang"
         },
         "house": "Whole family (before split)",
-        "generation": null,
+        "generation": -1,
         "gender": "Female",
         "historical_significance": "Widow of Lin Sun, led the family to move to Wu-feng after the rebellion [11], died 1835 [5].",
         "death_year": 1835,
@@ -108,7 +108,7 @@
             "hanzi": "Clerk in sea-defense prefecture"
         },
         "house": null,
-        "generation": null,
+        "generation": -1,
         "gender": "Male",
         "historical_significance": "Father of Mrs. Huang, intervened to prevent her departure from Taiwan [12].",
         "parents": [],
@@ -145,7 +145,7 @@
             "hanzi": "林甲寅妻"
         },
         "house": "Whole family (before split, settled in Wu-feng)",
-        "generation": null,
+        "generation": -1,
         "gender": "Female",
         "relation": "Wife of Lin Chia-yin [13]",
         "parents": [],
@@ -215,7 +215,7 @@
             "hanzi": "戴夫人"
         },
         "house": "Lower House",
-        "generation": null,
+        "generation": -1,
         "gender": "Female",
         "historical_significance": "Mother of Lin Wen-ming, a formidable matriarch who spent years seeking justice for her son [17, 18], died 1883 [18].",
         "death_year": 1883,
@@ -254,7 +254,7 @@
             "hanzi": "林奠國妻妾"
         },
         "house": "Upper House",
-        "generation": null,
+        "generation": -1,
         "gender": "Female",
         "relation": "Wives/Concubines of Lin Tien-kuo",
         "parents": [],
@@ -271,7 +271,7 @@
             "english": "Luo Furen"
         },
         "house": "Upper House",
-        "generation": null,
+        "generation": -1,
         "gender": "Female",
         "historical_significance": "Matriarch of the Upper House, known for warmth, generosity, and compassion [19], died 1921 [19].",
         "birth_year": 1832,
@@ -289,7 +289,7 @@
             "hanzi": "Peasant family near Wu-feng"
         },
         "house": null,
-        "generation": null,
+        "generation": -1,
         "gender": null,
         "relation": "Family of Mrs. Lo [19]",
         "parents": [],
@@ -325,7 +325,7 @@
             "hanzi": "林文察妻妾"
         },
         "house": "Lower House",
-        "generation": null,
+        "generation": -1,
         "gender": "Female",
         "relation": "Wife/Concubines of Lin Wen-ch'a [21]",
         "parents": [],
@@ -365,7 +365,7 @@
             "hanzi": "林文明正妻"
         },
         "house": "Lower House",
-        "generation": null,
+        "generation": -1,
         "gender": "Female",
         "historical_significance": "Mother of Lin Ch'ao-hsuan [24], died 1883 [18].",
         "death_year": 1883,
@@ -381,7 +381,7 @@
             "hanzi": "林文明妾"
         },
         "house": "Lower House",
-        "generation": null,
+        "generation": -1,
         "gender": "Female",
         "relation": "Concubines of Lin Wen-ming",
         "parents": [],
@@ -495,7 +495,7 @@
             "hanzi": "林文欽妻"
         },
         "house": "Upper House",
-        "generation": null,
+        "generation": -1,
         "gender": "Female",
         "historical_significance": "Adulterous first wife of Lin Wen-ch'in, sent back to her family [19].",
         "relation": "First wife of Lin Wen-ch'in [19]",
@@ -512,7 +512,7 @@
             "hanzi": "林文欽繼妻"
         },
         "house": "Upper House",
-        "generation": null,
+        "generation": -1,
         "gender": "Female",
         "relation": "Second wife of Lin Wen-ch'in [19]",
         "parents": [],
@@ -524,7 +524,7 @@
             "hanzi": "林文欽妾"
         },
         "house": "Upper House",
-        "generation": null,
+        "generation": -1,
         "gender": "Female",
         "relation": "Concubine of Lin Wen-ch'in [19]",
         "parents": [],
@@ -571,7 +571,7 @@
             "hanzi": "楊夫人"
         },
         "house": "Lower House",
-        "generation": null,
+        "generation": -1,
         "gender": "Female",
         "historical_significance": "Wife of Lin Ch'ao-tung, known for strong will and intelligence, rescued her husband during a siege [21, 30, 31].",
         "relation": "Wife of Lin Ch'ao-tung [21, 30]",
@@ -588,7 +588,7 @@
             "hanzi": "Notable Chang-hua family"
         },
         "house": null,
-        "generation": null,
+        "generation": -1,
         "gender": null,
         "relation": "Family of Mrs. Yang [30]",
         "parents": [],
@@ -955,7 +955,7 @@
             "hanzi": "林文典遺孀"
         },
         "house": "Upper House",
-        "generation": null,
+        "generation": -1,
         "gender": "Female",
         "historical_significance": "Widow of Lin Wen-tien, raised their son Chi-t'ang with a sense of responsibility [37].",
         "relation": "Widow of Lin Wen-tien [37]",
@@ -994,7 +994,7 @@
             "hanzi": "林獻堂妻"
         },
         "house": "Upper House",
-        "generation": null,
+        "generation": -1,
         "gender": "Female",
         "relation": "Wife of Lin Hsien-tang (father) [38]",
         "parents": [
@@ -1009,7 +1009,7 @@
             "hanzi": "Yang family from Chang-hua"
         },
         "house": null,
-        "generation": null,
+        "generation": -1,
         "gender": null,
         "relation": "Family of Lin Hsien-tang's wife [38]",
         "parents": [],
@@ -1081,7 +1081,7 @@
             "english": "He Shi"
         },
         "house": "Lower House",
-        "generation": null,
+        "generation": -1,
         "gender": "Female",
         "relation": "First wife of Lin Ch'ao-hsuan [24]",
         "parents": [],
@@ -1193,7 +1193,7 @@
             "english": "Lin Fangying"
         },
         "house": "Upper House",
-        "generation": null,
+        "generation": -1,
         "gender": "Female",
         "note": "Chairman of Mingtai High School",
         "birth_year": null,
@@ -1274,7 +1274,7 @@
             "english": "He Shi"
         },
         "house": "Lower House",
-        "generation": null,
+        "generation": -1,
         "gender": "Female",
         "relation": "Second wife of Lin Ch'ao-hsuan, sister of his first wife [24]",
         "parents": [
@@ -1287,7 +1287,7 @@
             "hanzi": "Mother of Miss Ho (first and second wife)"
         },
         "house": "Lower House",
-        "generation": null,
+        "generation": -1,
         "gender": "Female",
         "relation": "Mother of Lin Ch'ao-hsuan's wives [24]",
         "parents": [],
@@ -1303,7 +1303,7 @@
         },
         "gender": "Female",
         "house": "Upper House",
-        "generation": null,
+        "generation": -1,
         "spouse": "林雲龍"
     },
     {
@@ -1313,7 +1313,7 @@
         },
         "gender": "Female",
         "house": "Upper House",
-        "generation": null,
+        "generation": -1,
         "children": [
             "Eldest Daughter",
             "Second Daughter",
@@ -1463,6 +1463,7 @@
         "house": "Overseas House",
         "former_spouse": "Evan Chiang",
         "gender": "Female",
+        "generation": -1,
         "parents": [],
         "children": [
             "Eva Chiang"
@@ -1540,6 +1541,7 @@
         },
         "gender": "Male",
         "house": "Overseas House",
+        "generation": -1,
         "spouse": "Shurouq Algusane",
         "parents": [],
         "children": [
@@ -1583,6 +1585,7 @@
             "english": "Mimi Nero"
         },
         "house": "Overseas House",
+        "generation": -1,
         "gender": "Female",
         "former_spouse": "Long Ming Lin",
         "parents": [
@@ -1600,6 +1603,7 @@
             "english": "Bruce Nero"
         },
         "gender": "Male",
+        "generation": -1,
         "house": null,
         "spouse": "Lynn Nero",
         "parents": [],
@@ -1612,6 +1616,7 @@
             "english": "Lynn Nero"
         },
         "house": null,
+        "generation": -1,
         "gender": "Female",
         "spouse": "Bruce Nero",
         "parents": [],
@@ -1653,6 +1658,7 @@
         "name": {
             "english": "Christian Sidor"
         },
+        "generation": -1,
         "gender": "Male",
         "house": "Overseas House",
         "spouse": "Kristina Mimi Lin",
@@ -1692,6 +1698,7 @@
         "name": {
             "english": "Catherine White"
         },
+        "generation": -1,
         "house": "Overseas House",
         "spouse": "Geoffrey Bruce Lin",
         "parents": [],
