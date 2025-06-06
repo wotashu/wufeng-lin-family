@@ -310,7 +310,8 @@
             "林朝棟",
             "林朝揚",
             "林朝宗"
-        ]
+        ],
+        "spouse": "林文察妻妾"
     },
     {
         "name": {
@@ -325,7 +326,8 @@
             "林朝棟",
             "林朝揚",
             "林朝宗"
-        ]
+        ],
+        "spouse": "林文察"
     },
     {
         "name": {
@@ -348,7 +350,8 @@
             "林朝璿",
             "林文明其他兒子",
             "林濬堂"
-        ]
+        ],
+        "spouse": "林文明正妻"
     },
     {
         "name": {
@@ -363,7 +366,8 @@
         "parents": [],
         "children": [
             "林朝璿"
-        ]
+        ],
+        "spouse": "林文明"
     },
     {
         "name": {
@@ -378,7 +382,8 @@
             "林朝昌",
             "林文明其他兒子",
             "林濬堂"
-        ]
+        ],
+        "spouse": "林文明"
     },
     {
         "name": {
@@ -471,6 +476,11 @@
         "children": [
             "林獻堂",
             "林文欽其他兒子"
+        ],
+        "formerspouse": "林文欽妻",
+        "spouse": "林文欽繼妻",
+        "concubines": [
+            "林文欽繼妻"
         ]
     },
     {
@@ -485,7 +495,8 @@
         "parents": [],
         "children": [
             "林獻堂"
-        ]
+        ],
+        "former_spouse": "林文欽"
     },
     {
         "name": {
@@ -496,7 +507,8 @@
         "gender": "Female",
         "relation": "Second wife of Lin Wen-ch'in [19]",
         "parents": [],
-        "children": []
+        "children": [],
+        "spouse": "林文欽"
     },
     {
         "name": {
@@ -507,7 +519,8 @@
         "gender": "Female",
         "relation": "Concubine of Lin Wen-ch'in [19]",
         "parents": [],
-        "children": []
+        "children": [],
+        "concubine_of": "林文欽"
     },
     {
         "name": {
@@ -817,7 +830,8 @@
             "林擧龍",
             "林猶龍",
             "林雲龍"
-        ]
+        ],
+        "spouse": "林獻堂妻"
     },
     {
         "name": {
@@ -1193,7 +1207,8 @@
         },
         "parents": [
             "Long Ming Lin"
-        ]
+        ],
+        "birth_year": 1982
     },
     {
         "name": {
@@ -1205,6 +1220,17 @@
         ],
         "parents": [
             "Long Ming Lin"
+        ],
+        "birth_year": 1984
+    },
+    {
+        "name": {
+            "english": "Christian Sidor"
+        },
+        "spouse": "Kristina Mimi Lin",
+        "parents": [],
+        "children": [
+            "Teddy Sidor"
         ]
     },
     {
@@ -1213,7 +1239,8 @@
         },
         "parents": [
             "Kristina Mimi Lin"
-        ]
+        ],
+        "birth_year": 2020
     },
     {
         "name": {
@@ -1223,5 +1250,13 @@
         "parents": [
             "Long Ming Lin"
         ]
+    },
+    {
+        "name": {
+            "english": "Catherine White"
+        },
+        "spouse": "Geoffrey Bruce Lin",
+        "parents": [],
+        "children": []
     }
 ]

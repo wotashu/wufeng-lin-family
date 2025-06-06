@@ -63,9 +63,7 @@ def get_alternate_keys(member: FamilyMember) -> set:
     return keys
 
 
-def get_color_by_house(
-    house: str, house_color_map: dict[str, str] = house_color_map
-) -> str:
+def get_color_by_house(house: str) -> str:
     """
     Return a color code based on the house name.
     """
@@ -76,7 +74,9 @@ def create_family_graph(members: list[FamilyMember]):
     """
     Create an undirected NetworkX graph from a list of FamilyMember instances.
     Nodes are keyed by canonical name and color-coded by house.
-    Parent and child relationships are matched using alternate names.
+    Parent, child, spouse, former_spouse, concubine, and concubine_of relationships
+    are matched using alternate names.
+    On hover, nodes display full metadata.
     """
     G = nx.Graph()
 
@@ -92,7 +92,8 @@ def create_family_graph(members: list[FamilyMember]):
         key = get_member_key(member)
         house = member.house if member.house else "unknown"
         color = get_color_by_house(house)
-        metadata = json.dumps(member.model_dump(), ensure_ascii=False)
+        # Prepare metadata as pretty JSON for hover tooltip.
+        metadata = json.dumps(member.model_dump(), ensure_ascii=False, indent=2)
         G.add_node(
             key, label=key, color=color, title=metadata, data=member.model_dump()
         )
@@ -102,19 +103,61 @@ def create_family_graph(members: list[FamilyMember]):
         child_key = get_member_key(member)
         # Process parent's relationships.
         for parent in member.parents:
-            # If parent's string not directly found, try alternate mapping.
             parent_key = parent
             if parent_key not in G.nodes:
                 parent_key = alt_mapping.get(parent, parent)
             if parent_key in G.nodes and parent_key != child_key:
-                G.add_edge(child_key, parent_key)
+                G.add_edge(child_key, parent_key, width=4)
         # Process children relationships.
         for child in member.children:
             ch_key = child
             if ch_key not in G.nodes:
                 ch_key = alt_mapping.get(child, child)
             if ch_key in G.nodes and ch_key != child_key:
-                G.add_edge(child_key, ch_key)
+                G.add_edge(child_key, ch_key, width=4)
+        # Process spouse relationship.
+        if member.spouse:
+            if isinstance(member.spouse, str):
+                sp_key = member.spouse
+            else:
+                sp_key = get_member_key(member.spouse)
+            if sp_key not in G.nodes:
+                sp_key = alt_mapping.get(member.spouse, sp_key)
+            if sp_key in G.nodes and sp_key != child_key:
+                G.add_edge(child_key, sp_key, width=2, color="lightgrey")
+        # Process former_spouses relationships.
+        if member.former_spouses:
+            for former in member.former_spouses:
+                if isinstance(former, str):
+                    fs_key = former
+                else:
+                    fs_key = get_member_key(former)
+                if fs_key not in G.nodes:
+                    fs_key = alt_mapping.get(former, fs_key)
+                if fs_key in G.nodes and fs_key != child_key:
+                    G.add_edge(child_key, fs_key, width=2, color="lightgrey")
+        # Process concubines relationships.
+        if hasattr(member, "concubines") and member.concubines:
+            # Expecting concubines to be a list.
+            for concubine in member.concubines:
+                if isinstance(concubine, str):
+                    c_key = concubine
+                else:
+                    c_key = get_member_key(concubine)
+                if c_key not in G.nodes:
+                    c_key = alt_mapping.get(concubine, c_key)
+                if c_key in G.nodes and c_key != child_key:
+                    G.add_edge(child_key, c_key, width=2, color="lightgrey")
+        # Process concubine_of relationship.
+        if hasattr(member, "concubine_of") and member.concubine_of:
+            if isinstance(member.concubine_of, str):
+                co_key = member.concubine_of
+            else:
+                co_key = get_member_key(member.concubine_of)
+            if co_key not in G.nodes:
+                co_key = alt_mapping.get(member.concubine_of, co_key)
+            if co_key in G.nodes and co_key != child_key:
+                G.add_edge(child_key, co_key, width=2, color="lightgrey")
     return G
 
 

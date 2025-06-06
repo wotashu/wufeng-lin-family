@@ -23,6 +23,15 @@ class FamilyMember(BaseModel):
     relation: Optional[str] = None
     parents: List[Union["FamilyMember", str]] = []  # Allow string or FamilyMember
     children: List[Union["FamilyMember", str]] = []  # Allow string or FamilyMember
+    spouse: Optional[Union["FamilyMember", str]] = None  # Allow string or FamilyMember
+    former_spouses: List[
+        Union["FamilyMember", str]
+    ] = []  # Allow string or FamilyMember
+    concubines: List[Union["FamilyMember", str]] = []  # Allow string or FamilyMember,
+    concubine_of: Optional[Union["FamilyMember", str]] = (
+        None  # Allow string or FamilyMember
+    )
+    image: Optional[str] = None  # URL or path to image
 
     class Config:
         orm_mode = True
