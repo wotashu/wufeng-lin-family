@@ -140,7 +140,9 @@ def create_family_graph(members: list[FamilyMember]):
             if ch_key not in G.nodes:
                 ch_key = alt_mapping.get(child, child)
             if ch_key in G.nodes and ch_key != child_key:
-                G.add_edge(child_key, ch_key, width=4)
+                G.add_edge(
+                    child_key, ch_key, width=4, arrows={"to": {"enabled": False}}
+                )
         # Process spouse relationship.
         if member.spouse:
             if isinstance(member.spouse, str):
@@ -150,7 +152,13 @@ def create_family_graph(members: list[FamilyMember]):
             if sp_key not in G.nodes:
                 sp_key = alt_mapping.get(member.spouse, sp_key)
             if sp_key in G.nodes and sp_key != child_key:
-                G.add_edge(child_key, sp_key, width=2, dashes=True)
+                G.add_edge(
+                    child_key,
+                    sp_key,
+                    width=2,
+                    dashes=True,
+                    arrows={"to": {"enabled": False}},
+                )
         # Process former_spouses relationships.
         if member.former_spouses:
             for former in member.former_spouses:
@@ -161,7 +169,14 @@ def create_family_graph(members: list[FamilyMember]):
                 if fs_key not in G.nodes:
                     fs_key = alt_mapping.get(former, fs_key)
                 if fs_key in G.nodes and fs_key != child_key:
-                    G.add_edge(child_key, fs_key, width=2, color="black", dashes=True)
+                    G.add_edge(
+                        child_key,
+                        fs_key,
+                        width=2,
+                        color="black",
+                        dashes=True,
+                        arrows={"to": {"enabled": False}},
+                    )
         # Process concubines relationships.
         if hasattr(member, "concubines") and member.concubines:
             # Expecting concubines to be a list.
@@ -173,7 +188,13 @@ def create_family_graph(members: list[FamilyMember]):
                 if c_key not in G.nodes:
                     c_key = alt_mapping.get(concubine, c_key)
                 if c_key in G.nodes and c_key != child_key:
-                    G.add_edge(child_key, c_key, width=2, dashes=True)
+                    G.add_edge(
+                        child_key,
+                        c_key,
+                        width=2,
+                        dashes=True,
+                        arrows={"to": {"enabled": False}},
+                    )
         # Process concubine_of relationship.
         if hasattr(member, "concubine_of") and member.concubine_of:
             if isinstance(member.concubine_of, str):
@@ -183,7 +204,13 @@ def create_family_graph(members: list[FamilyMember]):
             if co_key not in G.nodes:
                 co_key = alt_mapping.get(member.concubine_of, co_key)
             if co_key in G.nodes and co_key != child_key:
-                G.add_edge(child_key, co_key, width=2, dashes=True)
+                G.add_edge(
+                    child_key,
+                    co_key,
+                    width=2,
+                    dashes=True,
+                    arrows={"to": {"enabled": False}},
+                )
     return G
 
 
