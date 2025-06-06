@@ -207,7 +207,7 @@ def main():
     net.from_nx(family_graph)
     positions = nx.multipartite_layout(
         family_graph,
-        subset_key="generation",
+        subset_key=str(lambda n: family_graph.nodes[n]["data"].get("generation", 0)),
     )
 
     # Optionally, you can scale the positions.
