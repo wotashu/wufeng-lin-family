@@ -186,7 +186,6 @@ def main():
         width="100%",
         directed=True,
         bgcolor="#222222",
-        font_color="white",
     )
     net.from_nx(family_graph)
 
