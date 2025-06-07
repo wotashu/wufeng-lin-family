@@ -2313,7 +2313,7 @@
     },
     "relationships": [
       {
-        "type": "parent",
+        "type": "child",
         "target": "Lynn Nero"
       }
     ]
