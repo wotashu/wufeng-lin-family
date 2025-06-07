@@ -16,6 +16,7 @@ def load_family_members(json_path: Path):
     """
     with open(json_path, "r", encoding="utf-8") as infile:
         data = json.load(infile)
+
     members = []
     for record in data:
         try:
@@ -29,7 +30,7 @@ def load_family_members(json_path: Path):
 def get_member_key(member: FamilyMember) -> str:
     """
     Get a unique canonical key for the member.
-    Prefer name.english; if missing, use pinyin then hanzi.
+    Prefer name.english; if missing, use pinyin (ascii) then hanzi.
     """
     if member.name.english:
         return member.name.english
@@ -43,7 +44,7 @@ def get_member_key(member: FamilyMember) -> str:
 def get_alternate_keys(member: FamilyMember) -> set:
     """
     Return a set of possible key names for the member.
-    This includes english, ascii pinyin, and hanzi.
+    This includes english, ascii pinyin, and hanzi (if available).
     """
     keys = set()
     if member.name.english:
@@ -59,14 +60,15 @@ def get_color_by_house(house: str) -> str:
     """
     Return a color code based on the house name.
     """
+
     house_color_map = {
-        "Whole family (before split)": "#00CCFF",  # Blue
-        "Whole family (before split, settled in Wu-feng)": "#1900FF",  # Blue
+        "Whole family (before split)": "#0000FF",  # Blue
+        "Whole family (before split, settled in Wu-feng)": "#00CCFF",  # Blue
         "Upper House": "#B700FF",  # Red
         "Lower House": "#00FF15",  # Green
         "Overseas House": "#FF0000",  # Orange
     }
-    return house_color_map.get(house, "#000000")
+    return house_color_map.get(house, "#000000")  # Default black if not found
 
 
 def get_shape_by_gender(gender: str) -> str:
@@ -77,75 +79,74 @@ def get_shape_by_gender(gender: str) -> str:
         "Male": "dot",
         "Female": "square",
     }
-    return gender_shape_map.get(gender, "square")
+    return gender_shape_map.get(gender, "square")  # Default to square if not found
 
 
 def create_family_graph(members: list[FamilyMember]):
     """
     Create a NetworkX graph using the new unified relationships model.
-    Nodes are added with visual properties reflecting house, gender, and generation.
-    Edges are created by iterating over the unified "relationships" array.
+    Nodes are added as before, and edges are created by iterating over the
+    relationships array, using the "type" field to customize edge attributes.
     """
-    G = nx.DiGraph()  # directed graph so we can show arrows for parent -> child
+    G = nx.DiGraph()  # Use a directed graph if you want arrows for parent-child
 
-    # Build alternate key mapping: alternate name -> canonical key.
+    # Build an alternate name mapping: alternate name -> canonical key.
     alt_mapping = {}
     for member in members:
         canon = get_member_key(member)
         for key in get_alternate_keys(member):
             alt_mapping[key] = canon
 
-    # Add nodes. Adjust node size based on generation.
+    # Add nodes using canonical keys.
     for member in members:
         key = get_member_key(member)
         house = member.house if member.house else "unknown"
         color = get_color_by_house(house)
         gender = member.gender if member.gender else "Male"
-        shape = get_shape_by_gender(gender)
+        gender = get_shape_by_gender(gender)
         generation = member.generation if member.generation is not None else -1
-        base_size = 20
-        node_size = base_size + (generation * 2)
+        # Use generation for vertical positioning (or you can ignore it if using a layout)
+        y_position = 1000 - (generation * 100)
         metadata = json.dumps(member.model_dump(), ensure_ascii=False, indent=2)
         G.add_node(
             key,
             label=key,
-            color={
-                "background": color,
-                "border": "#000000",
-                "highlight": {"background": color, "border": "#FFD700"},
-            },
+            color=color,
             title=metadata,
-            data=member.model_dump(),  # Contains generation and other info.
-            shape=shape,
-            size=node_size,
-            use_physics=False,
+            data=member.model_dump(),  # contains generation, etc.
+            shape=gender,
+            x=y_position,
+            use_physics=True if member.generation is None else False,
         )
 
     # Process relationships from the unified "relationships" field.
     for member in members:
         source_key = get_member_key(member)
+        # Check if the member has the 'relationships' field
         rels = member.model_dump().get("relationships", [])
         for rel in rels:
             rel_type = rel.get("type")
             target = rel.get("target")
+            # Resolve target using alternate mapping if needed.
             target_key = target
-            # Use alt_mapping if needed.
             if target_key not in G.nodes:
                 target_key = alt_mapping.get(target, target)
             if target_key in G.nodes and target_key != source_key:
+                # Parent-child edges: arrow from parent to child.
                 if rel_type in ["parent", "child_of"]:
-                    # For a parent relationship, edge goes from parent to child (arrow enabled).
+                    # If relationship type is "parent" (from child's perspective),
+                    # add edge from target (parent) to source (child).
                     G.add_edge(target_key, source_key, width=4, arrows="to")
+                # Child edges: arrow disabled (if desired to keep consistency).
                 elif rel_type == "child":
-                    # For a child relationship, add edge without arrow.
                     G.add_edge(
                         source_key,
                         target_key,
                         width=4,
                         arrows={"to": {"enabled": False}},
                     )
+                # For spouse, former_spouse, concubine, etc., disable arrows.
                 else:
-                    # For spouse, former_spouse, concubine, etc., draw a dashed edge without arrow.
                     G.add_edge(
                         source_key,
                         target_key,
@@ -159,23 +160,23 @@ def create_family_graph(members: list[FamilyMember]):
 def main():
     st.title("Family Graph Interactive App")
     st.write(
-        "This application displays an interactive family graph based on unified relationships."
+        "This application displays an interactive family graph, color-coded by house."
     )
 
-    # Load members.
-    json_path = Path("data/combined_data_relationships.json")
+    # Set the path for the updated combined JSON file.
+    json_path = Path("data/combined_houses_updated.json")
     members = load_family_members(json_path)
     st.write(f"Loaded {len(members)} family members.")
 
-    # Create the family graph.
+    # Create the family graph from the loaded members.
     family_graph = create_family_graph(members)
     st.write(
         f"Graph has {family_graph.number_of_nodes()} nodes and {family_graph.number_of_edges()} edges."
     )
 
+    # Build an interactive graph using Pyvis.
     net = Network(notebook=True, height="700px", width="100%", directed=True)
     net.from_nx(family_graph)
-    # Disable physics since layout is precomputed.
     net.set_options(
         """
     {
@@ -186,14 +187,24 @@ def main():
             }
         },
         "physics": {
-            "enabled": true
+            "enabled": true,
+            "hierarchicalRepulsion": {
+                "centralGravity": 0,
+                "springLength": 100,
+                "springConstant": 0.01,
+                "nodeDistance": 120,
+                "damping": 0.09
+            },
+            "minVelocity": 0.75
         }
     }
     """
     )
 
-    # Save and embed the graph.
+    # Save the interactive graph as HTML.
     net.save_graph("family_graph_interactive.html")
+
+    # Read and embed the HTML file in the Streamlit app.
     html_file = Path("family_graph_interactive.html")
     if html_file.exists():
         with open(html_file, "r", encoding="utf-8") as f:
