@@ -99,6 +99,7 @@ def create_family_graph(members: list[FamilyMember]):
     for member in members:
         key = get_member_key(member)
         house = member.house if member.house else "unknown"
+        generation = member.generation if member.generation else 0
         color = get_color_by_house(house)
         gender = member.gender if member.gender else "Male"
         shape = get_shape_by_gender(gender)
@@ -112,6 +113,7 @@ def create_family_graph(members: list[FamilyMember]):
                 "highlight": {"background": color, "border": "#FFD700"},
             },
             title=metadata,
+            generation=generation,
             data=member.model_dump(),  # Contains generation and other info.
             shape=shape,
             use_physics=False,
