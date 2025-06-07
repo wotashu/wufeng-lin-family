@@ -2302,7 +2302,7 @@
         "target": "Bill Nero"
       },
       {
-        "type": "parent",
+        "type": "child",
         "target": "Bruce Nero"
       }
     ]
