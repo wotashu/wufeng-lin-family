@@ -1,4 +1,4 @@
-from typing import List, Optional, Union
+from typing import List, Optional
 
 from pydantic import BaseModel
 
@@ -11,6 +11,13 @@ class Name(BaseModel):
     english: Optional[str] = None
 
 
+class Relationships(BaseModel):
+    type: str
+    target: str
+    start_date: Optional[str] = None
+    end_date: Optional[str] = None
+
+
 class FamilyMember(BaseModel):
     name: Name
     house: Optional[str] = "Overseas House"
@@ -21,16 +28,7 @@ class FamilyMember(BaseModel):
     death_year: Optional[int] = None
     note: Optional[str] = None
     relation: Optional[str] = None
-    parents: List[Union["FamilyMember", str]] = []  # Allow string or FamilyMember
-    children: List[Union["FamilyMember", str]] = []  # Allow string or FamilyMember
-    spouse: Optional[Union["FamilyMember", str]] = None  # Allow string or FamilyMember
-    former_spouses: List[
-        Union["FamilyMember", str]
-    ] = []  # Allow string or FamilyMember
-    concubines: List[Union["FamilyMember", str]] = []  # Allow string or FamilyMember,
-    concubine_of: Optional[Union["FamilyMember", str]] = (
-        None  # Allow string or FamilyMember
-    )
+    relationships: List[Relationships] = []
     image: Optional[str] = None  # URL or path to image
 
     class Config:
