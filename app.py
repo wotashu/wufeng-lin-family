@@ -66,7 +66,7 @@ def get_color_by_house(house: str) -> str:
         "Upper House": "#d62728",
         "Overseas House": "#9467bd",
     }
-    return house_color_map.get(house, "#000000")
+    return house_color_map.get(house, "#8c564b")
 
 
 def get_shape_by_gender(gender: str) -> str:
@@ -108,7 +108,7 @@ def create_family_graph(members: list[FamilyMember]):
             label=key,
             color={
                 "background": color,
-                "border": "#000000",
+                "border": "#FFFFFF",
                 "highlight": {"background": color, "border": "#FFD700"},
             },
             title=metadata,
@@ -180,7 +180,14 @@ def main():
     )
 
     # Build Pyvis network.
-    net = Network(notebook=True, height="700px", width="100%", directed=True)
+    net = Network(
+        notebook=True,
+        height="700px",
+        width="100%",
+        directed=True,
+        bgcolor="#222222",
+        font_color="white",
+    )
     net.from_nx(family_graph)
 
     # Disable physics since layout is precomputed.
@@ -194,6 +201,9 @@ def main():
                 "color": "#ffffff"
             }
         },
+        "edges": {
+            "color": { "inherit": true }
+        },
         "physics": {
             "enabled": true,
             "hierarchicalRepulsion": {
@@ -204,9 +214,6 @@ def main():
                 "damping": 0.09
             },
             "minVelocity": 0.75
-            },
-        "background": {
-            "color": "#222222"
         }
     }
     """
