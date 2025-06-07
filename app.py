@@ -102,9 +102,6 @@ def create_family_graph(members: list[FamilyMember]):
         color = get_color_by_house(house)
         gender = member.gender if member.gender else "Male"
         shape = get_shape_by_gender(gender)
-        generation = member.generation if member.generation is not None else -1
-        base_size = 20
-        node_size = base_size + (generation * 2)
         metadata = json.dumps(member.model_dump(), ensure_ascii=False, indent=2)
         G.add_node(
             key,
@@ -117,7 +114,6 @@ def create_family_graph(members: list[FamilyMember]):
             title=metadata,
             data=member.model_dump(),  # Contains generation and other info.
             shape=shape,
-            size=node_size,
             use_physics=False,
         )
 
