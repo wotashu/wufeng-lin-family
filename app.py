@@ -60,11 +60,11 @@ def get_color_by_house(house: str) -> str:
     Return a color code based on the house name.
     """
     house_color_map = {
-        "Whole family (before split)": "#00CCFF",  # Blue
-        "Whole family (before split, settled in Wu-feng)": "#1900FF",  # Blue
-        "Upper House": "#B700FF",  # Red
-        "Lower House": "#00FF15",  # Green
-        "Overseas House": "#FF0000",  # Orange
+        "Whole family (before split)": "#1f77b4",
+        "Whole family (before split, settled in Wu-feng)": "#ff7f0e",
+        "Lower House": "#2ca02c",
+        "Upper House": "#d62728",
+        "Overseas House": "#9467bd",
     }
     return house_color_map.get(house, "#000000")
 
