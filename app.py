@@ -86,7 +86,7 @@ def create_family_graph(members: list[FamilyMember]):
     Nodes are added with visual properties reflecting house, gender, and generation.
     Edges are created by iterating over the unified "relationships" array.
     """
-    G = nx.DiGraph()  # directed graph to show arrows for parent->child
+    G = nx.DiGraph()  # directed graph so we can show arrows for parent -> child
 
     # Build alternate key mapping: alternate name -> canonical key.
     alt_mapping = {}
@@ -95,7 +95,7 @@ def create_family_graph(members: list[FamilyMember]):
         for key in get_alternate_keys(member):
             alt_mapping[key] = canon
 
-    # Add nodes. We also adjust size (larger nodes for higher generation values)
+    # Add nodes. Adjust node size based on generation.
     for member in members:
         key = get_member_key(member)
         house = member.house if member.house else "unknown"
@@ -103,11 +103,9 @@ def create_family_graph(members: list[FamilyMember]):
         gender = member.gender if member.gender else "Male"
         shape = get_shape_by_gender(gender)
         generation = member.generation if member.generation is not None else -1
-        # For example, base node size increases with generation
         base_size = 20
         node_size = base_size + (generation * 2)
         metadata = json.dumps(member.model_dump(), ensure_ascii=False, indent=2)
-        # Add the node. (x will later be overridden by layout.)
         G.add_node(
             key,
             label=key,
@@ -117,7 +115,7 @@ def create_family_graph(members: list[FamilyMember]):
                 "highlight": {"background": color, "border": "#FFD700"},
             },
             title=metadata,
-            data=member.model_dump(),  # contains generation, etc.
+            data=member.model_dump(),  # Contains generation and other info.
             shape=shape,
             size=node_size,
             use_physics=False,
@@ -136,10 +134,10 @@ def create_family_graph(members: list[FamilyMember]):
                 target_key = alt_mapping.get(target, target)
             if target_key in G.nodes and target_key != source_key:
                 if rel_type in ["parent", "child_of"]:
-                    # Directed edge from parent to child (arrow enabled).
+                    # For a parent relationship, edge goes from parent to child (arrow enabled).
                     G.add_edge(target_key, source_key, width=4, arrows="to")
                 elif rel_type == "child":
-                    # Edge from child to parent (arrow disabled, for consistency).
+                    # For a child relationship, add edge without arrow.
                     G.add_edge(
                         source_key,
                         target_key,
@@ -147,7 +145,7 @@ def create_family_graph(members: list[FamilyMember]):
                         arrows={"to": {"enabled": False}},
                     )
                 else:
-                    # For spouse, former_spouse, concubine, etc. disable arrow.
+                    # For spouse, former_spouse, concubine, etc., draw a dashed edge without arrow.
                     G.add_edge(
                         source_key,
                         target_key,
@@ -175,22 +173,8 @@ def main():
         f"Graph has {family_graph.number_of_nodes()} nodes and {family_graph.number_of_edges()} edges."
     )
 
-    # Use NetworkX's multipartite layout to position nodes by generation.
-    positions = nx.multipartite_layout(
-        family_graph,
-        subset_key="generation",
-    )
-    # Scale positions and assign to each node in pyvis.
-    scale = 1000
-    # Build pyvis network.
     net = Network(notebook=True, height="700px", width="100%", directed=True)
     net.from_nx(family_graph)
-    for node in net.nodes:
-        pos = positions.get(node["id"], (0, 0))
-        node["x"] = pos[0] * scale
-        node["y"] = pos[1] * scale
-        node["fixed"] = True
-
     # Disable physics since layout is precomputed.
     net.set_options(
         """
@@ -202,7 +186,7 @@ def main():
             }
         },
         "physics": {
-            "enabled": false
+            "enabled": true
         }
     }
     """
