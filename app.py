@@ -178,7 +178,7 @@ def main():
     # Use NetworkX's multipartite layout to position nodes by generation.
     positions = nx.multipartite_layout(
         family_graph,
-        subset_key=lambda n: family_graph.nodes[n]["data"].get("generation", -1),
+        subset_key="generation",
     )
     # Scale positions and assign to each node in pyvis.
     scale = 1000
