@@ -20,7 +20,7 @@ class Relationships(BaseModel):
 
 class FamilyMember(BaseModel):
     name: Name
-    house: Optional[str] = "Overseas House"
+    house: Optional[str] = None
     generation: Optional[int] = None
     gender: Optional[str] = None
     historical_significance: Optional[str] = None
