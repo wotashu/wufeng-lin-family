@@ -2787,6 +2787,14 @@
         "target": "Mimi Nero",
         "start_date": null,
         "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "Bill Nero"
+      },
+      {
+        "type": "parent",
+        "target": "Jane Scovall"
       }
     ]
   },
@@ -2807,6 +2815,63 @@
       {
         "type": "child",
         "target": "Mimi Nero",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "Lee Paolin",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Bill Nero"
+    },
+    "relationships": [
+      {
+        "type": "child",
+        "target": "Bruce Nero",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "spouse",
+        "target": "Jane Scovall",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Jane Scovall"
+    },
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "Bill Nero",
+        "start_date": null,
+        "end_date": null
+      },
+      {
+        "type": "parent",
+        "target": "Bruce Nero",
+        "start_date": null,
+        "end_date": null
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Lee Paolin"
+    },
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "Lynn Nero",
         "start_date": null,
         "end_date": null
       }

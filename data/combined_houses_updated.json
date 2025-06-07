@@ -1625,7 +1625,10 @@
         "generation": 8,
         "house": null,
         "spouse": "Lynn Nero",
-        "parents": [],
+        "parents": [
+            "Bill",
+            "Jane"
+        ],
         "children": [
             "Mimi Nero"
         ]
