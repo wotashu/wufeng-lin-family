@@ -103,7 +103,12 @@ def create_family_graph(members: list[FamilyMember]):
         gender = member.gender if member.gender else "Male"
         shape = get_shape_by_gender(gender)
         metadata = json.dumps(member.model_dump(), ensure_ascii=False, indent=2)
-        formatted_title = f"<pre>{metadata}</pre>"
+        # Wrap in <pre> and style it
+        html_title = f"""
+        <pre style="text-align:left; background-color:#f0f0f0; padding:10px; border-radius:5px; font-family:monospace;">
+        {metadata}
+        </pre>
+        """
         G.add_node(
             key,
             label=key,
@@ -112,7 +117,7 @@ def create_family_graph(members: list[FamilyMember]):
                 "border": "#000000",
                 "highlight": {"background": color, "border": "#FFD700"},
             },
-            title=formatted_title,
+            title=html_title,
             data=member.model_dump(),  # Contains generation and other info.
             shape=shape,
             use_physics=False,
