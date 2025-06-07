@@ -30,6 +30,7 @@ class FamilyMember(BaseModel):
     relation: Optional[str] = None
     relationships: List[Relationships] = []
     image: Optional[str] = None  # URL or path to image
+    links: Optional[List[str]] = None  # List of URLs or paths to additional resources
 
     class Config:
         orm_mode = True
