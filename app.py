@@ -84,11 +84,13 @@ def get_shape_by_gender(gender: str) -> str:
 
 def create_family_graph(members: list[FamilyMember]):
     """
-    Create a NetworkX graph using the new unified relationships model.
-    Nodes are added as before, and edges are created by iterating over the
-    relationships array, using the "type" field to customize edge attributes.
+    Create an undirected NetworkX graph from a list of FamilyMember instances.
+    Nodes are keyed by canonical name and color-coded by house.
+    Parent, child, spouse, former_spouse, concubine, and concubine_of relationships
+    are matched using alternate names.
+    On hover, nodes display full metadata.
     """
-    G = nx.DiGraph()  # Use a directed graph if you want arrows for parent-child
+    G = nx.Graph()
 
     # Build an alternate name mapping: alternate name -> canonical key.
     alt_mapping = {}
@@ -104,56 +106,111 @@ def create_family_graph(members: list[FamilyMember]):
         color = get_color_by_house(house)
         gender = member.gender if member.gender else "Male"
         gender = get_shape_by_gender(gender)
-        generation = member.generation if member.generation is not None else -1
-        # Use generation for vertical positioning (or you can ignore it if using a layout)
-        y_position = 1000 - (generation * 100)
+        generation = member.generation if member.generation else -1
+        y_position = 1000 - (
+            generation * 100
+        )  # Adjust vertical position based on generation
+        # Prepare metadata as pretty JSON for hover tooltip.
+        use_physics = True if member.generation is None else False
         metadata = json.dumps(member.model_dump(), ensure_ascii=False, indent=2)
         G.add_node(
             key,
             label=key,
             color=color,
             title=metadata,
-            data=member.model_dump(),  # contains generation, etc.
+            data=member.model_dump(),
             shape=gender,
             x=y_position,
-            use_physics=True if member.generation is None else False,
+            use_physics=use_physics,
         )
 
-    # Process relationships from the unified "relationships" field.
+    # Connect relationships using alternate mapping.
     for member in members:
-        source_key = get_member_key(member)
-        # Check if the member has the 'relationships' field
-        rels = member.model_dump().get("relationships", [])
-        for rel in rels:
-            rel_type = rel.get("type")
-            target = rel.get("target")
-            # Resolve target using alternate mapping if needed.
-            target_key = target
-            if target_key not in G.nodes:
-                target_key = alt_mapping.get(target, target)
-            if target_key in G.nodes and target_key != source_key:
-                # Parent-child edges: arrow from parent to child.
-                if rel_type in ["parent", "child_of"]:
-                    # If relationship type is "parent" (from child's perspective),
-                    # add edge from target (parent) to source (child).
-                    G.add_edge(target_key, source_key, width=4, arrows="to")
-                # Child edges: arrow disabled (if desired to keep consistency).
-                elif rel_type == "child":
+        child_key = get_member_key(member)
+        # Process parent's relationships.
+        for parent in member.parents:
+            parent_key = parent
+            if parent_key not in G.nodes:
+                parent_key = alt_mapping.get(parent, parent)
+            if parent_key in G.nodes and parent_key != child_key:
+                G.add_edge(parent_key, child_key, width=4, arrows="to")
+        # Process children relationships.
+        for child in member.children:
+            ch_key = child
+            if ch_key not in G.nodes:
+                ch_key = alt_mapping.get(child, child)
+            if ch_key in G.nodes and ch_key != child_key:
+                G.add_edge(
+                    child_key, ch_key, width=4, arrows={"to": {"enabled": False}}
+                )
+        # Process spouse relationship.
+        if member.spouse:
+            if isinstance(member.spouse, str):
+                sp_key = member.spouse
+            else:
+                sp_key = get_member_key(member.spouse)
+            if sp_key not in G.nodes:
+                sp_key = alt_mapping.get(member.spouse, sp_key)
+            if sp_key in G.nodes and sp_key != child_key:
+                G.add_edge(
+                    child_key,
+                    sp_key,
+                    width=2,
+                    dashes=True,
+                    arrows={"to": {"enabled": False}},
+                )
+        # Process former_spouses relationships.
+        if member.former_spouses:
+            for former in member.former_spouses:
+                if isinstance(former, str):
+                    fs_key = former
+                else:
+                    fs_key = get_member_key(former)
+                if fs_key not in G.nodes:
+                    fs_key = alt_mapping.get(former, fs_key)
+                if fs_key in G.nodes and fs_key != child_key:
                     G.add_edge(
-                        source_key,
-                        target_key,
-                        width=4,
+                        child_key,
+                        fs_key,
+                        width=2,
+                        color="black",
+                        dashes=True,
                         arrows={"to": {"enabled": False}},
                     )
-                # For spouse, former_spouse, concubine, etc., disable arrows.
+        # Process concubines relationships.
+        if hasattr(member, "concubines") and member.concubines:
+            # Expecting concubines to be a list.
+            for concubine in member.concubines:
+                if isinstance(concubine, str):
+                    c_key = concubine
                 else:
+                    c_key = get_member_key(concubine)
+                if c_key not in G.nodes:
+                    c_key = alt_mapping.get(concubine, c_key)
+                if c_key in G.nodes and c_key != child_key:
                     G.add_edge(
-                        source_key,
-                        target_key,
+                        child_key,
+                        c_key,
                         width=2,
                         dashes=True,
                         arrows={"to": {"enabled": False}},
                     )
+        # Process concubine_of relationship.
+        if hasattr(member, "concubine_of") and member.concubine_of:
+            if isinstance(member.concubine_of, str):
+                co_key = member.concubine_of
+            else:
+                co_key = get_member_key(member.concubine_of)
+            if co_key not in G.nodes:
+                co_key = alt_mapping.get(member.concubine_of, co_key)
+            if co_key in G.nodes and co_key != child_key:
+                G.add_edge(
+                    child_key,
+                    co_key,
+                    width=2,
+                    dashes=True,
+                    arrows={"to": {"enabled": False}},
+                )
     return G
 
 
