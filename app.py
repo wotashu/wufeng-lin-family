@@ -130,16 +130,26 @@ def create_family_graph(members: list[FamilyMember]):
                 target_key = alt_mapping.get(target, target)
             if target_key in G.nodes and target_key != source_key:
                 if rel_type in ["parent", "child_of"]:
-                    # For a parent relationship, edge goes from parent to child (arrow enabled).
-                    G.add_edge(target_key, source_key, width=4, arrows="to")
+                    # For a parent relationship, get the parent's house color.
+                    parent_house = G.nodes[target_key]["data"].get("house", "unknown")
+                    parent_color = get_color_by_house(parent_house)
+                    # Edge from parent (target_key) to child (source_key) with arrow.
+                    G.add_edge(
+                        target_key, source_key, width=4, arrows="to", color=parent_color
+                    )
                 elif rel_type == "child":
-                    # For a child relationship, add edge without arrow.
+                    # For a child relationship, parent's node is still target_key.
+                    parent_house = G.nodes[target_key]["data"].get("house", "unknown")
+                    parent_color = get_color_by_house(parent_house)
+                    # Edge from child (source_key) to parent (target_key) without arrow.
                     G.add_edge(
                         source_key,
                         target_key,
                         width=4,
                         arrows={"to": {"enabled": False}},
+                        color=parent_color,
                     )
+
                 else:
                     # For spouse, former_spouse, concubine, etc., draw a dashed edge without arrow.
                     G.add_edge(
