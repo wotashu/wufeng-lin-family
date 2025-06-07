@@ -159,7 +159,7 @@ def main():
     )
 
     # Load members.
-    json_path = Path("data/combined_data_relationships.json")
+    json_path = Path("data/cleaned_data.json")
     members = load_family_members(json_path)
     st.write(f"Loaded {len(members)} family members.")
 
