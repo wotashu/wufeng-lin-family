@@ -240,6 +240,23 @@ def main():
     if html_file.exists():
         with open(html_file, "r", encoding="utf-8") as f:
             html_content = f.read()
+
+        # Inject custom CSS to override the frame styles.
+        custom_css = """
+        <style>
+            /* Adjust the pyvis network container */
+            #mynetwork {
+                border: 2px solid #222222;  /* dark border */
+                background-color: #222222;  /* dark background */
+            }
+            body {
+                background-color: #222222;  /* ensure outer background is also dark */
+            }
+        </style>
+        """
+        # Insert the CSS block right before the closing </head> tag.
+        html_content = html_content.replace("</head>", custom_css + "</head>")
+
         components.html(html_content, height=750, scrolling=True)
     else:
         st.write("Interactive graph file not found.")
