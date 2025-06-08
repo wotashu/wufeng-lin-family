@@ -1712,12 +1712,80 @@
         "target": "林獻堂"
       },
       {
+        "type": "spouse",
+        "target": "藤井愛子"
+      },
+      {
+        "type": "child",
+        "target": "林惠美"
+      },
+      {
+        "type": "child",
+        "target": "林晴美"
+      },
+      {
+        "type": "child",
+        "target": "林博正"
+      },
+      {
+        "type": "spouse",
+        "target": "林豔秋"
+      },
+      {
+        "type": "child",
+        "target": "林政吉"
+      },
+      {
         "type": "child",
         "target": "林政光"
       },
       {
         "type": "child",
-        "target": "林博正"
+        "target": "林政忠"
+      },
+      {
+        "type": "child",
+        "target": "林昭汎"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林惠美",
+      "pinyin": "Lín Huì Měi",
+      "english": "Lin Huimei"
+    },
+    "house": "Upper House",
+    "generation": 9,
+    "gender": "Female",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林猶龍"
+      },
+      {
+        "type": "parent",
+        "target": "藤井愛子"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林晴美",
+      "pinyin": "Lín Qíng Měi",
+      "english": "Lin Qingmei"
+    },
+    "house": "Upper House",
+    "generation": 9,
+    "gender": "Female",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林猶龍"
+      },
+      {
+        "type": "parent",
+        "target": "藤井愛子"
       }
     ]
   },
@@ -1743,6 +1811,10 @@
       {
         "type": "child",
         "target": "林承峰"
+      },
+      {
+        "type": "parent",
+        "target": "林豔秋"
       }
     ]
   },
@@ -1792,9 +1864,132 @@
   },
   {
     "name": {
-      "hanzi": "閔開",
-      "pinyin": "Mǐn Kāi",
-      "english": "Min Kai"
+      "hanzi": "林政吉",
+      "pinyin": "Lín Zhèng Ji",
+      "english": "Lin Zhengji "
+    },
+    "house": "Upper House",
+    "generation": 9,
+    "gender": "Male",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林猶龍"
+      },
+      {
+        "type": "parent",
+        "target": "林豔秋"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林政忠",
+      "pinyin": "Lín Zhèngzhōng",
+      "english": "Lin Zhengzhong"
+    },
+    "house": "Upper House",
+    "generation": 9,
+    "gender": "Male",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林猶龍"
+      },
+      {
+        "type": "parent",
+        "target": "林豔秋"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林昭汎",
+      "pinyin": "Lín Zhāofàn",
+      "english": "Lin Zhaofan"
+    },
+    "house": "Upper House",
+    "generation": 9,
+    "gender": "Male",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林猶龍"
+      },
+      {
+        "type": "parent",
+        "target": "林豔秋"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "藤井愛子",
+      "pinyin": "Téngjǐng Àizǐ",
+      "english": "Aiko Fujii"
+    },
+    "house": "Upper House",
+    "generation": 8,
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "林猶龍"
+      },
+      {
+        "type": "parent",
+        "target": "林惠美"
+      },
+      {
+        "type": "parent",
+        "target": "林晴美"
+      },
+      {
+        "type": "parent",
+        "target": "林博正",
+        "note": "Biological son of 林猶龍, heir to the Panlong."
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林豔秋",
+      "pinyin": "Lín Yànqiū",
+      "english": "Lin Yanqiu"
+    },
+    "house": "Upper House",
+    "generation": 8,
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "林猶龍"
+      },
+      {
+        "type": "parent",
+        "target": "林惠美"
+      },
+      {
+        "type": "parent",
+        "target": "林政吉"
+      },
+      {
+        "type": "parent",
+        "target": "林政光"
+      },
+      {
+        "type": "parent",
+        "target": "林政忠"
+      },
+      {
+        "type": "parent",
+        "target": "林昭汎"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林關關",
+      "pinyin": "Lín Guān Guān",
+      "english": "Lin Guanguan"
     },
     "house": "Upper House",
     "generation": 8,
