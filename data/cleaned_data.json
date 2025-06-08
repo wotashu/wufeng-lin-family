@@ -1573,6 +1573,14 @@
       {
         "type": "child",
         "target": "林博正"
+      },
+      {
+        "type": "parent",
+        "target": "林獻堂"
+      },
+      {
+        "type": "parent",
+        "target": "林獻堂妻"
       }
     ],
     "links": [
