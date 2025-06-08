@@ -1452,6 +1452,43 @@
   },
   {
     "name": {
+      "hanzi": "何氏",
+      "pinyin": "Hé Shì",
+      "english": "He Shi"
+    },
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Female",
+    "relation": "Second wife of Lin Ch'ao-hsuan, sister of his first wife [24]",
+    "former_spouse": "林朝崧",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "Mother of Miss Ho (first and second wife)"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "Mother of Miss Ho (first and second wife)"
+    },
+    "house": "Lower House",
+    "generation": 5,
+    "gender": "Female",
+    "relation": "Mother of Lin Ch'ao-hsuan's wives [24]",
+    "relationships": [
+      {
+        "type": "child",
+        "target": "何氏 (first wife)"
+      },
+      {
+        "type": "child",
+        "target": "何氏 (second wife)"
+      }
+    ]
+  },
+  {
+    "name": {
       "hanzi": "Yang family from Chang-hua"
     },
     "generation": 5,
@@ -1767,6 +1804,8 @@
     "house": "Upper House",
     "generation": 8,
     "gender": "Male",
+    "birth_year": 1907,
+    "death_year": 1958,
     "historical_significance": "Son of 林獻堂. Mentioned in the diary [4, 7, 10, 12-15, 17], noted as being involved in the timber business (三振材木商行) [10].",
     "note": "Son of 林獻堂. His involvement in business is mentioned in the diary.",
     "relation": "Son of 林獻堂 and Lin Xiantang's Wife, Brother of 林擧龍 and 林猶龍",
@@ -1781,6 +1820,10 @@
       },
       {
         "type": "child",
+        "target": "林龍雄"
+      },
+      {
+        "type": "child",
         "target": "Eldest Daughter"
       },
       {
@@ -1794,51 +1837,37 @@
       {
         "type": "child",
         "target": "Long Ming Lin"
+      },
+      {
+        "type": "spouse",
+        "target": "楊雪霞"
+      },
+      {
+        "type": "spouse",
+        "target": "林多惠"
       }
     ],
     "image": "img/yunlong.jpg"
   },
   {
     "name": {
-      "hanzi": "何氏",
-      "pinyin": "Hé Shì",
-      "english": "He Shi"
+      "hanzi": "林龍雄",
+      "pinyin": "Lín Lóng Xióng",
+      "english": "Lin Longxiong"
     },
-    "house": "Lower House",
-    "generation": 6,
-    "gender": "Female",
-    "relation": "Second wife of Lin Ch'ao-hsuan, sister of his first wife [24]",
-    "former_spouse": "林朝崧",
+    "house": "Upper House",
+    "generation": 9,
     "relationships": [
       {
         "type": "parent",
-        "target": "Mother of Miss Ho (first and second wife)"
+        "target": "林雲龍"
       }
     ]
   },
   {
     "name": {
-      "hanzi": "Mother of Miss Ho (first and second wife)"
-    },
-    "house": "Lower House",
-    "generation": 5,
-    "gender": "Female",
-    "relation": "Mother of Lin Ch'ao-hsuan's wives [24]",
-    "relationships": [
-      {
-        "type": "child",
-        "target": "何氏 (first wife)"
-      },
-      {
-        "type": "child",
-        "target": "何氏 (second wife)"
-      }
-    ]
-  },
-  {
-    "name": {
-      "hanzi": "林雲龍妻",
-      "english": "Lin Yunlong's Wife"
+      "hanzi": "楊雪霞",
+      "english": "Yang Xuexia"
     },
     "gender": "Female",
     "house": "Upper House",
@@ -1847,18 +1876,40 @@
       {
         "type": "spouse",
         "target": "林雲龍"
+      },
+      {
+        "type": "parent",
+        "target": "梧棲楊子培"
       }
     ]
   },
   {
     "name": {
-      "hanzi": "鈴木竹",
+      "hanzi": "梧棲楊子培",
+      "english": "Yang Zipei of Wuxi"
+    },
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "楊雪霞"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林多惠",
+      "kanji": "鈴木竹",
+      "katakana": "スズキタケ",
       "english": "Suzuki Take"
     },
     "gender": "Female",
     "house": "Upper House",
     "generation": 8,
     "relationships": [
+      {
+        "type": "child",
+        "target": "林龍雄"
+      },
       {
         "type": "child",
         "target": "Eldest Daughter"
@@ -1876,7 +1927,7 @@
         "target": "Long Ming Lin"
       },
       {
-        "type": "concubine_of",
+        "type": "spouse",
         "target": "林雲龍"
       }
     ],
