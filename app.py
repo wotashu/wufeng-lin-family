@@ -1,3 +1,4 @@
+import base64
 import json
 from pathlib import Path
 
@@ -8,6 +9,14 @@ from streamlit.components import v1 as components
 from unidecode import unidecode
 
 from src.models import FamilyMember
+
+
+def encode_local_image(image_path: str) -> str:
+    """Encode image file as a Base64 data URI."""
+    with open(image_path, "rb") as img_file:
+        encoded = base64.b64encode(img_file.read()).decode("utf-8")
+    # Change the MIME type if needed (e.g. image/jpeg)
+    return f"data:image/jpeg;base64,{encoded}"
 
 
 def load_family_members(json_path: Path):
@@ -83,8 +92,7 @@ def get_shape_by_gender(gender: str) -> str:
 def create_family_graph(members: list[FamilyMember]):
     """
     Create a NetworkX graph using the new unified relationships model.
-    Nodes are added with visual properties reflecting house, gender, and generation.
-    Edges are created by iterating over the unified "relationships" array.
+    Nodes are added with visual properties reflecting house, gender, generation, and optionally an image.
     """
     G = nx.DiGraph()  # directed graph so we can show arrows for parent -> child
 
@@ -95,15 +103,26 @@ def create_family_graph(members: list[FamilyMember]):
         for key in get_alternate_keys(member):
             alt_mapping[key] = canon
 
-    # Add nodes. Adjust node size based on generation.
+    # Add nodes.
     for member in members:
         key = get_member_key(member)
         house = member.house if member.house else "unknown"
-        generation = member.generation if member.generation else 0
+        generation = member.generation if member.generation is not None else 0
         color = get_color_by_house(house)
         gender = member.gender if member.gender else "Male"
+        # Default shape from gender.
         shape = get_shape_by_gender(gender)
-        metadata = json.dumps(member.model_dump(), ensure_ascii=False, indent=2)
+
+        # Check if the member has an image (adjust the attribute name as needed)
+        model_data = member.model_dump()
+        image_url = model_data.get("image", None)
+        if image_url:
+            # If the path is local, encode it.
+            if image_url.startswith("http") is False:
+                image_url = encode_local_image(image_url)
+            shape = "image"  # switch to image node shape
+
+        metadata = json.dumps(model_data, ensure_ascii=False, indent=2)
         G.add_node(
             key,
             label=key,
@@ -114,9 +133,10 @@ def create_family_graph(members: list[FamilyMember]):
             },
             title=metadata,
             generation=generation,
-            data=member.model_dump(),  # Contains generation and other info.
+            data=model_data,  # Contains generation and other info.
             shape=shape,
             use_physics=False,
+            image=image_url if image_url else "",
         )
 
     # Process relationships from the unified "relationships" field.
@@ -132,18 +152,14 @@ def create_family_graph(members: list[FamilyMember]):
                 target_key = alt_mapping.get(target, target)
             if target_key in G.nodes and target_key != source_key:
                 if rel_type in ["parent", "child_of"]:
-                    # For a parent relationship, get the parent's house color.
                     parent_house = G.nodes[target_key]["data"].get("house", "unknown")
                     parent_color = get_color_by_house(parent_house)
-                    # Edge from parent (target_key) to child (source_key) with arrow.
                     G.add_edge(
                         target_key, source_key, width=4, arrows="to", color=parent_color
                     )
                 elif rel_type == "child":
-                    # For a child relationship, parent's node is still target_key.
                     parent_house = G.nodes[target_key]["data"].get("house", "unknown")
                     parent_color = get_color_by_house(parent_house)
-                    # Edge from child (source_key) to parent (target_key) without arrow.
                     G.add_edge(
                         source_key,
                         target_key,
@@ -151,9 +167,7 @@ def create_family_graph(members: list[FamilyMember]):
                         arrows={"to": {"enabled": False}},
                         color=parent_color,
                     )
-
                 else:
-                    # For spouse, former_spouse, concubine, etc., draw a dashed edge without arrow.
                     G.add_edge(
                         source_key,
                         target_key,
