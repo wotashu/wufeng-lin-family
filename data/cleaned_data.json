@@ -1572,7 +1572,8 @@
     "relationships": [
       {
         "type": "child",
-        "target": "林博正"
+        "target": "林博正",
+        "note": "Adopted son of 林攀龍, heir to the family business"
       },
       {
         "type": "parent",
