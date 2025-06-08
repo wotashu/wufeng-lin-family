@@ -1452,9 +1452,27 @@
   },
   {
     "name": {
-      "hanzi": "何氏",
+      "hanzi": "何氏 (first wife)",
       "pinyin": "Hé Shì",
-      "english": "He Shi"
+      "english": "He Shi (first wife)"
+    },
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Female",
+    "relation": "First wife of Lin Ch'ao-hsuan, sister of his second wife [24]",
+    "former_spouse": "林朝崧",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "Mother of Miss Ho (first and second wife)"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "何氏 (second wife)",
+      "pinyin": "Hé Shì",
+      "english": "He Shi (second wife)"
     },
     "house": "Lower House",
     "generation": 6,
@@ -1824,11 +1842,11 @@
       },
       {
         "type": "child",
-        "target": "Eldest Daughter"
+        "target": "Lin Chou"
       },
       {
         "type": "child",
-        "target": "Second Daughter"
+        "target": "Lin Mei"
       },
       {
         "type": "child",
@@ -1913,11 +1931,11 @@
       },
       {
         "type": "child",
-        "target": "Eldest Daughter"
+        "target": "Lin Chou"
       },
       {
         "type": "child",
-        "target": "Second Daughter"
+        "target": "Lin Mei"
       },
       {
         "type": "child",
@@ -1937,7 +1955,7 @@
   {
     "name": {
       "hanzi": "長女",
-      "english": "Eldest Daughter"
+      "english": "Lin Chou"
     },
     "generation": 9,
     "house": "Overseas House",
@@ -1963,7 +1981,7 @@
     "relationships": [
       {
         "type": "parent",
-        "target": "Eldest Daughter"
+        "target": "Lin Chou"
       },
       {
         "type": "child",
@@ -2096,7 +2114,7 @@
   {
     "name": {
       "hanzi": "次女",
-      "english": "Second Daughter"
+      "english": "Lin Mei"
     },
     "generation": 9,
     "house": "Overseas House",
@@ -2127,7 +2145,7 @@
     "relationships": [
       {
         "type": "parent",
-        "target": "Second Daughter"
+        "target": "Lin Mei"
       }
     ],
     "image": "img/williamchiang.jpg"
@@ -2146,7 +2164,7 @@
       },
       {
         "type": "parent",
-        "target": "Second Daughter"
+        "target": "Lin Mei"
       },
       {
         "type": "child",
