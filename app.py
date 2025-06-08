@@ -179,6 +179,7 @@ def create_family_graph(members: list[FamilyMember]):
 
 
 def main():
+    st.set_page_config(layout="wide")
     st.title("Family Graph Interactive App")
     st.write(
         "This application displays an interactive family graph based on unified relationships."
