@@ -1972,8 +1972,25 @@
       {
         "type": "child",
         "target": "Sabrina Chen"
+      },
+      {
+        "type": "spouse",
+        "target": "Maria Lim"
       }
-    ]
+    ],
+    "image": "img/jackchen.jpg"
+  },
+  {
+    "name": {
+      "english": "Maria Lim"
+    },
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "Jack Chen"
+      }
+    ],
+    "image": "img/marialim.jpg"
   },
   {
     "name": {
@@ -2130,7 +2147,8 @@
         "type": "child",
         "target": "Eva Chiang"
       }
-    ]
+    ],
+    "image": "img/evanchiang.jpg"
   },
   {
     "name": {
@@ -2193,7 +2211,8 @@
         "type": "child",
         "target": "Shurouq Algusane"
       }
-    ]
+    ],
+    "image": "img/hsinglin.jpg"
   },
   {
     "name": {
@@ -2221,7 +2240,8 @@
         "type": "parent",
         "target": "Hsing Lin"
       }
-    ]
+    ],
+    "image": "img/bassimaalgusane.jpg"
   },
   {
     "name": {
@@ -2243,7 +2263,8 @@
         "type": "child",
         "target": "Maya Spanyol"
       }
-    ]
+    ],
+    "image": "img/shurouqspanyol.jpg"
   },
   {
     "name": {
@@ -2261,7 +2282,8 @@
         "type": "child",
         "target": "Maya Spanyol"
       }
-    ]
+    ],
+    "image": "img/jonspanyol.jpg"
   },
   {
     "name": {
@@ -2280,7 +2302,8 @@
         "type": "parent",
         "target": "Jon Spanyol"
       }
-    ]
+    ],
+    "image": "img/rubyspanyol.jpg"
   },
   {
     "name": {
@@ -2311,7 +2334,8 @@
         "type": "child",
         "target": "Geoffrey Bruce Lin"
       }
-    ]
+    ],
+    "image": "img/longlin.jpg"
   },
   {
     "name": {
@@ -2346,7 +2370,8 @@
         "type": "former_spouse",
         "target": "Long Ming Lin"
       }
-    ]
+    ],
+    "image": "img/mimimero.jpg"
   },
   {
     "name": {
@@ -2371,7 +2396,8 @@
         "type": "parent",
         "target": "Jane Scovall"
       }
-    ]
+    ],
+    "image": "img/brucenero.jpg"
   },
   {
     "name": {
@@ -2392,7 +2418,8 @@
         "type": "parent",
         "target": "Lee Paolin"
       }
-    ]
+    ],
+    "image": "img/lynnnero.jpg"
   },
   {
     "name": {
@@ -2452,7 +2479,8 @@
         "type": "parent",
         "target": "Mimi Nero"
       }
-    ]
+    ],
+    "image": "img/jonathanlin.jpg"
   },
   {
     "name": {
@@ -2479,7 +2507,8 @@
         "type": "child",
         "target": "Teddy Sidor"
       }
-    ]
+    ],
+    "image": "img/kirstinalin.jpg"
   },
   {
     "name": {
@@ -2497,7 +2526,8 @@
         "type": "child",
         "target": "Teddy Sidor"
       }
-    ]
+    ],
+    "image": "img/christiansidor.jpg"
   },
   {
     "name": {
@@ -2516,7 +2546,8 @@
         "type": "parent",
         "target": "Christian Sidor"
       }
-    ]
+    ],
+    "image": "img/teddysidor.jpg"
   },
   {
     "name": {
@@ -2539,7 +2570,8 @@
         "type": "parent",
         "target": "Mimi Nero"
       }
-    ]
+    ],
+    "image": "img/geoffreylin.jpg"
   },
   {
     "name": {
@@ -2553,6 +2585,7 @@
         "type": "spouse",
         "target": "Geoffrey Bruce Lin"
       }
-    ]
+    ],
+    "image": "img/catherinewhite.jpg"
   }
 ]
