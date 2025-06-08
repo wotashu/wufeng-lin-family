@@ -2004,7 +2004,8 @@
         "type": "parent",
         "target": "Jack Chen"
       }
-    ]
+    ],
+    "image": "img/jasonchen.jpg"
   },
   {
     "name": {
@@ -2030,7 +2031,8 @@
         "type": "child",
         "target": "Sage Woon"
       }
-    ]
+    ],
+    "image": "img/sabrinachen.jpg"
   },
   {
     "name": {
@@ -2052,7 +2054,8 @@
         "type": "child",
         "target": "Sage Woon"
       }
-    ]
+    ],
+    "image": "img/chriswoon.jpg"
   },
   {
     "name": {
@@ -2111,7 +2114,8 @@
         "type": "child",
         "target": "Evan Chiang"
       }
-    ]
+    ],
+    "image": "img/disei.jpg"
   },
   {
     "name": {
@@ -2125,7 +2129,8 @@
         "type": "parent",
         "target": "Second Daughter"
       }
-    ]
+    ],
+    "image": "img/williamchiang.jpg"
   },
   {
     "name": {
@@ -2184,7 +2189,8 @@
         "type": "parent",
         "target": "Nanthawan Chai"
       }
-    ]
+    ],
+    "image": "img/evachiang.jpg"
   },
   {
     "name": {
@@ -2226,7 +2232,8 @@
         "type": "parent",
         "target": "Hsing Lin"
       }
-    ]
+    ],
+    "image": "img/talotalgusane.jpg"
   },
   {
     "name": {
