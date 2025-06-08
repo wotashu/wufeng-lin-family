@@ -1,6 +1,0 @@
-[theme]
-primaryColor="#B74BFF"           # your primary color
-backgroundColor="#222222"        # main page background color
-secondaryBackgroundColor="#333333"  # sidebar background color
-textColor="#FFFFFF"              # text color for your app
-font="arial"                # optional: define the font family
