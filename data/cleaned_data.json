@@ -2059,8 +2059,7 @@
         "type": "spouse",
         "target": "林多惠"
       }
-    ],
-    "image": "img/yunlong.jpg"
+    ]
   },
   {
     "name": {
@@ -2142,8 +2141,7 @@
         "type": "spouse",
         "target": "林雲龍"
       }
-    ],
-    "image": "img/suzukitake.jpg"
+    ]
   },
   {
     "name": {
@@ -2188,8 +2186,7 @@
         "type": "spouse",
         "target": "Maria Lim"
       }
-    ],
-    "image": "img/jackchen.jpg"
+    ]
   },
   {
     "name": {
@@ -2200,8 +2197,7 @@
         "type": "spouse",
         "target": "Jack Chen"
       }
-    ],
-    "image": "img/marialim.jpg"
+    ]
   },
   {
     "name": {
@@ -2215,8 +2211,7 @@
         "type": "parent",
         "target": "Jack Chen"
       }
-    ],
-    "image": "img/jasonchen.jpg"
+    ]
   },
   {
     "name": {
@@ -2242,8 +2237,7 @@
         "type": "child",
         "target": "Sage Woon"
       }
-    ],
-    "image": "img/sabrinachen.jpg"
+    ]
   },
   {
     "name": {
@@ -2265,8 +2259,7 @@
         "type": "child",
         "target": "Sage Woon"
       }
-    ],
-    "image": "img/chriswoon.jpg"
+    ]
   },
   {
     "name": {
@@ -2325,8 +2318,7 @@
         "type": "child",
         "target": "Evan Chiang"
       }
-    ],
-    "image": "img/disei.jpg"
+    ]
   },
   {
     "name": {
@@ -2340,8 +2332,7 @@
         "type": "parent",
         "target": "Lin Mei"
       }
-    ],
-    "image": "img/williamchiang.jpg"
+    ]
   },
   {
     "name": {
@@ -2363,8 +2354,7 @@
         "type": "child",
         "target": "Eva Chiang"
       }
-    ],
-    "image": "img/evanchiang.jpg"
+    ]
   },
   {
     "name": {
@@ -2400,8 +2390,7 @@
         "type": "parent",
         "target": "Nanthawan Chai"
       }
-    ],
-    "image": "img/evachiang.jpg"
+    ]
   },
   {
     "name": {
@@ -2428,8 +2417,7 @@
         "type": "child",
         "target": "Shurouq Algusane"
       }
-    ],
-    "image": "img/hsinglin.jpg"
+    ]
   },
   {
     "name": {
@@ -2443,8 +2431,7 @@
         "type": "parent",
         "target": "Hsing Lin"
       }
-    ],
-    "image": "img/talotalgusane.jpg"
+    ]
   },
   {
     "name": {
@@ -2458,8 +2445,7 @@
         "type": "parent",
         "target": "Hsing Lin"
       }
-    ],
-    "image": "img/bassimaalgusane.jpg"
+    ]
   },
   {
     "name": {
@@ -2481,8 +2467,7 @@
         "type": "child",
         "target": "Maya Spanyol"
       }
-    ],
-    "image": "img/shurouqspanyol.jpg"
+    ]
   },
   {
     "name": {
@@ -2500,8 +2485,7 @@
         "type": "child",
         "target": "Maya Spanyol"
       }
-    ],
-    "image": "img/jonspanyol.jpg"
+    ]
   },
   {
     "name": {
@@ -2520,8 +2504,7 @@
         "type": "parent",
         "target": "Jon Spanyol"
       }
-    ],
-    "image": "img/rubyspanyol.jpg"
+    ]
   },
   {
     "name": {
@@ -2552,8 +2535,7 @@
         "type": "child",
         "target": "Geoffrey Bruce Lin"
       }
-    ],
-    "image": "img/longlin.jpg"
+    ]
   },
   {
     "name": {
@@ -2588,8 +2570,7 @@
         "type": "former_spouse",
         "target": "Long Ming Lin"
       }
-    ],
-    "image": "img/miminero.jpg"
+    ]
   },
   {
     "name": {
@@ -2614,8 +2595,7 @@
         "type": "parent",
         "target": "Jane Scovall"
       }
-    ],
-    "image": "img/brucenero.jpg"
+    ]
   },
   {
     "name": {
@@ -2636,8 +2616,7 @@
         "type": "parent",
         "target": "Lee Paolin"
       }
-    ],
-    "image": "img/lynnnero.jpg"
+    ]
   },
   {
     "name": {
@@ -2697,8 +2676,7 @@
         "type": "parent",
         "target": "Mimi Nero"
       }
-    ],
-    "image": "img/jonathanlin.jpg"
+    ]
   },
   {
     "name": {
@@ -2725,8 +2703,7 @@
         "type": "child",
         "target": "Teddy Sidor"
       }
-    ],
-    "image": "img/kristinalin.jpg"
+    ]
   },
   {
     "name": {
@@ -2744,8 +2721,7 @@
         "type": "child",
         "target": "Teddy Sidor"
       }
-    ],
-    "image": "img/christiansidor.jpg"
+    ]
   },
   {
     "name": {
@@ -2764,8 +2740,7 @@
         "type": "parent",
         "target": "Christian Sidor"
       }
-    ],
-    "image": "img/teddysidor.jpg"
+    ]
   },
   {
     "name": {
@@ -2788,8 +2763,7 @@
         "type": "parent",
         "target": "Mimi Nero"
       }
-    ],
-    "image": "img/geoffreylin.jpg"
+    ]
   },
   {
     "name": {
@@ -2803,7 +2777,6 @@
         "type": "spouse",
         "target": "Geoffrey Bruce Lin"
       }
-    ],
-    "image": "img/catherinewhite.jpg"
+    ]
   }
 ]
