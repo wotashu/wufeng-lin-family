@@ -1,0 +1,82 @@
+[
+  {
+    "name": {
+      "hanzi": "林甲寅",
+      "pinyin": "Lín Jiǎyín",
+      "wade_giles": "Lin Chia-yin",
+      "english": "Lin Jiayin",
+      "katakana": "リンジャイン"
+    },
+    "house": "Single House",
+    "generation": 3,
+    "gender": "Male",
+    "historical_significance": "Son of Lin Sun, founder of the famous line in Wu-feng [13], businessman and landlord, died 1839 [14, 15].",
+    "birth_year": 1782,
+    "death_year": 1839,
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "林甲寅妻"
+      },
+      {
+        "type": "parent",
+        "target": "林遜"
+      },
+      {
+        "type": "parent",
+        "target": "黃氏"
+      },
+      {
+        "type": "child",
+        "target": "林定邦"
+      },
+      {
+        "type": "child",
+        "target": "林奠國"
+      },
+      {
+        "type": "child",
+        "target": "林甲寅三子"
+      },
+      {
+        "type": "child",
+        "target": "林甲寅四子"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林甲寅妻",
+      "pinyin": "Lín Jiǎyín Qī",
+      "wade_giles": "Lin Chia-yin Ch'i",
+      "english": "Lin Jiayin Qi",
+      "katakana": "リンジャインチー"
+    },
+    "house": "Single House",
+    "generation": 3,
+    "gender": "Female",
+    "relation": "Wife of Lin Chia-yin [13]",
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "林甲寅"
+      },
+      {
+        "type": "child",
+        "target": "林定邦"
+      },
+      {
+        "type": "child",
+        "target": "林奠國"
+      },
+      {
+        "type": "child",
+        "target": "林甲寅三子"
+      },
+      {
+        "type": "child",
+        "target": "林甲寅四子"
+      }
+    ]
+  }
+]

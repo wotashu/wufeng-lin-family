@@ -1,0 +1,178 @@
+[
+  {
+    "name": {
+      "hanzi": "林石",
+      "pinyin": "Lín Shí",
+      "wade_giles": "Lin Shih",
+      "kanji": "林石",
+      "english": "Lin Shi",
+      "katakana": "リンイシ"
+    },
+    "house": "Before Wu-feng",
+    "generation": 1,
+    "gender": "Male",
+    "historical_significance": "Pioneer ancestor who crossed to Taiwan in 1746 [3], became prosperous, but was implicated and died during the Lin Shuang-wen Rebellion in 1788 [5, 6].",
+    "death_year": 1788,
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "陳氏"
+      },
+      {
+        "type": "child",
+        "target": "林遜"
+      },
+      {
+        "type": "child",
+        "target": "林石二弟"
+      },
+      {
+        "type": "child",
+        "target": "林石三弟"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "陳氏",
+      "pinyin": "Chén Shì",
+      "wade_giles": "Ch'en Shih",
+      "kanji": "陳氏",
+      "english": "Chen Shi",
+      "katakana": "チェンシ"
+    },
+    "house": "Before Wu-feng",
+    "generation": 1,
+    "gender": "Female",
+    "relation": "Wife of Lin Shi [7]",
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "林石"
+      },
+      {
+        "type": "child",
+        "target": "林遜"
+      },
+      {
+        "type": "child",
+        "target": "林石二弟"
+      },
+      {
+        "type": "child",
+        "target": "林石三弟"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林石二弟",
+      "pinyin": "Lín Shí Èr Dì",
+      "wade_giles": "Lin Shih Er Ti",
+      "kanji": "林石二弟",
+      "english": "Lin Shi Er Di",
+      "katakana": "リンシ エルディ"
+    },
+    "house": "Before Wu-feng",
+    "generation": 2,
+    "gender": "Male",
+    "relation": "Second younger brother of Lin Shi [8, 9]",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林石"
+      },
+      {
+        "type": "parent",
+        "target": "陳氏"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林石三弟",
+      "pinyin": "Lín Shí Sān Dì",
+      "wade_giles": "Lin Shih San Ti",
+      "kanji": "林石三弟",
+      "english": "Lin Shi San Di",
+      "katakana": "リンシ サンディ"
+    },
+    "house": "Before Wu-feng",
+    "generation": 2,
+    "gender": "Male",
+    "relation": "Third younger brother of Lin Shi [8, 9]",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林石"
+      },
+      {
+        "type": "parent",
+        "target": "陳氏"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林遜",
+      "pinyin": "Lín Xùn",
+      "wade_giles": "Lin Hsün",
+      "kanji": "林遜",
+      "english": "Lin Xun",
+      "katakana": "リンシュン"
+    },
+    "house": "Before Wu-feng",
+    "generation": 2,
+    "gender": "Male",
+    "historical_significance": "Eldest son of Lin Shi, businessman and peacemaker [10], died young at age 21 in 1780 [10].",
+    "death_year": 1780,
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "黃氏"
+      },
+      {
+        "type": "parent",
+        "target": "林石"
+      },
+      {
+        "type": "parent",
+        "target": "陳氏"
+      },
+      {
+        "type": "child",
+        "target": "林甲寅"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "黃氏",
+      "pinyin": "Huáng Shì",
+      "wade_giles": "Huang Shih",
+      "kanji": "黄氏",
+      "english": "Huang Shi",
+      "katakana": "コウシ"
+    },
+    "house": "Before Wu-feng",
+    "generation": 2,
+    "gender": "Female",
+    "historical_significance": "Widow of Lin Sun, led the family to move to Wu-feng after the rebellion [11], died 1835 [5].",
+    "death_year": 1835,
+    "relation": "Wife/Widow of Lin Sun [12]",
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "林遜"
+      },
+      {
+        "type": "parent",
+        "target": "Clerk in sea-defense prefecture"
+      },
+      {
+        "type": "child",
+        "target": "林甲寅"
+      }
+    ]
+  }
+]

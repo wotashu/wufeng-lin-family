@@ -21,31 +21,50 @@ def encode_local_image(image_path: str) -> str:
 
 def load_family_members(json_path: Path):
     """
-    Load the JSON list file and convert each record into a FamilyMember instance.
+    Load all family member JSON files from the data directory.
+    Returns a list of FamilyMember instances.
     """
-    with open(json_path, "r", encoding="utf-8") as infile:
-        data = json.load(infile)
+    data_dir = Path(json_path)
     members = []
-    for record in data:
+    for json_file in data_dir.rglob("*.json"):
+        if json_file.name == "cleaned_data.json":
+            continue  # Skip the main cleaned file
         try:
-            member = FamilyMember.model_validate(record)
-            members.append(member)
+            with open(json_file, "r", encoding="utf-8") as infile:
+                data = json.load(infile)
+            for record in data:
+                member = FamilyMember.model_validate(record)
+                members.append(member)
         except Exception as e:
-            st.write(f"Error parsing record: {record}\n{e}")
+            st.write(f"Error parsing {json_file.name}: {e}")
     return members
 
 
-def get_member_key(member: FamilyMember) -> str:
+def get_member_key(member: FamilyMember, cannon_key: str | None = None) -> str:
     """
     Get a unique canonical key for the member.
     Prefer name.english; if missing, use pinyin then hanzi.
+    If cannon_key is provided, use that as the primary key.
+    If no names are available, return "missing_name".
     """
+    if cannon_key:
+        names = member.name.model_dump()
+        if cannon_key in names:
+            cannonical_name = names.get(cannon_key, None)
+            if cannonical_name is not None:
+                return cannonical_name
+
+    # Fallback to the best available name.
     if member.name.english:
         return member.name.english
     if member.name.pinyin:
         return unidecode(member.name.pinyin)
     if member.name.hanzi:
         return member.name.hanzi
+    if member.name.wade_giles:
+        return member.name.wade_giles
+    if member.name.kanji:
+        return member.name.kanji
     return "missing_name"
 
 
@@ -68,14 +87,18 @@ def get_color_by_house(house: str) -> str:
     """
     Return a color code based on the house name.
     """
-    house_color_map = {
-        "Whole family (before split)": "#1f77b4",
-        "Whole family (before split, settled in Wu-feng)": "#ff7f0e",
+    house_branch_color_map = {
+        "Before Wu-feng": "#1f77b4",
+        "Single House": "#fff000",
         "Lower House": "#2ca02c",
+        "Wencha Branch": "#bbff00",
+        "Wenming Branch": "#00ffc8",
         "Upper House": "#d62728",
-        "Overseas House": "#9467bd",
+        "Wenfeng Branch": "#ff7b00",
+        "Xiantang Branch": "#f700a5",
+        "Yunlong Branch": "#c688ff",
     }
-    return house_color_map.get(house, "#8c564b")
+    return house_branch_color_map.get(house, "#8c564b")
 
 
 def get_shape_by_gender(gender: str) -> str:
@@ -89,7 +112,9 @@ def get_shape_by_gender(gender: str) -> str:
     return gender_shape_map.get(gender, "square")
 
 
-def create_family_graph(members: list[FamilyMember]):
+def create_family_graph(
+    members: list[FamilyMember], cannon_key: str | None = None
+) -> nx.DiGraph:
     """
     Create a NetworkX graph using the new unified relationships model.
     Nodes are added with visual properties reflecting house, gender, generation, and optionally an image.
@@ -99,16 +124,16 @@ def create_family_graph(members: list[FamilyMember]):
     # Build alternate key mapping: alternate name -> canonical key.
     alt_mapping = {}
     for member in members:
-        canon = get_member_key(member)
+        canon = get_member_key(member, cannon_key)
         for key in get_alternate_keys(member):
             alt_mapping[key] = canon
 
     # Add nodes.
     for member in members:
-        key = get_member_key(member)
-        house = member.house if member.house else "unknown"
+        key = get_member_key(member, cannon_key)
+        house_branch = member.branch or member.house or "unknown"
         generation = member.generation if member.generation is not None else 0
-        color = get_color_by_house(house)
+        color = get_color_by_house(house_branch)
         gender = member.gender if member.gender else "Male"
         # Default shape from gender.
         shape = get_shape_by_gender(gender)
@@ -122,7 +147,7 @@ def create_family_graph(members: list[FamilyMember]):
                 image_url = encode_local_image(image_url)
             shape = "image"  # switch to image node shape
 
-        metadata = json.dumps(model_data, ensure_ascii=False, indent=2)
+        note = member.note
         G.add_node(
             key,
             label=key,
@@ -131,7 +156,7 @@ def create_family_graph(members: list[FamilyMember]):
                 "border": "#FFFFFF",
                 "highlight": {"background": color, "border": "#FFD700"},
             },
-            title=metadata,
+            title=note,
             generation=generation,
             data=model_data,  # Contains generation and other info.
             shape=shape,
@@ -141,7 +166,7 @@ def create_family_graph(members: list[FamilyMember]):
 
     # Process relationships from the unified "relationships" field.
     for member in members:
-        source_key = get_member_key(member)
+        source_key = get_member_key(member, cannon_key)
         rels = member.model_dump().get("relationships", [])
         for rel in rels:
             rel_type = rel.get("type")
@@ -152,14 +177,22 @@ def create_family_graph(members: list[FamilyMember]):
                 target_key = alt_mapping.get(target, target)
             if target_key in G.nodes and target_key != source_key:
                 if rel_type in ["parent", "child_of"]:
-                    parent_house = G.nodes[target_key]["data"].get("house", "unknown")
-                    parent_color = get_color_by_house(parent_house)
+                    parent_branch = G.nodes[source_key]["data"].get("branch", None)
+                    if parent_branch is None:
+                        parent_branch = G.nodes[source_key]["data"].get(
+                            "house", "unknown"
+                        )
+                    parent_color = get_color_by_house(parent_branch)
                     G.add_edge(
                         target_key, source_key, width=4, arrows="to", color=parent_color
                     )
                 elif rel_type == "child":
-                    parent_house = G.nodes[target_key]["data"].get("house", "unknown")
-                    parent_color = get_color_by_house(parent_house)
+                    parent_branch = G.nodes[source_key]["data"].get("branch", None)
+                    if parent_branch is None:
+                        parent_branch = G.nodes[source_key]["data"].get(
+                            "house", "unknown"
+                        )
+                    parent_color = get_color_by_house(parent_branch)
                     G.add_edge(
                         source_key,
                         target_key,
@@ -186,12 +219,19 @@ def main():
     )
 
     # Load members.
-    json_path = Path("data/cleaned_data.json")
+    json_path = Path("data")
     members = load_family_members(json_path)
     st.write(f"Loaded {len(members)} family members.")
 
-    # Create the family graph.
-    family_graph = create_family_graph(members)
+    # Add a radio selector for the canonical key.
+    cannon_key_selected = st.radio(
+        "Select canonical key",
+        ["None", "english", "pinyin", "hanzi", "kanji", "wade_giles", "katakana"],
+    )
+    cannon_key = None if cannon_key_selected == "None" else cannon_key_selected
+
+    # Create the family graph with the cannon_key.
+    family_graph = create_family_graph(members, cannon_key=cannon_key)
     st.write(
         f"Graph has {family_graph.number_of_nodes()} nodes and {family_graph.number_of_edges()} edges."
     )

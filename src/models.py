@@ -21,6 +21,7 @@ class Relationships(BaseModel):
 class FamilyMember(BaseModel):
     name: Name
     house: Optional[str] = None
+    branch: Optional[str] = None
     generation: Optional[int] = None
     gender: Optional[str] = None
     historical_significance: Optional[str] = None

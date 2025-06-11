@@ -1,0 +1,352 @@
+[
+    {
+        "name": {
+            "hanzi": "林文鳳",
+            "pinyin": "Lín Wénfēng",
+            "english": "Lin Wenfeng",
+            "wade_giles": "Lin Wen-feng",
+            "katakana": "リンウェンホウ"
+        },
+        "branch": "Wenfeng Branch",
+        "house": "Upper House",
+        "generation": 5,
+        "gender": "Male",
+        "historical_significance": "Eldest son of Lin Tien-kuo, became leader of the Upper House branch after his father's imprisonment, known for using money and persuasion rather than force [9], died 1882 [9].",
+        "birth_year": 1840,
+        "death_year": 1882,
+        "relationships": [
+            {
+                "type": "parent",
+                "target": "林奠國"
+            },
+            {
+                "type": "parent",
+                "target": "林奠國妻妾"
+            },
+            {
+                "type": "child",
+                "target": "林烈堂"
+            },
+            {
+                "type": "child",
+                "target": "林澄堂"
+            },
+            {
+                "type": "child",
+                "target": "Sons of Lin Wen-feng"
+            }
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "Sons of Lin Wen-feng"
+        },
+        "branch": "Wenfeng Branch",
+        "house": "Upper House",
+        "generation": 6,
+        "gender": "Male",
+        "relation": "Sons of Lin Wen-feng [24]",
+        "relationships": [
+            {
+                "type": "parent",
+                "target": "林文鳳"
+            }
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "林烈堂",
+            "pinyin": "Lín Liètáng",
+            "english": "Lin Lietang",
+            "wade_giles": "Lin Hsien-t'ang",
+            "katakana": "リンリエータン"
+        },
+        "branch": "Wenfeng Branch",
+        "house": "Upper House",
+        "generation": 6,
+        "gender": "Male",
+        "relation": "Son of Lin Wenfeng [37]",
+        "birth_year": 1876,
+        "death_year": 1947,
+        "note": "Japanese-ruled Taichung Office Counselor",
+        "relationships": [
+            {
+                "type": "parent",
+                "target": "林文鳳"
+            },
+            {
+                "type": "child",
+                "target": "林垂拱"
+            },
+            {
+                "type": "child",
+                "target": "林垂珠"
+            }
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "林澄堂",
+            "pinyin": "Lín Chéngtáng",
+            "english": "Lin Chengtang",
+            "wade_giles": "Lin Hsien-t'ang",
+            "katakana": "リンシエンタング"
+        },
+        "branch": "Wenfeng Branch",
+        "house": "Upper House",
+        "generation": 6,
+        "gender": "Male",
+        "relation": "Son of Lin Wenfeng [37]",
+        "relationships": [
+            {
+                "type": "parent",
+                "target": "林文鳳"
+            },
+            {
+                "type": "child",
+                "target": "林垂明"
+            },
+            {
+                "type": "child",
+                "target": "林垂訓"
+            }
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "林垂拱",
+            "pinyin": "Lín Chuí Gǒng",
+            "english": "Lin Chuigong",
+            "wade_giles": "Lin Ch'ui Kung",
+            "katakana": "リンチュイゴン"
+        },
+        "branch": "Wenfeng Branch",
+        "house": "Upper House",
+        "generation": 7,
+        "gender": "Male",
+        "relationships": [
+            {
+                "type": "parent",
+                "target": "林烈堂"
+            }
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "林垂珠",
+            "pinyin": "Lín Chuí Zhū",
+            "english": "Lin Chuizhu",
+            "wade_giles": "Lin Ch'ui Chu",
+            "katakana": "リンチュイジュ"
+        },
+        "branch": "Wenfeng Branch",
+        "house": "Upper House",
+        "generation": 7,
+        "gender": "Male",
+        "relationships": [
+            {
+                "type": "parent",
+                "target": "林烈堂"
+            },
+            {
+                "type": "child",
+                "target": "林育英"
+            }
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "林育英",
+            "pinyin": "Lín Yù Yīng",
+            "english": "Lin Yuyuing",
+            "wade_giles": "Lin Yu Ying",
+            "katakana": "リンユウイン"
+        },
+        "branch": "Wenfeng Branch",
+        "house": "Upper House",
+        "generation": 8,
+        "relationships": [
+            {
+                "type": "parent",
+                "target": "林垂珠"
+            },
+            {
+                "type": "child",
+                "target": "林振廷"
+            }
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "林振廷",
+            "pinyin": "Lín Zhèn Tíng",
+            "english": "Lin Zhenting",
+            "wade_giles": "Lin Ch'en T'ing",
+            "katakana": "リンチェンティン"
+        },
+        "branch": "Wenfeng Branch",
+        "house": "Upper House",
+        "generation": 9,
+        "note": "Founder of Jingxunlou",
+        "gender": "Male",
+        "relationships": [
+            {
+                "type": "parent",
+                "target": "林育英"
+            },
+            {
+                "type": "child",
+                "target": "林帛亨"
+            }
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "林帛亨",
+            "pinyin": "Lín Bó Hēng",
+            "english": "Hans Lin",
+            "wade_giles": "Lin Po-heng",
+            "katakana": "リンボウホウ"
+        },
+        "branch": "Wenfeng Branch",
+        "note": "a Taiwanese racing driver and Elda Formula One race commentator. The Japanese call him 'Fire Fox'. He won the 2005 Asian Formula Renault championship and served as a Formula One race commentator for TVSports and FOX Sports.",
+        "gender": "Male",
+        "generation": 10,
+        "house": "Upper House",
+        "birth_year": 1980,
+        "relationships": [
+            {
+                "type": "spouse",
+                "target": "馮媛甄"
+            },
+            {
+                "type": "parent",
+                "target": "林振廷"
+            },
+            {
+                "type": "child",
+                "target": "Daughter of 林帛亨 and Abby Fung"
+            }
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/2004_Hanss_Lin_FBMW.jpg",
+        "links": [
+            "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%B8%9B%E4%BA%A8"
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "馮媛甄",
+            "pinyin": "Féng Yuán Zhēn",
+            "english": "Abby Fung",
+            "wade_giles": "Fung Yuan-Chen",
+            "katakana": "フジイ アイコ"
+        },
+        "generation": 10,
+        "gender": "Female",
+        "note": "A Taiwanese female artist, she is known as 'Little Lin Chi-ling' for her sweet baby voice and beauty that resembles supermodel Lin Chi-ling.",
+        "birth_year": 1982,
+        "house": "Upper House",
+        "branch": "Wenfeng Branch",
+        "relationships": [
+            {
+                "type": "child",
+                "target": "Daughter of 林帛亨 and Abby Fung"
+            },
+            {
+                "type": "spouse",
+                "target": "林帛亨"
+            }
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Amigo_Feng.JPG",
+        "links": [
+            "https://zh.wikipedia.org/wiki/%E9%A6%AE%E5%AA%9B%E7%94%84"
+        ]
+    },
+    {
+        "name": {
+            "english": "Daughter of 林帛亨 and Abby Fung"
+        },
+        "branch": "Wenfeng Branch",
+        "gender": "Female",
+        "generation": 11,
+        "house": "Upper House",
+        "birth_year": 2018,
+        "relationships": [
+            {
+                "type": "parent",
+                "target": "馮媛甄"
+            },
+            {
+                "type": "parent",
+                "target": "林帛亨"
+            }
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "林澄堂",
+            "pinyin": "Lín Chéngtáng",
+            "english": "Lin Chengtang",
+            "wade_giles": "Lin Hsien-t'ang",
+            "katakana": "リンシエンタング"
+        },
+        "branch": "Wenfeng Branch",
+        "house": "Upper House",
+        "generation": 6,
+        "gender": "Male",
+        "relation": "Son of Lin Wen-feng [37]",
+        "relationships": [
+            {
+                "type": "parent",
+                "target": "林文鳳"
+            },
+            {
+                "type": "child",
+                "target": "林垂明"
+            },
+            {
+                "type": "child",
+                "target": "林垂訓"
+            }
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "林垂明",
+            "pinyin": "Lín Chuí Míng",
+            "english": "Lin Chuiming",
+            "wade_giles": "Lin Ch'ui Ming",
+            "katakana": "リンユウミン"
+        },
+        "branch": "Wenfeng Branch",
+        "house": "Upper House",
+        "generation": 7,
+        "gender": "Male",
+        "relationships": [
+            {
+                "type": "parent",
+                "target": "林澄堂"
+            }
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "林垂訓",
+            "pinyin": "Lín Chuí Xùn",
+            "english": "Lin Chuixun",
+            "wade_giles": "Lin Ch'ui Hsün",
+            "katakana": "リンユウシュン"
+        },
+        "branch": "Wenfeng Branch",
+        "house": "Upper House",
+        "generation": 7,
+        "gender": "Male",
+        "note": "Wufeng Township Mayor",
+        "relationships": [
+            {
+                "type": "parent",
+                "target": "林澄堂"
+            }
+        ]
+    }
+]

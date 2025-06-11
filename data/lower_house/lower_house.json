@@ -1,0 +1,645 @@
+[
+  {
+    "name": {
+      "hanzi": "林定邦",
+      "pinyin": "Lín Dìngbāng",
+      "wade_giles": "Lin Ting-bang",
+      "english": "Lin Dingbang",
+      "katakana": "リンディンバン"
+    },
+    "house": "Lower House",
+    "generation": 4,
+    "gender": "Male",
+    "historical_significance": "Eldest son of Lin Chia-yin, founder of the Lower House lineage [3], local strongman, died 1848 [16].",
+    "birth_year": 1808,
+    "death_year": 1848,
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林甲寅"
+      },
+      {
+        "type": "parent",
+        "target": "林甲寅妻"
+      },
+      {
+        "type": "child",
+        "target": "林文察"
+      },
+      {
+        "type": "child",
+        "target": "林文明"
+      },
+      {
+        "type": "child",
+        "target": "林文彩"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "戴夫人",
+      "pinyin": "Dài Fūrén",
+      "wade_giles": "Tai Fu-jen",
+      "english": "Dai Furen",
+      "katakana": "タイフジン"
+    },
+    "house": "Lower House",
+    "generation": 3,
+    "gender": "Female",
+    "historical_significance": "Mother of Lin Wen-ming, a formidable matriarch who spent years seeking justice for her son [17, 18], died 1883 [18].",
+    "death_year": 1883,
+    "relation": "Wife of Lin Ting-pang [17]",
+    "relationships": [
+      {
+        "type": "child",
+        "target": "林文察"
+      },
+      {
+        "type": "child",
+        "target": "林文明"
+      },
+      {
+        "type": "child",
+        "target": "林文彩"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林文察",
+      "pinyin": "Lín Wénchá",
+      "wade_giles": "Lin Wen-ch'a",
+      "english": "Lin Wencha",
+      "katakana": "リンウェンチャ"
+    },
+    "branch": "Wencha Branch",
+    "house": "Lower House",
+    "generation": 5,
+    "gender": "Male",
+    "historical_significance": "Son of Lin Ting-pang, formidable strongman and General who served the Qing on the mainland and in Taiwan [3, 16], died in battle 1864 [20]. Posthumously granted high honors [20].",
+    "birth_year": 1828,
+    "death_year": 1864,
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "林文察妻妾"
+      },
+      {
+        "type": "parent",
+        "target": "林定邦"
+      },
+      {
+        "type": "parent",
+        "target": "戴夫人"
+      },
+      {
+        "type": "child",
+        "target": "林朝棠"
+      },
+      {
+        "type": "child",
+        "target": "林朝揚"
+      },
+      {
+        "type": "child",
+        "target": "林朝宗"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林文察妻妾",
+      "pinyin": "Lín Wénchá Qīqiè",
+      "wade_giles": "Lin Wen-ch'a Ch'i-ch'ieh",
+      "english": "Lin Wencha Qiqie",
+      "katakana": "リンウェンチャ チーヒェ"
+    },
+    "branch": "Wencha Branch",
+    "house": "Lower House",
+    "generation": 5,
+    "gender": "Female",
+    "relation": "Wife/Concubines of Lin Wencha [21]",
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "林文察"
+      },
+      {
+        "type": "child",
+        "target": "林朝棠"
+      },
+      {
+        "type": "child",
+        "target": "林朝揚"
+      },
+      {
+        "type": "child",
+        "target": "林朝宗"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林文明",
+      "pinyin": "Lín Wénmíng",
+      "wade_giles": "Lin Wen-ming",
+      "english": "Lin Wenming",
+      "katakana": "リンウェンミン"
+    },
+    "branch": "Wenming Branch",
+    "house": "Lower House",
+    "generation": 5,
+    "gender": "Male",
+    "historical_significance": "Son of Lin Ting-pang, strongman known for roughness and violence, died 1870 in Chang-hua yamen [3, 22]. His death led to protracted litigation for the family [23].",
+    "birth_year": 1833,
+    "death_year": 1870,
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "林文明正妻"
+      },
+      {
+        "type": "parent",
+        "target": "林定邦"
+      },
+      {
+        "type": "parent",
+        "target": "戴夫人"
+      },
+      {
+        "type": "child",
+        "target": "林朝昌"
+      },
+      {
+        "type": "child",
+        "target": "林朝崧"
+      },
+      {
+        "type": "child",
+        "target": "林文明其他兒子"
+      },
+      {
+        "type": "child",
+        "target": "林濬堂"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林文明正妻",
+      "pinyin": "Lín Wénmíng Zhèngqī",
+      "wade_giles": "Lin Wen-ming Cheng Ch'i",
+      "english": "Lin Wenming Zhengqi",
+      "katakana": "リンウェンミン セイサイ"
+    },
+    "branch": "Wenming Branch",
+    "house": "Lower House",
+    "generation": 5,
+    "gender": "Female",
+    "historical_significance": "Mother of Lin Ch'ao-hsuan [24], died 1883 [18].",
+    "death_year": 1883,
+    "relation": "Main wife of Lin Wenming [18, 24]",
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "林文明"
+      },
+      {
+        "type": "child",
+        "target": "林朝崧"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林文明妾",
+      "pinyin": "Lín Wénmíng Qiè",
+      "wade_giles": "Lin Wen-ming Ch'ieh",
+      "english": "Lin Wenming Qie",
+      "katakana": "リンウェンミン チェ"
+    },
+    "branch": "Wenming Branch",
+    "house": "Lower House",
+    "generation": 5,
+    "gender": "Female",
+    "relation": "Concubine of Lin Wenming",
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "林文明"
+      },
+      {
+        "type": "child",
+        "target": "林朝昌"
+      },
+      {
+        "type": "child",
+        "target": "林文明其他兒子"
+      },
+      {
+        "type": "child",
+        "target": "林濬堂"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林文彩",
+      "pinyin": "Lín Wéncǎi",
+      "wade_giles": "Lin Wen-ts'ai",
+      "english": "Lin Wencai",
+      "katakana": "リンウェンツァイ"
+    },
+    "house": "Lower House",
+    "generation": 5,
+    "gender": "Male",
+    "relation": "Son of Lin Ting-pang [16]",
+    "historical_significance": "Had descendants, received little from the common estate [25].",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林定邦"
+      },
+      {
+        "type": "parent",
+        "target": "戴夫人"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林朝棠",
+      "pinyin": "Lín Cháodòng",
+      "wade_giles": "Lin Ch'ao-tung",
+      "english": "Lin Chaodong",
+      "katakana": "リンチャオドン"
+    },
+    "branch": "Wencha Branch",
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Male",
+    "historical_significance": "Eldest son of Lin Wen-ch'a, became leader of the Lower House, General who served in the Sino-French war, patron of Liu Ming-ch'uan [3, 26, 28]. Exiled himself to the mainland after 1895 [29], died 1904 [30].",
+    "birth_year": 1851,
+    "death_year": 1904,
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林文察"
+      },
+      {
+        "type": "parent",
+        "target": "林文察妻妾"
+      },
+      {
+        "type": "child",
+        "target": "林季商"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "楊夫人",
+      "pinyin": "Yáng Fūrén",
+      "wade_giles": "Yang Fu-jen",
+      "english": "Yang Furen",
+      "katakana": "ヤンフジン"
+    },
+    "branch": "Wencha Branch",
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Female",
+    "historical_significance": "Wife of Lin Ch'ao-tung, known for strong will and intelligence, rescued her husband during a siege [21, 30, 31].",
+    "relation": "Wife of Lin Ch'ao-tung [21, 30]",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "Notable Chang-hua family"
+      },
+      {
+        "type": "child",
+        "target": "Lin Chi-shang (born after barrenness)"
+      },
+      {
+        "type": "child",
+        "target": "Lin Ch'ao-tung third son"
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Lin Chi-shang (born after barrenness)"
+    },
+    "branch": "Wencha Branch",
+    "house": "Lower House",
+    "generation": 7,
+    "gender": "Male",
+    "relation": "Eldest son of Lin Ch'ao-tung and Mrs. Yang [32]",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林朝棠"
+      },
+      {
+        "type": "parent",
+        "target": "楊夫人"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林朝揚",
+      "pinyin": "Lín Cháoyáng",
+      "wade_giles": "Lin Ch'ao-yang",
+      "english": "Lin Chaoyang",
+      "katakana": "リンチャオヤン"
+    },
+    "branch": "Wencha Branch",
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Male",
+    "relation": "Son of Lin Wen-ch'a [20]",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林文察"
+      },
+      {
+        "type": "parent",
+        "target": "林文察妻妾"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林朝宗",
+      "pinyin": "Lín Cháozōng",
+      "wade_giles": "Lin Ch'ao-tsung",
+      "english": "Lin Chaozong",
+      "katakana": "リンチャオゾン"
+    },
+    "branch": "Wencha Branch",
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Male",
+    "relation": "Son of Lin Wen-ch'a [20]",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林文察"
+      },
+      {
+        "type": "parent",
+        "target": "林文察妻妾"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林朝昌",
+      "pinyin": "Lín Cháochāng",
+      "wade_giles": "Lin Ch'ao-chang",
+      "english": "Lin Chaochang",
+      "katakana": "リンチャオチャン"
+    },
+    "branch": "Wenming Branch",
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Male",
+    "relation": "Eldest son of Lin Wenming [30]",
+    "birth_year": 1853,
+    "death_year": 1914,
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林文明"
+      },
+      {
+        "type": "parent",
+        "target": "林文明妾"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林朝崧",
+      "pinyin": "Lín Cháosōng",
+      "wade_giles": "Lin Ch'ao-sung",
+      "english": "Lin Chaosong",
+      "katakana": "リンチャオソン"
+    },
+    "branch": "Wenming Branch",
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Male",
+    "historical_significance": "Son of Lin Wenming. He was a poet and scholar during the Qing Dynasty and founded the traditional poetry society 'Qingshe' during the Japanese colonial period.",
+    "birth_year": 1859,
+    "death_year": 1909,
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林文明"
+      },
+      {
+        "type": "parent",
+        "target": "林文明正妻"
+      },
+      {
+        "type": "child",
+        "target": "林幼春"
+      }
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/56/Lin_Chaosong.jpg"
+  },
+  {
+    "name": {
+      "hanzi": "林文明其他兒子",
+      "pinyin": "Lín Wénmíng Qítā Érzi",
+      "wade_giles": "Lin Wen-ming Ch'ih-t'a Er-tzu",
+      "english": "Lin Wenming Other Erzi",
+      "katakana": "リンウェンミン キタイ エルズ"
+    },
+    "branch": "Wenming Branch",
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Male",
+    "relation": "Other sons of Lin Wenming (total 6 sons including Ch'ao-ch'ang, Ch'ao-hsuan, Chun-t'ang) [24, 35]",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林文明"
+      },
+      {
+        "type": "parent",
+        "target": "林文明妾"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林濬堂",
+      "pinyin": "Lín Jùntáng",
+      "wade_giles": "Lin Chun-tang",
+      "english": "Lin Juntang",
+      "katakana": "リンジュンタオ"
+    },
+    "branch": "Wenming Branch",
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Male",
+    "historical_significance": "Adopted sixth son of Lin Wenming, poet [36].",
+    "birth_year": 1875,
+    "death_year": 1915,
+    "relation": "Adopted son of Lin Wenming [36]",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林文明"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "何氏 (first wife)",
+      "pinyin": "Hé Shì",
+      "wade_giles": "Ho Shih (first wife)",
+      "english": "He Shi (first wife)",
+      "katakana": "ホシ (ファーストワイフ)"
+    },
+    "branch": "Wenming Branch",
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Female",
+    "relation": "First wife of Lin Ch'ao-hsuan, sister of his second wife [24]",
+    "former_spouse": "林朝崧",
+    "relationships": [
+      {
+        "type": "child",
+        "target": "林幼春"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "何氏 (second wife)",
+      "pinyin": "Hé Shì",
+      "wade_giles": "Ho Shih (second wife)",
+      "english": "He Shi (second wife)",
+      "katakana": "ホシ (セカンドワイフ)"
+    },
+    "branch": "Wenming Branch",
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Female",
+    "relation": "Second wife of Lin Ch'ao-hsuan, sister of his first wife [24]",
+    "former_spouse": "林朝崧",
+    "relationships": [
+      {
+        "type": "child",
+        "target": "林幼春"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林季商",
+      "pinyin": "Lín Jìshāng",
+      "wade_giles": "Lin Chi-shang",
+      "english": "Lin Jishang",
+      "katakana": "リンジショウ"
+    },
+    "branch": "Wencha Branch",
+    "house": "Lower House",
+    "generation": 7,
+    "gender": "Male",
+    "historical_significance": "Son of Lin Ch'ao-tung [20]. Assumed control of his father's assets [39]. Expressed political commitment through military service on the mainland [40]. Born 1878, died 1925 [39].",
+    "birth_year": 1878,
+    "death_year": 1925,
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林朝棠"
+      },
+      {
+        "type": "parent",
+        "target": "楊夫人"
+      },
+      {
+        "type": "parent",
+        "target": "Lin Chi-shang (born after barrenness)"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林資詮",
+      "pinyin": "Lín Zīquán",
+      "wade_giles": "Tzu-ch'uan",
+      "english": "Lin Ziquan",
+      "katakana": "リンズーチュアン"
+    },
+    "branch": "Wencha Branch",
+    "house": "Lower House",
+    "generation": 7,
+    "gender": "Male",
+    "historical_significance": "Second son of Lin Ch'ao-tung, poet [36].",
+    "birth_year": 1877,
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林朝棠"
+      },
+      {
+        "type": "parent",
+        "target": "Lin 文察妾生子"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林幼春",
+      "pinyin": "Lín Yòuchūn",
+      "wade_giles": "Lin Yao-ch'un",
+      "english": "Lin Youchun",
+      "katakana": "リンヨウチュン"
+    },
+    "branch": "Wenming Branch",
+    "house": "Lower House",
+    "generation": 7,
+    "gender": "Male",
+    "historical_significance": "Eldest son of Lin Ch'ao-hsuan, poet and cultural leader [36]. Born 1880, died 1939 [36]. Core member of the Oak Poetry Society [41].",
+    "birth_year": 1880,
+    "death_year": 1939,
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林朝崧"
+      },
+      {
+        "type": "parent",
+        "target": "何氏 (first wife)"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "何氏",
+      "pinyin": "Hé Shì",
+      "wade_giles": "Ho Shih",
+      "english": "He Shi",
+      "katakana": "ホシ"
+    },
+    "branch": "Wenming Branch",
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Female",
+    "relation": "First wife of Lin Ch'ao-hsuan [24]",
+    "former_spouse": "林朝崧",
+    "relationships": [
+      {
+        "type": "child",
+        "target": "林幼春"
+      }
+    ]
+  }
+]

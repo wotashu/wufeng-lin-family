@@ -1,0 +1,224 @@
+[
+  {
+    "name": {
+      "hanzi": "Clerk in sea-defense prefecture"
+    },
+    "generation": 1,
+    "gender": "Male",
+    "historical_significance": "Father of Mrs. Huang, intervened to prevent her departure from Taiwan [12].",
+    "relationships": [
+      {
+        "type": "child",
+        "target": "黃氏"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林甲寅三子"
+    },
+    "generation": 4,
+    "gender": "Male",
+    "relation": "Third son of Lin Chia-yin [14]",
+    "historical_significance": "His descendants were middling farmers or small shopkeepers [14].",
+    "death_year": 1842,
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林甲寅"
+      },
+      {
+        "type": "parent",
+        "target": "林甲寅妻"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林甲寅四子"
+    },
+    "generation": 4,
+    "gender": "Male",
+    "relation": "Fourth son of Lin Chia-yin (adopted) [13]",
+    "historical_significance": "Had a marginal status in the family [13].",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林甲寅"
+      },
+      {
+        "type": "parent",
+        "target": "林甲寅妻"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "Peasant family near Wu-feng"
+    },
+    "generation": 3,
+    "relation": "Family of Mrs. Lo [19]",
+    "relationships": [
+      {
+        "type": "child",
+        "target": "羅夫人"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "Notable Chang-hua family"
+    },
+    "generation": 5,
+    "relation": "Family of Mrs. Yang [30]",
+    "relationships": [
+      {
+        "type": "child",
+        "target": "楊夫人"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "Yang family from Chang-hua"
+    },
+    "generation": 5,
+    "relation": "Family of Lin Hsien-tang's wife [38]",
+    "relationships": [
+      {
+        "type": "child",
+        "target": "林獻堂妻"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "梧棲楊子培",
+      "english": "Yang Zipei of Wuxi"
+    },
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "楊雪霞"
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Maria Lim"
+    },
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "Jack Chen"
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Bruce Nero"
+    },
+    "gender": "Male",
+    "generation": 8,
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "Lynn Nero"
+      },
+      {
+        "type": "child",
+        "target": "Mimi Nero"
+      },
+      {
+        "type": "parent",
+        "target": "Bill Nero"
+      },
+      {
+        "type": "parent",
+        "target": "Jane Scovall"
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Lynn Nero"
+    },
+    "generation": 8,
+    "gender": "Female",
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "Bruce Nero"
+      },
+      {
+        "type": "child",
+        "target": "Mimi Nero"
+      },
+      {
+        "type": "parent",
+        "target": "Lee Paolin"
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Bill Nero"
+    },
+    "relationships": [
+      {
+        "type": "child",
+        "target": "Bruce Nero"
+      },
+      {
+        "type": "spouse",
+        "target": "Jane Scovall"
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Jane Scovall"
+    },
+    "relationships": [
+      {
+        "type": "spouse",
+        "target": "Bill Nero"
+      },
+      {
+        "type": "child",
+        "target": "Bruce Nero"
+      }
+    ]
+  },
+  {
+    "name": {
+      "english": "Lee Paolin"
+    },
+    "relationships": [
+      {
+        "type": "child",
+        "target": "Lynn Nero"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "Mother of Miss Ho (first and second wife)",
+      "pinyin": "Mother of Miss Ho (first and second wife)",
+      "english": "Mother of Miss Ho (first and second wife)"
+    },
+    "generation": 5,
+    "gender": "Female",
+    "relation": "Mother of Lin Ch'ao-hsuan's wives [24]",
+    "relationships": [
+      {
+        "type": "child",
+        "target": "何氏 (first wife)"
+      },
+      {
+        "type": "child",
+        "target": "何氏 (second wife)"
+      }
+    ]
+  }
+]
