@@ -65,6 +65,8 @@ def get_member_key(member: FamilyMember, cannon_key: str | None = None) -> str:
         return member.name.wade_giles
     if member.name.kanji:
         return member.name.kanji
+    if member.name.katakana:
+        return member.name.katakana
     return "missing_name"
 
 
@@ -251,10 +253,14 @@ def main():
         f"Graph has {family_graph.number_of_nodes()} nodes and {family_graph.number_of_edges()} edges."
     )
 
+    plot_height = st.slider(
+        "Select plot height (px)", min_value=200, max_value=1000, value=700
+    )
+
     # Build Pyvis network.
     net = Network(
         notebook=True,
-        height="700px",
+        height=f"{plot_height}px",
         width="100%",
         directed=True,
         bgcolor="#222222",
@@ -313,7 +319,7 @@ def main():
         # Insert the CSS block right before the closing </head> tag.
         html_content = html_content.replace("</head>", custom_css + "</head>")
 
-        components.html(html_content, height=750, scrolling=True)
+        components.html(html_content, height=plot_height + 10, scrolling=True)
     else:
         st.write("Interactive graph file not found.")
 

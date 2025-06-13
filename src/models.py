@@ -9,6 +9,7 @@ class Name(BaseModel):
     pinyin: Optional[str] = None
     wade_giles: Optional[str] = None
     english: Optional[str] = None
+    katakana: Optional[str] = None
 
 
 class Relationships(BaseModel):
