@@ -12,7 +12,7 @@
     "generation": 8,
     "gender": "Male",
     "birth_year": 1907,
-    "death_year": 1958,
+    "death_year": 1959,
     "historical_significance": "Son of 林獻堂. Mentioned in the diary [4, 7, 10, 12-15, 17], noted as being involved in the timber business (三振材木商行) [10].",
     "note": "Son of 林獻堂. His involvement in business is mentioned in the diary.",
     "relation": "Son of 林獻堂 and Lin Xiantang's Wife, Brother of 林擧龍 and 林猶龍",
@@ -23,7 +23,7 @@
       },
       {
         "type": "parent",
-        "target": "林獻堂妻"
+        "target": "楊水心"
       },
       {
         "type": "child",

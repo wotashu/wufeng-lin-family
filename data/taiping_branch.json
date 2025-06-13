@@ -1,0 +1,215 @@
+[
+    {
+        "name": {
+            "hanzi": "林志芳",
+            "pinyin": "Lín Zhìfāng",
+            "wade_giles": "Lin Chih-fang",
+            "kanji": "林志芳",
+            "english": "Lin Zhifang",
+            "katakana": "リンチーファン"
+        },
+        "house": "Before Wu-feng",
+        "branch": "Taiping Branch",
+        "generation": 3,
+        "gender": "Male",
+        "note": "Head of the Taiping Lin family [13]",
+        "relationships": [
+            {
+                "type": "parent",
+                "target": "林隸"
+            },
+            {
+                "type": "parent",
+                "target": "陳氏"
+            },
+            {
+                "type": "child",
+                "target": "林瑞麟"
+            }
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "林瑞麟",
+            "pinyin": "Lín Ruìlín",
+            "wade_giles": "Lin Jui-lin",
+            "kanji": "林瑞麟",
+            "english": "Lin Ruilin",
+            "katakana": "リンルイリン"
+        },
+        "house": "Taiping House",
+        "branch": "Taiping Branch",
+        "generation": 4,
+        "gender": "Male",
+        "relationships": [
+            {
+                "type": "parent",
+                "target": "林志芳"
+            },
+            {
+                "type": "child",
+                "target": "林春旺"
+            }
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "林春旺",
+            "pinyin": "Lín Chūnwàng",
+            "wade_giles": "Lin Ch'un-wang",
+            "kanji": "林春旺",
+            "english": "Lin Chunwang",
+            "katakana": "リンチュンワン"
+        },
+        "house": "Taiping House",
+        "branch": "Taiping Branch",
+        "generation": 5,
+        "gender": "Male",
+        "relationships": [
+            {
+                "type": "parent",
+                "target": "林瑞麟"
+            },
+            {
+                "type": "child",
+                "target": "林垂拱"
+            },
+            {
+                "type": "child",
+                "target": "林垂統"
+            }
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "林垂拱",
+            "pinyin": "Lín Chuígǒng",
+            "wade_giles": "Lin Ch'ui-kung",
+            "kanji": "林垂拱",
+            "english": "Lin Chuigong",
+            "katakana": "リンチュイゴン"
+        },
+        "house": "Taiping House",
+        "branch": "Taiping Branch",
+        "generation": 6,
+        "gender": "Male",
+        "relationships": [
+            {
+                "type": "parent",
+                "target": "林春旺"
+            }
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "林垂統",
+            "pinyin": "Lín Chuítǒng",
+            "wade_giles": "Lin Ch'ui-t'ung",
+            "kanji": "林垂統",
+            "english": "Lin Chuitong",
+            "katakana": "リンチュイトン"
+        },
+        "house": "Taiping House",
+        "branch": "Taiping Branch",
+        "generation": 6,
+        "gender": "Male",
+        "relationships": [
+            {
+                "type": "parent",
+                "target": "林春旺"
+            }
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "林瑞鵬",
+            "pinyin": "Lín Ruìpéng",
+            "wade_giles": "Lin Jui-p'eng",
+            "kanji": "林瑞鵬",
+            "english": "Lin Ruipeng",
+            "katakana": "リンルイペン"
+        },
+        "house": "Taiping House",
+        "branch": "Taiping Branch",
+        "generation": 4,
+        "gender": "Male",
+        "note": "Japanese-ruled Taiping Village Councilor",
+        "relationships": [
+            {
+                "type": "parent",
+                "target": "林志芳"
+            },
+            {
+                "type": "child",
+                "target": "林德和"
+            }
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "林德和",
+            "pinyin": "Lín Chūnwàng",
+            "wade_giles": "Lin Ch'un-wang",
+            "kanji": "林春旺",
+            "english": "Lin Chunwang",
+            "katakana": "リンチュンワン"
+        },
+        "house": "Taiping House",
+        "branch": "Taiping Branch",
+        "generation": 5,
+        "gender": "Male",
+        "note": "Japanese-ruled Taiping Village Councilor",
+        "relationships": [
+            {
+                "type": "parent",
+                "target": "林瑞鵬"
+            }
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "林瑞騰",
+            "pinyin": "Lín Ruìténg",
+            "wade_giles": "Lin Jui-t'eng",
+            "kanji": "林瑞騰",
+            "english": "Lin Ruiteng",
+            "katakana": "リンルイテン"
+        },
+        "house": "Taiping House",
+        "branch": "Taiping Branch",
+        "generation": 4,
+        "gender": "Male",
+        "note": "Japanese-ruled Taiping Village Councilor",
+        "relationships": [
+            {
+                "type": "parent",
+                "target": "林志芳"
+            },
+            {
+                "type": "child",
+                "target": "林春華"
+            }
+        ]
+    },
+    {
+        "name": {
+            "hanzi": "林春華",
+            "pinyin": "Lín Chūnhuá",
+            "wade_giles": "Lin Ch'un-hua",
+            "kanji": "林春華",
+            "english": "Lin Chunhua",
+            "katakana": "リンチュンファ"
+        },
+        "house": "Taiping House",
+        "branch": "Taiping Branch",
+        "generation": 5,
+        "gender": "Male",
+        "note": "Japanese-ruled Taiping Village Councilor",
+        "relationships": [
+            {
+                "type": "parent",
+                "target": "林瑞騰"
+            }
+        ]
+    }
+]

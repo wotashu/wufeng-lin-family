@@ -97,8 +97,9 @@ def get_color_by_house(house: str) -> str:
         "Wenfeng Branch": "#ff7b00",
         "Xiantang Branch": "#f700a5",
         "Yunlong Branch": "#c688ff",
+        "Taiping House": "#b4b1b2",
     }
-    return house_branch_color_map.get(house, "#8c564b")
+    return house_branch_color_map.get(house, "#cacaca")
 
 
 def get_shape_by_gender(gender: str) -> str:
@@ -131,6 +132,7 @@ def create_family_graph(
     # Add nodes.
     for member in members:
         key = get_member_key(member, cannon_key)
+        house = member.house or "unknown"
         house_branch = member.branch or member.house or "unknown"
         generation = member.generation if member.generation is not None else 0
         color = get_color_by_house(house_branch)
@@ -147,7 +149,20 @@ def create_family_graph(
                 image_url = encode_local_image(image_url)
             shape = "image"  # switch to image node shape
 
-        note = member.note
+        note = (
+            f"note: {member.note}"
+            if member.note
+            else member.historical_significance
+            if member.historical_significance
+            else "No additional note"
+        )
+        birth_date = member.birth_year if member.birth_year else ""
+        end_date = member.death_year if member.death_year else ""
+        life_span = (
+            f"dates: ({birth_date} - {end_date})"
+            if birth_date or end_date
+            else "unknown dates"
+        )
         G.add_node(
             key,
             label=key,
@@ -156,7 +171,7 @@ def create_family_graph(
                 "border": "#FFFFFF",
                 "highlight": {"background": color, "border": "#FFD700"},
             },
-            title=note,
+            title=f"{house}\n{life_span}\n{note}",
             generation=generation,
             data=model_data,  # Contains generation and other info.
             shape=shape,

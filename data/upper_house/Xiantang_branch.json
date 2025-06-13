@@ -23,7 +23,7 @@
         "relationships": [
             {
                 "type": "spouse",
-                "target": "林獻堂妻"
+                "target": "楊水心"
             },
             {
                 "type": "parent",
@@ -50,14 +50,16 @@
     {
         "branch": "Xiantang Branch",
         "name": {
-            "hanzi": "林獻堂妻",
-            "pinyin": "Lín Xiàntáng Qī",
-            "wade_giles": "Lin Hsien-t'ang Ch'i",
-            "english": "Lin Xiantang Qi",
-            "katakana": "リンシエンタング チー"
+            "hanzi": "楊水心",
+            "pinyin": "Yáng Shuǐxīn",
+            "wade_giles": "Yang Shui-hsin",
+            "english": "Yang Shuixin",
+            "katakana": "ヤンシュイシン"
         },
         "house": "Upper House",
         "generation": 6,
+        "birth_year": 1882,
+        "death_year": 1957,
         "gender": "Female",
         "relation": "Wife of Lin Hsien-tang (father) [38]",
         "relationships": [
@@ -82,6 +84,8 @@
         },
         "house": "Upper House",
         "generation": 8,
+        "birth_year": 1901,
+        "death_year": 1983,
         "gender": "Male",
         "note": "Son of 林獻堂. Plays an active role assisting his father according to the diary entries.",
         "relation": "Son of 林獻堂 and Lin Xiantang's Wife, Brother of 林猶龍 and 林雲龍",
@@ -97,7 +101,7 @@
             },
             {
                 "type": "parent",
-                "target": "林獻堂妻"
+                "target": "楊水心"
             }
         ],
         "links": [
@@ -117,6 +121,7 @@
         "house": "Upper House",
         "generation": 9,
         "gender": "Male",
+        "birth_year": 1935,
         "historical_significance": "Chairman of Ming Tai Property & Casualty Insurance",
         "relation": "Heir to Lin Panlong, adopted",
         "relationships": [
@@ -172,6 +177,8 @@
         "house": "Upper House",
         "generation": 8,
         "gender": "Male",
+        "birth_year": 1902,
+        "death_year": 1955,
         "historical_significance": "Son of 林獻堂. Frequently mentioned in the diary, involved in family affairs, accompanying his father on visits and trips [4, 7, 8, 10, 12-17]. Noted as being involved in inspecting accounts [10].",
         "note": "Son of 林獻堂. Appears frequently in diary entries, involved in family business/affairs.",
         "relation": "Son of 林獻堂 and Lin Xiantang's Wife, Brother of 林擧龍 and 林猶龍",
@@ -506,7 +513,7 @@
             },
             {
                 "type": "parent",
-                "target": "林獻堂妻"
+                "target": "楊水心"
             }
         ]
     }

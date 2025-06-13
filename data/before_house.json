@@ -24,11 +24,23 @@
       },
       {
         "type": "child",
-        "target": "林石二弟"
+        "target": "林水"
       },
       {
         "type": "child",
-        "target": "林石三弟"
+        "target": "林賴"
+      },
+      {
+        "type": "child",
+        "target": "林隸"
+      },
+      {
+        "type": "child",
+        "target": "林六"
+      },
+      {
+        "type": "child",
+        "target": "林陸"
       }
     ]
   },
@@ -56,22 +68,22 @@
       },
       {
         "type": "child",
-        "target": "林石二弟"
+        "target": "林水"
       },
       {
         "type": "child",
-        "target": "林石三弟"
+        "target": "林賴"
       }
     ]
   },
   {
     "name": {
-      "hanzi": "林石二弟",
-      "pinyin": "Lín Shí Èr Dì",
-      "wade_giles": "Lin Shih Er Ti",
-      "kanji": "林石二弟",
-      "english": "Lin Shi Er Di",
-      "katakana": "リンシ エルディ"
+      "hanzi": "林水",
+      "pinyin": "Lín Shuǐ",
+      "wade_giles": "Lin Shih",
+      "kanji": "林水",
+      "english": "Lin Shui",
+      "katakana": "リンシュイ"
     },
     "house": "Before Wu-feng",
     "generation": 2,
@@ -90,12 +102,12 @@
   },
   {
     "name": {
-      "hanzi": "林石三弟",
-      "pinyin": "Lín Shí Sān Dì",
-      "wade_giles": "Lin Shih San Ti",
-      "kanji": "林石三弟",
-      "english": "Lin Shi San Di",
-      "katakana": "リンシ サンディ"
+      "hanzi": "林賴",
+      "pinyin": "Lín Lài",
+      "wade_giles": "Lin Lai",
+      "kanji": "林賴",
+      "english": "Lin Lai",
+      "katakana": "リンライ"
     },
     "house": "Before Wu-feng",
     "generation": 2,
@@ -141,7 +153,34 @@
       },
       {
         "type": "child",
+        "target": "林瓊瑤"
+      },
+      {
+        "type": "child",
         "target": "林甲寅"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林瓊瑤",
+      "pinyin": "Lín Qióngyáo",
+      "wade_giles": "Lin Ch'iung-yao",
+      "kanji": "林瓊瑤",
+      "english": "Lin Qiongyao",
+      "katakana": "リンチョンヤオ"
+    },
+    "house": "Before Wu-feng",
+    "generation": 3,
+    "gender": "Male",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林遜"
+      },
+      {
+        "type": "parent",
+        "target": "黃氏"
       }
     ]
   },
@@ -172,6 +211,78 @@
       {
         "type": "child",
         "target": "林甲寅"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林隸",
+      "pinyin": "Lín Lì",
+      "wade_giles": "Lin Li",
+      "kanji": "林隸",
+      "english": "Lin Li",
+      "katakana": "リンリ"
+    },
+    "house": "Before Wu-feng",
+    "generation": 2,
+    "gender": "Male",
+    "relation": "Forth younger brother of Lin Shi [8, 9]",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林石"
+      },
+      {
+        "type": "parent",
+        "target": "陳氏"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林六",
+      "pinyin": "Lín Liù",
+      "wade_giles": "Lin Liu",
+      "kanji": "林六",
+      "english": "Lin Liu",
+      "katakana": "リンリュウ"
+    },
+    "house": "Before Wu-feng",
+    "generation": 2,
+    "gender": "Male",
+    "relation": "Fifth younger brother of Lin Shi [8, 9]",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林石"
+      },
+      {
+        "type": "parent",
+        "target": "陳氏"
+      }
+    ]
+  },
+  {
+    "name": {
+      "hanzi": "林陸",
+      "pinyin": "Lín Lù",
+      "wade_giles": "Lin Lu",
+      "kanji": "林陸",
+      "english": "Lin Lu",
+      "katakana": "リンル"
+    },
+    "house": "Before Wu-feng",
+    "generation": 2,
+    "gender": "Male",
+    "relation": "Sixth younger brother of Lin Shi [8, 9]",
+    "relationships": [
+      {
+        "type": "parent",
+        "target": "林石"
+      },
+      {
+        "type": "parent",
+        "target": "陳氏"
       }
     ]
   }
