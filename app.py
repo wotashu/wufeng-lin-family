@@ -89,7 +89,7 @@ def get_color_by_house(house: str) -> str:
     """
     house_branch_color_map = {
         "Before Wu-feng": "#1f77b4",
-        "Taiping House": "#942727",
+        "Taiping Branch": "#942727",
         "Single House": "#fff000",
         "Lower House": "#2ca02c",
         "Wencha Branch": "#bbff00",
