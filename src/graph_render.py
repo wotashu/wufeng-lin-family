@@ -26,6 +26,14 @@ def render_family_graph(
     # Apply layout options.
     if layout_option == "hierarchical":
         net.from_nx(graph)
+
+        # Use the generation attribute to set the hierarchical level
+        for node in net.nodes:
+            # Each node should have a "generation" attribute if provided
+            if "generation" in node:
+                # Assign the generation value to a "level" property.
+                node["level"] = node["generation"]
+
         net.set_options("""
         var options = {
             "layout": {
@@ -35,7 +43,8 @@ def render_family_graph(
                     "nodeSpacing": 100,
                     "treeSpacing": 200,
                     "direction": "UD",
-                    "sortMethod": "hubsize"
+                    "sortMethod": "hubsize",
+                    "parentCentralization": true
                 }
             },
             "physics": {
@@ -93,6 +102,7 @@ def render_family_graph(
             #mynetwork {
                 border: 2px solid #222222;
                 background-color: #222222;
+                margin: 0 auto;
             }
             body {
                 background-color: #222222;

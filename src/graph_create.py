@@ -200,7 +200,11 @@ def create_family_graph(
                     if edge not in spouse_edges:
                         spouse_edges.add(edge)
                         G.add_edge(
-                            source_key, target_key, label="spouse", color="white"
+                            source_key,
+                            target_key,
+                            label="spouse",
+                            color="white",
+                            weight=0.1,
                         )
 
                 else:

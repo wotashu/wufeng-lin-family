@@ -96,6 +96,7 @@
       "hanzi": "梧棲楊子培",
       "english": "Yang Zipei of Wuxi"
     },
+    "generation": 4,
     "relationships": [
       {
         "type": "parent",
@@ -107,6 +108,7 @@
     "name": {
       "english": "Maria Lim"
     },
+    "generation": 10,
     "relationships": [
       {
         "type": "spouse",
@@ -164,6 +166,7 @@
     "name": {
       "english": "Bill Nero"
     },
+    "generation": 7,
     "relationships": [
       {
         "type": "child",
@@ -179,6 +182,7 @@
     "name": {
       "english": "Jane Scovall"
     },
+    "generation": 7,
     "relationships": [
       {
         "type": "spouse",
@@ -194,6 +198,7 @@
     "name": {
       "english": "Lee Paolin"
     },
+    "generation": 7,
     "relationships": [
       {
         "type": "child",
