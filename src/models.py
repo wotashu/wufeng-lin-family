@@ -35,7 +35,7 @@ class FamilyMember(BaseModel):
     links: Optional[List[str]] = None  # List of URLs or paths to additional resources
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 
 FamilyMember.model_rebuild()
