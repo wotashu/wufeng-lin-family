@@ -1,11 +1,10 @@
 from typing import Any
 
 import streamlit as st
-from pymongo import MongoClient
 
 from src.graph_create import load_family_members
 from src.graph_render import render_family_graph
-
+from src.database import load_documents
 
 def main():
     st.set_page_config(layout="wide")
@@ -14,21 +13,7 @@ def main():
         "This application displays an interactive family graph based on unified relationships."
     )
 
-    # Load members.
-    # Get the MongoDB URI from your secrets.toml file
-    mongodb_uri = st.secrets["mongodb"]["uri"]
-
-    # Create a MongoClient instance
-    client = MongoClient(mongodb_uri, tls=True, tlsAllowInvalidCertificates=True)
-
-    # Specify the database and collection names.
-    # These will be created on the first write if they don't exist.
-    db = client["wufeng"]
-    collection = db["members"]
-
-    # Retrieve all documents from the collection
-    documents: list[dict[Any, Any]] = list(collection.find({}))
-
+    documents = load_documents()
     # Now you can use the retrieved documents as needed.
     st.write(f"Retrieved {len(documents)} records from MongoDB.")
 
