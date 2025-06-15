@@ -47,6 +47,17 @@ def member_page():
             branch = st.text_input("Branch")
             generation = st.number_input("Generation", value=1)
             gender = st.selectbox("Gender", options=["Male", "Female", "Other"])
+            birth_year = st.number_input(
+                "Birth Year", min_value=0, max_value=2100, value=0
+            )
+            death_year = st.number_input(
+                "Death Year", min_value=0, max_value=2100, value=0
+            )
+            if death_year < birth_year:
+                st.error("Death year cannot be earlier than birth year.")
+            historical_significance = st.text_input(
+                "Historical Significance (optional)"
+            )
             notes = st.text_area("Notes", height=100)
             relationships = st.text_area(
                 "Relationships (JSON format)",
@@ -65,6 +76,9 @@ def member_page():
                     "branch": branch,
                     "generation": generation,
                     "gender": gender,
+                    "birth_year": birth_year if birth_year > 0 else None,
+                    "death_year": death_year if death_year > 0 else None,
+                    "historical_significance": historical_significance,
                     "notes": notes,
                     "relationships": json.loads(relationships)
                     if relationships
