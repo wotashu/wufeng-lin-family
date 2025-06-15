@@ -4,7 +4,7 @@ This application provides an interactive interface for visualizing and managing 
 
 ## See the application in action
 
-(The url for the app is [here]https://wufeng.streamlit.app/)
+The url for the app is [here](https://wufeng.streamlit.app/)
 
 ## Features
 
