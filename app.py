@@ -7,20 +7,18 @@ from src.graph_render import render_family_graph
 
 def main():
     st.set_page_config(layout="wide")
-    st.title("Family Graph Interactive App")
+    st.title("Wufeng Lin Family Graph Interactive App")
     st.write(
         "This application displays an interactive family graph based on unified relationships."
     )
 
     documents = load_documents()
-    # Now you can use the retrieved documents as needed.
-    st.write(f"Retrieved {len(documents)} records from MongoDB.")
 
     members = load_family_members(documents)
 
     # Add a radio selector for the canonical key.
-    cannon_key_selected = st.radio(
-        "Select canonical key",
+    cannon_key_selected = st.selectbox(
+        "Select canonical name key",
         ["None", "english", "pinyin", "hanzi", "kanji", "wade_giles", "katakana"],
     )
     cannon_key = None if cannon_key_selected == "None" else cannon_key_selected
