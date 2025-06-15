@@ -19,7 +19,7 @@ def main():
     mongodb_uri = st.secrets["mongodb"]["uri"]
 
     # Create a MongoClient instance
-    client = MongoClient(mongodb_uri)
+    client = MongoClient(mongodb_uri, tls=True, tlsAllowInvalidCertificates=True)
 
     # Specify the database and collection names.
     # These will be created on the first write if they don't exist.
