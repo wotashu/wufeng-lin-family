@@ -22,3 +22,5 @@ def load_documents():
 
     # Now you can use the retrieved documents as needed.
     st.write(f"Retrieved {len(documents)} records from MongoDB.")
+
+    return documents

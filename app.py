@@ -1,10 +1,9 @@
-from typing import Any
-
 import streamlit as st
 
+from src.database import load_documents
 from src.graph_create import load_family_members
 from src.graph_render import render_family_graph
-from src.database import load_documents
+
 
 def main():
     st.set_page_config(layout="wide")
