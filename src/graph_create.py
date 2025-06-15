@@ -141,7 +141,7 @@ def create_family_graph(
             if birth_date or end_date
             else "unknown dates"
         )
-        title = f"{house}\n{life_span}\n{note}"
+        title = f"{key}\n{house}\n{life_span}\n{note}"
         G.add_node(
             key,
             label=key,
