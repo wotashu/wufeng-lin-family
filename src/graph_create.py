@@ -201,9 +201,10 @@ def create_family_graph(
                         G.add_edge(
                             source_key,
                             target_key,
-                            label="spouse",
                             color="white",
                             weight=0.1,
+                            dashes=True,
+                            arrows={"to": {"enabled": False}},
                         )
 
                 else:
