@@ -2,6 +2,10 @@
 
 This application provides an interactive interface for visualizing and managing family member data for the Wufeng Lin lineage. Users can view a family graph, add or update member documents stored in MongoDB Atlas, and edit JSON data through a built-in editor.
 
+## See the application in action
+
+(The url for the app is [here]https://wufeng.streamlit.app/)
+
 ## Features
 
 - **Interactive Family Graph:**  
