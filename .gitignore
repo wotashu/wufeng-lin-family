@@ -172,3 +172,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Streamlit
+.streamlit/
+# VS Code
+.vscode/

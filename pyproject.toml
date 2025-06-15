@@ -9,8 +9,10 @@ dependencies = [
     "matplotlib>=3.10.1",
     "networkx>=3.4.2",
     "pydantic>=2.11.3",
+    "pymongo>=4.13.1",
     "pyvis>=0.3.2",
     "rich>=14.0.0",
     "streamlit>=1.44.1",
+    "svr>=0.5",
     "unidecode>=1.4.0",
 ]

@@ -1,9 +1,7 @@
 import base64
-import json
-from pathlib import Path
+from typing import Any
 
 import networkx as nx
-import streamlit as st
 from unidecode import unidecode
 
 from src.models import FamilyMember
@@ -218,22 +216,13 @@ def create_family_graph(
     return G
 
 
-def load_family_members(json_path: Path):
+def load_family_members(documents: list[dict[Any, Any]]):
     """
     Load all family member JSON files from the data directory.
     Returns a list of FamilyMember instances.
     """
-    data_dir = Path(json_path)
     members = []
-    for json_file in data_dir.rglob("*.json"):
-        if json_file.name == "cleaned_data.json":
-            continue  # Skip the main cleaned file
-        try:
-            with open(json_file, "r", encoding="utf-8") as infile:
-                data = json.load(infile)
-            for record in data:
-                member = FamilyMember.model_validate(record)
-                members.append(member)
-        except Exception as e:
-            st.write(f"Error parsing {json_file.name}: {e}")
+    for record in documents:
+        member = FamilyMember.model_validate(record)
+        members.append(member)
     return members

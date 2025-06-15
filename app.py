@@ -1,6 +1,7 @@
-from pathlib import Path
+from typing import Any
 
 import streamlit as st
+from pymongo import MongoClient
 
 from src.graph_create import load_family_members
 from src.graph_render import render_family_graph
@@ -14,9 +15,24 @@ def main():
     )
 
     # Load members.
-    json_path = Path("data")
-    members = load_family_members(json_path)
-    st.write(f"Loaded {len(members)} family members.")
+    # Get the MongoDB URI from your secrets.toml file
+    mongodb_uri = st.secrets["mongodb"]["uri"]
+
+    # Create a MongoClient instance
+    client = MongoClient(mongodb_uri)
+
+    # Specify the database and collection names.
+    # These will be created on the first write if they don't exist.
+    db = client["wufeng"]
+    collection = db["members"]
+
+    # Retrieve all documents from the collection
+    documents: list[dict[Any, Any]] = list(collection.find({}))
+
+    # Now you can use the retrieved documents as needed.
+    st.write(f"Retrieved {len(documents)} records from MongoDB.")
+
+    members = load_family_members(documents)
 
     # Add a radio selector for the canonical key.
     cannon_key_selected = st.radio(
