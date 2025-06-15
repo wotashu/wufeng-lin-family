@@ -141,6 +141,7 @@ def create_family_graph(
             if birth_date or end_date
             else "unknown dates"
         )
+        title = f"{house}\n{life_span}\n{note}"
         G.add_node(
             key,
             label=key,
@@ -149,7 +150,7 @@ def create_family_graph(
                 "border": "#FFFFFF",
                 "highlight": {"background": color, "border": "#FFD700"},
             },
-            title=f"{house}\n{life_span}\n{note}",
+            title=title,
             generation=generation,
             data=model_data,  # Contains generation and other info.
             shape=shape,

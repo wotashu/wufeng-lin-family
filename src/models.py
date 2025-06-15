@@ -36,6 +36,7 @@ class FamilyMember(BaseModel):
 
     class Config:
         from_attributes = True
+        arbitrary_types_allowed = True
 
 
 FamilyMember.model_rebuild()
