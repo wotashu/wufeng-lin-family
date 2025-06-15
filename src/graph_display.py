@@ -17,8 +17,6 @@ def display_page():
     )
 
     documents = load_documents()
-    st.write(f"Object ID for the first member: {documents[0]['_id']}")
-
     members = load_family_members(documents)
 
     # Add a radio selector for the canonical key.
