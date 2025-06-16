@@ -111,6 +111,7 @@ def member_form(
                     "relationships", [{"type": "parent", "target": "unkown"}]
                 ),
                 indent=2,
+                ensure_ascii=False,
             )
             if existing_member
             else '[{"type": "parent", "target": "unkown"}]',
