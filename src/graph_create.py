@@ -110,7 +110,8 @@ def create_family_graph(
     # Add nodes.
     for member in members:
         key = get_member_key(member, cannon_key)
-        house = member.house or "unknown"
+        house = member.house or "unknown house"
+        branch = member.branch or "unknown branch"
         house_branch = member.branch or member.house or "unknown"
         generation = member.generation if member.generation is not None else 0
         color = get_color_by_house(house_branch)
@@ -141,7 +142,7 @@ def create_family_graph(
             if birth_date or end_date
             else "unknown dates"
         )
-        title = f"{key}\n{house}\n{life_span}\n{note}"
+        title = f"{key}\n{house}\n{branch}\n{life_span}\n{note}"
         G.add_node(
             key,
             label=key,
