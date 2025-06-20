@@ -1,5 +1,4 @@
 import json
-from datetime import datetime
 
 import streamlit as st
 from bson import ObjectId
@@ -66,9 +65,7 @@ def member_form(
             "Birth Year",
             min_value=0,
             max_value=2100,
-            value=existing_member.get("birth_year", datetime.now().year)
-            if existing_member
-            else datetime.now().year,
+            value=existing_member.get("birth_year", None) if existing_member else None,
         )
         death_year = st.number_input(
             "Death Year",
@@ -131,7 +128,7 @@ def member_form(
                 "branch": branch,
                 "generation": generation,
                 "gender": gender,
-                "birth_year": birth_year if birth_year > 0 else None,
+                "birth_year": birth_year,
                 "death_year": death_year,
                 "historical_significance": historical_significance,
                 "image": image,
