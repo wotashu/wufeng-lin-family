@@ -101,7 +101,7 @@ def member_form(
         )
         relationships = st.text_area(
             "Relationships (JSON format)",
-            height=100,
+            height=300,
             placeholder='[{"type": "parent", "target": "unkown"}]',
             value=json.dumps(
                 existing_member.get(
