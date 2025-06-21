@@ -150,6 +150,12 @@ def member_page():
     documents = load_documents()
     st.write(f"Object ID for the first member: {documents[0]['_id']}")
 
+    # 1. Extract unique house values
+    all_houses = sorted(
+        {doc.get("house", "Unknown") for doc in documents if doc.get("house")}
+    )
+    house_filter = st.selectbox("Filter by House", options=["All"] + all_houses)
+
     ids = [doc["_id"] for doc in documents]
     members = load_family_members(documents)
 
@@ -160,7 +166,19 @@ def member_page():
     )
     cannon_key = None if cannon_key_selected == "None" else cannon_key_selected
 
-    names = [get_member_key(member, cannon_key) for member in members]
+    # 2. Filter members by house
+    if house_filter != "All":
+        filtered_members = [
+            m for m in members if getattr(m, "house", None) == house_filter
+        ]
+        filtered_ids = [
+            doc["_id"] for doc in documents if doc.get("house") == house_filter
+        ]
+    else:
+        filtered_members = members
+        filtered_ids = ids
+
+    names = [get_member_key(member, cannon_key) for member in filtered_members]
 
     selected_member = st.selectbox(
         "Select a family member",
@@ -182,14 +200,17 @@ def member_page():
         return
 
     selected_index = names.index(selected_member)
-    selected_id = ids[selected_index]
+    selected_id = filtered_ids[selected_index]
     st.write(f"Selected member name: {selected_member}")
     st.write(f"Selected member id: {selected_id}")
 
     if selected_member:
-        # Find the member object based on the selected name
         member = next(
-            (m for m in members if get_member_key(m, cannon_key) == selected_member),
+            (
+                m
+                for m in filtered_members
+                if get_member_key(m, cannon_key) == selected_member
+            ),
             None,
         )
         if member:
@@ -201,9 +222,7 @@ def member_page():
                 form_key=f"update_member_form_{selected_id}",
             )
             if updated_member:
-                # Ensure the _id field is preserved and converted to ObjectId.
                 updated_member["_id"] = ObjectId(selected_id)
-
                 update_document(selected_id, updated_member)
                 st.success("Changes saved successfully!")
                 st.json(updated_member)
