@@ -99,9 +99,16 @@ def member_form(
             height=100,
             value=existing_member.get("note", "") if existing_member else "",
         )
+        relationships_height = st.slider(
+            "Relationships JSON Height",
+            min_value=100,
+            max_value=900,
+            value=300,
+            step=50,
+        )
         relationships = st.text_area(
             "Relationships (JSON format)",
-            height=300,
+            height=relationships_height,
             placeholder='[{"type": "parent", "target": "unkown"}]',
             value=json.dumps(
                 existing_member.get(
