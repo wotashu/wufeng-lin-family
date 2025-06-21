@@ -94,8 +94,8 @@ def member_form(
             links = [link.strip() for link in links.split(",") if link.strip()]
         else:
             links = []
-        notes = st.text_area(
-            "Notes",
+        note = st.text_area(
+            "Note (optional)",
             height=100,
             value=existing_member.get("note", "") if existing_member else "",
         )
@@ -133,7 +133,7 @@ def member_form(
                 "historical_significance": historical_significance,
                 "image": image,
                 "links": links,
-                "notes": notes,
+                "note": note,
                 "relationships": json.loads(relationships)
                 if relationships
                 else [{"type": "parent", "target": "unkown"}],
@@ -178,11 +178,24 @@ def member_page():
         filtered_members = members
         filtered_ids = ids
 
-    names = [get_member_key(member, cannon_key) for member in filtered_members]
+    # Pair each name with its corresponding ID
+    name_id_pairs = list(
+        zip(
+            [get_member_key(member, cannon_key) for member in filtered_members],
+            filtered_ids,
+        )
+    )
+
+    # Sort the pairs by name
+    name_id_pairs.sort(key=lambda x: x[0])
+
+    # Unpack the sorted names and ids
+    sorted_names = [name for name, _id in name_id_pairs]
+    sorted_ids = [_id for name, _id in name_id_pairs]
 
     selected_member = st.selectbox(
         "Select a family member",
-        options=["None", "Add Member"] + names,
+        options=["None", "Add Member"] + sorted_names,
         key="member_selector",
     )
 
@@ -199,8 +212,8 @@ def member_page():
         st.success("New member added successfully!")
         return
 
-    selected_index = names.index(selected_member)
-    selected_id = filtered_ids[selected_index]
+    selected_index = sorted_names.index(selected_member)
+    selected_id = sorted_ids[selected_index]
     st.write(f"Selected member name: {selected_member}")
     st.write(f"Selected member id: {selected_id}")
 
