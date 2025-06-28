@@ -84,3 +84,20 @@ def delete_document(document_id: str):
         st.write(f"Document with ID {document_id} deleted successfully.")
     else:
         st.write(f"No document found with ID {document_id}.")
+
+
+def add_relationship(rel_doc: dict):
+    # Get the MongoDB URI from your secrets.toml file
+    mongodb_uri = st.secrets["mongodb"]["uri"]
+
+    # Create a MongoClient instance
+    client = MongoClient(mongodb_uri)
+
+    # Specify the database and collection names.
+    db = client["wufeng"]
+    relationships_col = db["relationships"]
+
+    # Insert the relationship document into the collection
+    result = relationships_col.insert_one(rel_doc)
+
+    st.write(f"Relationship inserted with ID: {result.inserted_id}")
