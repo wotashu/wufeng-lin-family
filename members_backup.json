@@ -1,0 +1,2380 @@
+[
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b5ff4"
+    },
+    "name": {
+      "hanzi": "林石",
+      "pinyin": "Lín Shí",
+      "wade_giles": "Lin Shih",
+      "kanji": "林石",
+      "english": "Lin Shi",
+      "katakana": "リンイシ"
+    },
+    "house": "Before Wu-feng",
+    "generation": 1,
+    "gender": "Male",
+    "historical_significance": "Pioneer ancestor who crossed to Taiwan in 1746 [3], became prosperous, but was implicated and died during the Lin Shuang-wen Rebellion in 1788 [5, 6].",
+    "death_year": 1788
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b5ff6"
+    },
+    "name": {
+      "hanzi": "林水",
+      "pinyin": "Lín Shuǐ",
+      "wade_giles": "Lin Shih",
+      "kanji": "林水",
+      "english": "Lin Shui",
+      "katakana": "リンシュイ"
+    },
+    "house": "Before Wu-feng",
+    "generation": 2,
+    "gender": "Male",
+    "relation": "Second younger brother of Lin Shi [8, 9]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b5ffc"
+    },
+    "name": {
+      "hanzi": "林六",
+      "pinyin": "Lín Liù",
+      "wade_giles": "Lin Liu",
+      "kanji": "林六",
+      "english": "Lin Liu",
+      "katakana": "リンリュウ"
+    },
+    "house": "Before Wu-feng",
+    "generation": 2,
+    "gender": "Male",
+    "relation": "Fifth younger brother of Lin Shi [8, 9]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b5ffe"
+    },
+    "name": {
+      "hanzi": "Clerk in sea-defense prefecture"
+    },
+    "generation": 1,
+    "gender": "Male",
+    "historical_significance": "Father of Mrs. Huang, intervened to prevent her departure from Taiwan [12]."
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6009"
+    },
+    "name": {
+      "english": "Jane Scovall"
+    },
+    "generation": 7
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b600a"
+    },
+    "name": {
+      "english": "Lee Paolin"
+    },
+    "generation": 7
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6011"
+    },
+    "name": {
+      "hanzi": "林瑞鵬",
+      "pinyin": "Lín Ruìpéng",
+      "wade_giles": "Lin Jui-p'eng",
+      "kanji": "林瑞鵬",
+      "english": "Lin Ruipeng",
+      "katakana": "リンルイペン"
+    },
+    "house": "Taiping House",
+    "branch": "Taiping Branch",
+    "generation": 4,
+    "gender": "Male",
+    "note": "Japanese-ruled Taiping Village Councilor"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6017"
+    },
+    "name": {
+      "hanzi": "林定邦",
+      "pinyin": "Lín Dìngbāng",
+      "wade_giles": "Lin Ting-bang",
+      "english": "Lin Dingbang",
+      "katakana": "リンディンバン"
+    },
+    "house": "Lower House",
+    "generation": 4,
+    "gender": "Male",
+    "historical_significance": "Eldest son of Lin Chia-yin, founder of the Lower House lineage [3], local strongman, died 1848 [16].",
+    "birth_year": 1808,
+    "death_year": 1848
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6018"
+    },
+    "name": {
+      "hanzi": "戴夫人",
+      "pinyin": "Dài Fūrén",
+      "wade_giles": "Tai Fu-jen",
+      "english": "Dai Furen",
+      "katakana": "タイフジン"
+    },
+    "house": "Lower House",
+    "generation": 3,
+    "gender": "Female",
+    "historical_significance": "Mother of Lin Wen-ming, a formidable matriarch who spent years seeking justice for her son [17, 18], died 1883 [18].",
+    "death_year": 1883,
+    "relation": "Wife of Lin Ting-pang [17]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b601b"
+    },
+    "name": {
+      "hanzi": "林文明",
+      "kanji": null,
+      "pinyin": "Lín Wénmíng",
+      "wade_giles": "Lin Wen-ming",
+      "english": "Lin Wenming",
+      "katakana": "リンウェンミン"
+    },
+    "branch": "Wenming Branch",
+    "house": "Lower House",
+    "generation": 5,
+    "gender": "Male",
+    "historical_significance": "Son of Lin Ting-pang, strongman known for roughness and violence, died 1870 in Chang-hua yamen [3, 22]. His death led to protracted litigation for the family [23].",
+    "birth_year": 1833,
+    "death_year": 1870,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/%E6%9E%97%E6%96%87%E6%98%8E%E6%B3%A5%E5%A1%91%E5%83%8F.jpg",
+    "links": null,
+    "note": null,
+    "relation": null
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b601f"
+    },
+    "name": {
+      "hanzi": "林朝棠",
+      "pinyin": "Lín Cháodòng",
+      "wade_giles": "Lin Ch'ao-tung",
+      "english": "Lin Chaodong",
+      "katakana": "リンチャオドン"
+    },
+    "branch": "Wencha Branch",
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Male",
+    "historical_significance": "Eldest son of Lin Wen-ch'a, became leader of the Lower House, General who served in the Sino-French war, patron of Liu Ming-ch'uan [3, 26, 28]. Exiled himself to the mainland after 1895 [29], died 1904 [30].",
+    "birth_year": 1851,
+    "death_year": 1904
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6024"
+    },
+    "name": {
+      "hanzi": "林朝昌",
+      "pinyin": "Lín Cháochāng",
+      "wade_giles": "Lin Ch'ao-chang",
+      "english": "Lin Chaochang",
+      "katakana": "リンチャオチャン"
+    },
+    "branch": "Wenming Branch",
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Male",
+    "relation": "Eldest son of Lin Wenming [30]",
+    "birth_year": 1853,
+    "death_year": 1914
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6025"
+    },
+    "name": {
+      "english": "Lin Chaosong",
+      "hanzi": "林朝崧",
+      "pinyin": "Lín Cháosōng",
+      "kanji": null,
+      "wade_giles": "Lin Ch'ao-sung",
+      "katakana": "リンチャオソン"
+    },
+    "branch": "Wenming Branch",
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Male",
+    "historical_significance": "Son of Lin Wenming. He was a poet and scholar during the Qing Dynasty and founded the traditional poetry society 'Qingshe' during the Japanese colonial period.",
+    "birth_year": 1859,
+    "death_year": 1909,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/56/Lin_Chaosong.jpg",
+    "links": [
+      "https://zh.wikipedia.org/wiki/%E6%9E%97%E6%9C%9D%E5%B4%A7"
+    ],
+    "notes": null
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6026"
+    },
+    "name": {
+      "hanzi": "林文明其他兒子",
+      "pinyin": "Lín Wénmíng Qítā Érzi",
+      "wade_giles": "Lin Wen-ming Ch'ih-t'a Er-tzu",
+      "english": "Lin Wenming Other Erzi",
+      "katakana": "リンウェンミン キタイ エルズ"
+    },
+    "branch": "Wenming Branch",
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Male",
+    "relation": "Other sons of Lin Wenming (total 6 sons including Ch'ao-ch'ang, Ch'ao-hsuan, Chun-t'ang) [24, 35]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b602a"
+    },
+    "name": {
+      "english": "Lin Jishang",
+      "hanzi": "林季商",
+      "pinyin": "Lín Jìshāng",
+      "kanji": "林資鏗",
+      "wade_giles": "Lin Chi-shang",
+      "katakana": "リンシコウ"
+    },
+    "branch": "Wencha Branch",
+    "house": "Lower House",
+    "generation": 7,
+    "gender": "Male",
+    "historical_significance": "Son of Lin Ch'ao-tung [20]. Assumed control of his father's assets [39]. Expressed political commitment through military service on the mainland [40]. Born 1878, died 1925 [39].",
+    "birth_year": 1878,
+    "death_year": 1925,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/%E6%9E%97%E7%A5%96%E5%AF%86%E8%82%96%E5%83%8F.jpg",
+    "links": [
+      "https://zh.wikipedia.org/wiki/%E6%9E%97%E8%B3%87%E9%8F%97"
+    ],
+    "notes": null
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b602c"
+    },
+    "name": {
+      "english": "Lin Youchun",
+      "hanzi": "林幼春",
+      "pinyin": "Lín Yòuchūn",
+      "kanji": null,
+      "wade_giles": "Lin Yao-ch'un",
+      "katakana": "リンヨウチュン"
+    },
+    "branch": "Wenming Branch",
+    "house": "Lower House",
+    "generation": 7,
+    "gender": "Male",
+    "historical_significance": "Eldest son of Lin Ch'ao-hsuan, poet and cultural leader [36]. Born 1880, died 1939 [36]. Core member of the Oak Poetry Society [41].",
+    "birth_year": 1880,
+    "death_year": 1939,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/Lim_Iu-chhun_%28Jin-bun_Hoe-chui%29.jpg",
+    "links": [
+      "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%B9%BC%E6%98%A5"
+    ],
+    "notes": null
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6032"
+    },
+    "name": {
+      "hanzi": "羅夫人",
+      "pinyin": "Luó Fūrén",
+      "english": "Luo Furen",
+      "wade_giles": "Luo Fu-ren",
+      "katakana": "ロウフジン"
+    },
+    "house": "Upper House",
+    "generation": 4,
+    "gender": "Female",
+    "historical_significance": "Matriarch of the Upper House, known for warmth, generosity, and compassion [19], died 1921 [19].",
+    "birth_year": 1832,
+    "death_year": 1921,
+    "relation": "Concubine/Main wife of Lin Tien-kuo [17, 19]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6033"
+    },
+    "name": {
+      "hanzi": "林文典",
+      "pinyin": "Lín Wéndiǎn",
+      "english": "Lin Wendian",
+      "wade_giles": "Lin Wen-t'ian",
+      "katakana": "リンウェンディエン"
+    },
+    "house": "Upper House",
+    "generation": 5,
+    "gender": "Male",
+    "historical_significance": "Son of Lin Tien-kuo, disdained formal learning [1], died young in 1877 [1].",
+    "birth_year": 1852,
+    "death_year": 1877
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6036"
+    },
+    "name": {
+      "hanzi": "林文欽繼妻",
+      "pinyin": "Lín Wénqīn Jì Qī",
+      "wade_giles": "Lin Wen-ch'in Chi Ch'i",
+      "english": "Lin Wenqin Ji Qi",
+      "katakana": "リンウェンチン ジチー"
+    },
+    "house": "Upper House",
+    "generation": 5,
+    "gender": "Female",
+    "relation": "Second wife of Lin Wen-ch'in [19]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6037"
+    },
+    "name": {
+      "hanzi": "林文欽妾",
+      "pinyin": "Lín Wénqīn Qiè",
+      "wade_giles": "Lin Wen-ch'in Ch'ieh",
+      "english": "Lin Wenqin Qie",
+      "katakana": "リンウェンチン チェ"
+    },
+    "house": "Upper House",
+    "generation": 5,
+    "gender": "Female",
+    "relation": "Concubine of Lin Wen-ch'in [19]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6038"
+    },
+    "name": {
+      "hanzi": "林文欽其他兒子",
+      "pinyin": "Lín Wénqīn Qítā Érzi",
+      "wade_giles": "Lin Wen-ch'in Ch'ih-t'a Er-tzu",
+      "english": "Lin Wenqin Qita Erzi",
+      "katakana": "リンウェンチン キタイ エルズ"
+    },
+    "house": "Upper House",
+    "generation": 6,
+    "gender": "Male",
+    "relation": "Other sons of Lin Wen-ch'in [19]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6039"
+    },
+    "name": {
+      "english": "Lin Jitang",
+      "hanzi": "林紀堂",
+      "pinyin": "Lín Jìtáng",
+      "kanji": null,
+      "wade_giles": "Lin Ch'eng-t'ang",
+      "katakana": "リンキトウ"
+    },
+    "house": "Upper House",
+    "generation": 6,
+    "gender": "Male",
+    "note": "A scholar in the Qing dynasty The head of the Japanese-ruled Wufeng Village",
+    "relation": "Son of Lin Wen-tien [37]",
+    "birth_year": 1874,
+    "branch": null,
+    "death_year": 1922,
+    "historical_significance": null,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/%E6%9E%97%E7%B4%80%E5%A0%82%E8%82%96%E5%83%8F.jpg",
+    "links": [
+      "https://zh.wikipedia.org/wiki/%E6%9E%97%E7%B4%80%E5%A0%82"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6043"
+    },
+    "branch": "Xiantang Branch",
+    "name": {
+      "hanzi": "林惠美",
+      "pinyin": "Lín Huì Měi",
+      "english": "Lin Huimei",
+      "wade_giles": "Lin Hui-mei",
+      "katakana": "リンホイメイ"
+    },
+    "house": "Upper House",
+    "generation": 9,
+    "gender": "Female"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6048"
+    },
+    "branch": "Xiantang Branch",
+    "name": {
+      "hanzi": "林政吉",
+      "pinyin": "Lín Zhèng Ji",
+      "english": "Lin Zhengji",
+      "wade_giles": "Lin Ch'eng-chi",
+      "katakana": "リンチェンジ"
+    },
+    "house": "Upper House",
+    "generation": 9,
+    "gender": "Male"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b604b"
+    },
+    "branch": "Xiantang Branch",
+    "name": {
+      "hanzi": "藤井愛子",
+      "pinyin": "Téngjǐng Àizǐ",
+      "english": "Aiko Fujii",
+      "wade_giles": "Feng Ai-tzu",
+      "katakana": "フジイ アイコ"
+    },
+    "house": "Upper House",
+    "generation": 8
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b604c"
+    },
+    "branch": "Xiantang Branch",
+    "name": {
+      "hanzi": "林豔秋",
+      "pinyin": "Lín Yànqiū",
+      "english": "Lin Yanqiu",
+      "wade_giles": "Lin Yan-ch'iu",
+      "katakana": "リンヤンチウ"
+    },
+    "house": "Upper House",
+    "generation": 8
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b604d"
+    },
+    "branch": "Xiantang Branch",
+    "name": {
+      "hanzi": "林關關",
+      "pinyin": "Lín Guān Guān",
+      "english": "Lin Guanguan",
+      "wade_giles": "Lin Kuan-kuan",
+      "katakana": "リングァングァン"
+    },
+    "house": "Upper House",
+    "generation": 8,
+    "gender": "Female",
+    "historical_significance": "Daughter of 林獻堂, mentioned in the diary as being involved in family matters and receiving gifts [4, 7, 10, 12-15, 17].",
+    "note": "Daughter of 林獻堂. Involved in family matters, mentioned in diary entries.",
+    "relation": "Daughter of 林獻堂 and Lin Xiantang's Wife"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b604e"
+    },
+    "name": {
+      "hanzi": "林文鳳",
+      "pinyin": "Lín Wénfēng",
+      "english": "Lin Wenfeng",
+      "wade_giles": "Lin Wen-feng",
+      "katakana": "リンウェンホウ"
+    },
+    "branch": "Wenfeng Branch",
+    "house": "Upper House",
+    "generation": 5,
+    "gender": "Male",
+    "historical_significance": "Eldest son of Lin Tien-kuo, became leader of the Upper House branch after his father's imprisonment, known for using money and persuasion rather than force [9], died 1882 [9].",
+    "birth_year": 1840,
+    "death_year": 1882
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6052"
+    },
+    "name": {
+      "hanzi": "林垂拱",
+      "pinyin": "Lín Chuí Gǒng",
+      "english": "Lin Chuigong",
+      "wade_giles": "Lin Ch'ui Kung",
+      "katakana": "リンチュイゴン"
+    },
+    "branch": "Wenfeng Branch",
+    "house": "Upper House",
+    "generation": 7,
+    "gender": "Male"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6055"
+    },
+    "name": {
+      "hanzi": "林振廷",
+      "pinyin": "Lín Zhèn Tíng",
+      "english": "Lin Zhenting",
+      "wade_giles": "Lin Ch'en T'ing",
+      "katakana": "リンチェンティン"
+    },
+    "branch": "Wenfeng Branch",
+    "house": "Upper House",
+    "generation": 9,
+    "note": "Founder of Jingxunlou",
+    "gender": "Male"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6058"
+    },
+    "name": {
+      "english": "Daughter of 林帛亨 and Abby Fung"
+    },
+    "branch": "Wenfeng Branch",
+    "gender": "Female",
+    "generation": 11,
+    "house": "Upper House",
+    "birth_year": 2018
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b605c"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "hanzi": "林雲龍",
+      "pinyin": "Lín Yúnlóng",
+      "english": "Lin Yunlong",
+      "wade_giles": "Lin Yun-lung",
+      "katakana": "リンユンロン"
+    },
+    "house": "Upper House",
+    "generation": 8,
+    "gender": "Male",
+    "birth_year": 1907,
+    "death_year": 1959,
+    "historical_significance": "Son of 林獻堂. Mentioned in the diary [4, 7, 10, 12-15, 17], noted as being involved in the timber business (三振材木商行) [10].",
+    "note": "Son of 林獻堂. His involvement in business is mentioned in the diary.",
+    "relation": "Son of 林獻堂 and Lin Xiantang's Wife, Brother of 林擧龍 and 林猶龍"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b605e"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "hanzi": "林多惠",
+      "pinyin": "Lín Duō Huì",
+      "wade_giles": "Lin To-hui",
+      "taiwanese_hokkien": "Lîm To-hūi",
+      "kanji": "鈴木竹",
+      "katakana": "スズキタケ",
+      "english": "Suzuki Take"
+    },
+    "gender": "Female",
+    "house": "Upper House",
+    "generation": 8
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b605f"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "hanzi": "林龍雄",
+      "pinyin": "Lín Lóng Xióng",
+      "english": "Lin Longxiong",
+      "wade_giles": "Lin Lung-hsiung",
+      "katakana": "リンロンシュン"
+    },
+    "house": "Upper House",
+    "generation": 9
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6066"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "english": "Sage Woon"
+    },
+    "gender": "Male",
+    "generation": 12,
+    "house": "Upper House"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6074"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "english": "Jonathan Long Lin",
+      "hanzi": null,
+      "pinyin": null,
+      "kanji": null,
+      "wade_giles": null,
+      "katakana": "リン　ジョナサン　ロング"
+    },
+    "gender": "Male",
+    "generation": 10,
+    "house": "Upper House",
+    "birth_year": 1982,
+    "death_year": null,
+    "historical_significance": null,
+    "image": null,
+    "links": []
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b5ff8"
+    },
+    "name": {
+      "hanzi": "林遜",
+      "pinyin": "Lín Xùn",
+      "wade_giles": "Lin Hsün",
+      "kanji": "林遜",
+      "english": "Lin Xun",
+      "katakana": "リンシュン"
+    },
+    "house": "Before Wu-feng",
+    "generation": 2,
+    "gender": "Male",
+    "historical_significance": "Eldest son of Lin Shi, businessman and peacemaker [10], died young at age 21 in 1780 [10].",
+    "death_year": 1780
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b5ffa"
+    },
+    "name": {
+      "hanzi": "黃氏",
+      "pinyin": "Huáng Shì",
+      "wade_giles": "Huang Shih",
+      "kanji": "黄氏",
+      "english": "Huang Shi",
+      "katakana": "コウシ"
+    },
+    "house": "Before Wu-feng",
+    "generation": 2,
+    "gender": "Female",
+    "historical_significance": "Widow of Lin Sun, led the family to move to Wu-feng after the rebellion [11], died 1835 [5].",
+    "death_year": 1835,
+    "relation": "Wife/Widow of Lin Sun [12]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b5fff"
+    },
+    "name": {
+      "hanzi": "林甲寅三子"
+    },
+    "generation": 4,
+    "gender": "Male",
+    "relation": "Third son of Lin Chia-yin [14]",
+    "historical_significance": "His descendants were middling farmers or small shopkeepers [14].",
+    "death_year": 1842
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6001"
+    },
+    "name": {
+      "hanzi": "Peasant family near Wu-feng"
+    },
+    "generation": 3,
+    "relation": "Family of Mrs. Lo [19]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6005"
+    },
+    "name": {
+      "english": "Maria Lim",
+      "hanzi": null,
+      "pinyin": null,
+      "kanji": null,
+      "wade_giles": null,
+      "katakana": null
+    },
+    "generation": 10,
+    "birth_year": null,
+    "branch": "Yunlong Branch",
+    "death_year": null,
+    "gender": "Female",
+    "historical_significance": null,
+    "house": "Upper House",
+    "image": null,
+    "links": [
+      "[]"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6006"
+    },
+    "name": {
+      "english": "Bruce Nero"
+    },
+    "gender": "Male",
+    "generation": 8
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6008"
+    },
+    "name": {
+      "english": "Bill Nero"
+    },
+    "generation": 7
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b600c"
+    },
+    "name": {
+      "hanzi": "林志芳",
+      "pinyin": "Lín Zhìfāng",
+      "wade_giles": "Lin Chih-fang",
+      "kanji": "林志芳",
+      "english": "Lin Zhifang",
+      "katakana": "リンチーファン"
+    },
+    "house": "Before Wu-feng",
+    "branch": "Taiping Branch",
+    "generation": 3,
+    "gender": "Male",
+    "note": "Head of the Taiping Lin family [13]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b600f"
+    },
+    "name": {
+      "hanzi": "林垂拱",
+      "pinyin": "Lín Chuígǒng",
+      "wade_giles": "Lin Ch'ui-kung",
+      "kanji": "林垂拱",
+      "english": "Lin Chuigong",
+      "katakana": "リンチュイゴン"
+    },
+    "house": "Taiping House",
+    "branch": "Taiping Branch",
+    "generation": 6,
+    "gender": "Male"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6010"
+    },
+    "name": {
+      "hanzi": "林垂統",
+      "pinyin": "Lín Chuítǒng",
+      "wade_giles": "Lin Ch'ui-t'ung",
+      "kanji": "林垂統",
+      "english": "Lin Chuitong",
+      "katakana": "リンチュイトン"
+    },
+    "house": "Taiping House",
+    "branch": "Taiping Branch",
+    "generation": 6,
+    "gender": "Male"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6012"
+    },
+    "name": {
+      "hanzi": "林德和",
+      "pinyin": "Lín Chūnwàng",
+      "wade_giles": "Lin Ch'un-wang",
+      "kanji": "林春旺",
+      "english": "Lin Chunwang",
+      "katakana": "リンチュンワン"
+    },
+    "house": "Taiping House",
+    "branch": "Taiping Branch",
+    "generation": 5,
+    "gender": "Male",
+    "note": "Japanese-ruled Taiping Village Councilor"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6014"
+    },
+    "name": {
+      "hanzi": "林春華",
+      "pinyin": "Lín Chūnhuá",
+      "wade_giles": "Lin Ch'un-hua",
+      "kanji": "林春華",
+      "english": "Lin Chunhua",
+      "katakana": "リンチュンファ"
+    },
+    "house": "Taiping House",
+    "branch": "Taiping Branch",
+    "generation": 5,
+    "gender": "Male",
+    "note": "Japanese-ruled Taiping Village Councilor"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6015"
+    },
+    "name": {
+      "hanzi": "林甲寅",
+      "pinyin": "Lín Jiǎyín",
+      "wade_giles": "Lin Chia-yin",
+      "english": "Lin Jiayin",
+      "katakana": "リンジャイン"
+    },
+    "house": "Single House",
+    "generation": 3,
+    "gender": "Male",
+    "historical_significance": "Son of Lin Sun, founder of the famous line in Wu-feng [13], businessman and landlord, died 1839 [14, 15].",
+    "birth_year": 1782,
+    "death_year": 1839
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6016"
+    },
+    "name": {
+      "hanzi": "林甲寅妻",
+      "pinyin": "Lín Jiǎyín Qī",
+      "wade_giles": "Lin Chia-yin Ch'i",
+      "english": "Lin Jiayin Qi",
+      "katakana": "リンジャインチー"
+    },
+    "house": "Single House",
+    "generation": 3,
+    "gender": "Female",
+    "relation": "Wife of Lin Chia-yin [13]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6019"
+    },
+    "name": {
+      "hanzi": "林文察",
+      "pinyin": "Lín Wénchá",
+      "wade_giles": "Lin Wen-ch'a",
+      "english": "Lin Wencha",
+      "katakana": "リンウェンチャ"
+    },
+    "branch": "Wencha Branch",
+    "house": "Lower House",
+    "generation": 5,
+    "gender": "Male",
+    "historical_significance": "Son of Lin Ting-pang, formidable strongman and General who served the Qing on the mainland and in Taiwan [3, 16], died in battle 1864 [20]. Posthumously granted high honors [20].",
+    "birth_year": 1828,
+    "death_year": 1864
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b601a"
+    },
+    "name": {
+      "hanzi": "林文察妻妾",
+      "pinyin": "Lín Wénchá Qīqiè",
+      "wade_giles": "Lin Wen-ch'a Ch'i-ch'ieh",
+      "english": "Lin Wencha Qiqie",
+      "katakana": "リンウェンチャ チーヒェ"
+    },
+    "branch": "Wencha Branch",
+    "house": "Lower House",
+    "generation": 5,
+    "gender": "Female",
+    "relation": "Wife/Concubines of Lin Wencha [21]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6022"
+    },
+    "name": {
+      "hanzi": "林朝揚",
+      "pinyin": "Lín Cháoyáng",
+      "wade_giles": "Lin Ch'ao-yang",
+      "english": "Lin Chaoyang",
+      "katakana": "リンチャオヤン"
+    },
+    "branch": "Wencha Branch",
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Male",
+    "relation": "Son of Lin Wen-ch'a [20]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6034"
+    },
+    "name": {
+      "english": "Lin Wenqin",
+      "hanzi": "林文欽",
+      "pinyin": "Lín Wénqīn",
+      "kanji": null,
+      "wade_giles": "Lin Wen-ch'in",
+      "katakana": "リンウェンチン"
+    },
+    "house": "Upper House",
+    "generation": 5,
+    "gender": "Male",
+    "historical_significance": "Son of Lin Tien-kuo and Mrs. Lo [3, 17], became head of the Upper House branch in 1882 [26], known for supporting arts and social movements, acquired gentry degrees [3, 27], philanthropist, died 1899 [26].",
+    "birth_year": 1854,
+    "death_year": 1899,
+    "formerspouse": "林文欽妻",
+    "branch": null,
+    "image": "https://zh.wikipedia.org/wiki/%E6%9E%97%E6%96%87%E6%AC%BD#/media/File:Bust_of_Lin_Yunqing_in_Ming_Tai_High_School_in_Wufong,_Taichung,_Taiwan.JPG",
+    "links": [
+      "https://zh.wikipedia.org/wiki/%E6%9E%97%E6%96%87%E6%AC%BD"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b603a"
+    },
+    "name": {
+      "hanzi": "林鶴年",
+      "pinyin": "Lín Hènián",
+      "english": "Lin Henian",
+      "wade_giles": "Lin Hsueh-nien",
+      "katakana": "リンホウネン"
+    },
+    "house": "Upper House",
+    "generation": 7,
+    "note": "A member of the Wufeng Lin family in Taichung City, Taiwan, he was the fourth son of Lin Jitang and the founder of the Red Clan in Taichung County, Taiwan[1]. He once served as the mayor of Taichung County.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/%E5%8F%B0%E4%B8%AD%E7%B8%A3%E9%95%B7%E6%9E%97%E9%B6%B4%E5%B9%B4.jpg",
+    "birth_year": 1914,
+    "death_year": 1994,
+    "links": [
+      "https://zh.wikipedia.org/wiki/%E6%9E%97%E9%B6%B4%E5%B9%B4_(%E9%9C%A7%E5%B3%B0%E6%9E%97%E5%AE%B6)"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b603b"
+    },
+    "name": {
+      "hanzi": "林文典遺孀",
+      "pinyin": "Lín Wéndiǎn Yí Shuāng",
+      "wade_giles": "Lin Wen-t'ian I Shuang",
+      "english": "Lin Wendian Yishuang",
+      "katakana": "リンウェンディエシュアン"
+    },
+    "house": "Upper House",
+    "generation": 6,
+    "gender": "Female",
+    "historical_significance": "Widow of Lin Wen-tien, raised their son Chi-t'ang with a sense of responsibility [37].",
+    "relation": "Widow of Lin Wen-tien [37]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b603d"
+    },
+    "branch": "Xiantang Branch",
+    "name": {
+      "hanzi": "林獻堂",
+      "kanji": "林獻堂",
+      "pinyin": "Lín Xiàntáng",
+      "wade_giles": "Lin Hsien-t'ang",
+      "english": "Lin Xiantang",
+      "katakana": "リンシエンタング"
+    },
+    "house": "Upper House",
+    "generation": 6,
+    "gender": "Male",
+    "historical_significance": "Eldest son of Lin Wen-ch'in [1], prominent cultural leader, poet, and leader of the Taiwanese autonomy movement [2]. Born 1881, died 1956 [1]. Accompanied by his son Lin Youlong on a trip in 1936 [4].",
+    "birth_year": 1881,
+    "death_year": 1956,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/%E8%87%BA%E7%81%A3%E6%96%87%E5%8C%96%E8%88%87%E6%B0%91%E4%B8%BB%E9%81%8B%E5%8B%95%E9%A0%98%E8%A2%96%E6%9E%97%E7%8D%BB%E5%A0%82_Lin_Hsien-tang%2C_Leader_of_Taiwanese_Culture_and_Democracy_Movement.jpg",
+    "links": [
+      "https://zh.wikipedia.org/wiki/%E6%9E%97%E7%8D%BB%E5%A0%82",
+      "https://en.wikipedia.org/wiki/Lin_Hsien-tang"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6041"
+    },
+    "branch": "Xiantang Branch",
+    "name": {
+      "hanzi": "林明弘",
+      "pinyin": "Lín Míng Hóng",
+      "english": "Michael Lin",
+      "wade_giles": "Lin Ming-hung",
+      "katakana": "リンミンホン"
+    },
+    "generation": 10,
+    "gender": "Male",
+    "house": "Upper House",
+    "historical_significance": "A leading Taiwanese contemporary painter and conceptual artist",
+    "birth_year": 1964,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/59/Michael_Lin_May_2018_Taipei.jpg",
+    "links": [
+      "https://zh.wikipedia.org/wiki/%E6%9E%97%E6%98%8E%E5%BC%98",
+      "https://en.wikipedia.org/wiki/Michael_Lin_(artist)"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6042"
+    },
+    "branch": "Xiantang Branch",
+    "name": {
+      "hanzi": "林猶龍",
+      "pinyin": "Lín Yóulóng",
+      "english": "Lin Youlong",
+      "wade_giles": "Lin You-lung",
+      "katakana": "リンヨウロン"
+    },
+    "house": "Upper House",
+    "generation": 8,
+    "gender": "Male",
+    "birth_year": 1902,
+    "death_year": 1955,
+    "historical_significance": "Son of 林獻堂. Frequently mentioned in the diary, involved in family affairs, accompanying his father on visits and trips [4, 7, 8, 10, 12-17]. Noted as being involved in inspecting accounts [10].",
+    "note": "Son of 林獻堂. Appears frequently in diary entries, involved in family business/affairs.",
+    "relation": "Son of 林獻堂 and Lin Xiantang's Wife, Brother of 林擧龍 and 林猶龍"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6044"
+    },
+    "branch": "Xiantang Branch",
+    "name": {
+      "hanzi": "林晴美",
+      "pinyin": "Lín Qíng Měi",
+      "english": "Lin Qingmei",
+      "wade_giles": "Lin Ch'ing-mei",
+      "katakana": "リンチンメイ"
+    },
+    "house": "Upper House",
+    "generation": 9,
+    "gender": "Female"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b604a"
+    },
+    "branch": "Xiantang Branch",
+    "name": {
+      "hanzi": "林昭汎",
+      "pinyin": "Lín Zhāofàn",
+      "english": "Lin Zhaofan",
+      "wade_giles": "Lin Chao-fan",
+      "katakana": "リンチャオファン"
+    },
+    "house": "Upper House",
+    "generation": 9,
+    "gender": "Male"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6051"
+    },
+    "name": {
+      "hanzi": "林澄堂",
+      "pinyin": "Lín Chéngtáng",
+      "english": "Lin Chengtang",
+      "wade_giles": "Lin Hsien-t'ang",
+      "katakana": "リンシエンタング"
+    },
+    "branch": "Wenfeng Branch",
+    "house": "Upper House",
+    "generation": 6,
+    "gender": "Male",
+    "relation": "Son of Lin Wenfeng [37]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6053"
+    },
+    "name": {
+      "hanzi": "林垂珠",
+      "pinyin": "Lín Chuí Zhū",
+      "english": "Lin Chuizhu",
+      "wade_giles": "Lin Ch'ui Chu",
+      "katakana": "リンチュイジュ"
+    },
+    "branch": "Wenfeng Branch",
+    "house": "Upper House",
+    "generation": 7,
+    "gender": "Male"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6054"
+    },
+    "name": {
+      "hanzi": "林育英",
+      "pinyin": "Lín Yù Yīng",
+      "english": "Lin Yuyuing",
+      "wade_giles": "Lin Yu Ying",
+      "katakana": "リンユウイン"
+    },
+    "branch": "Wenfeng Branch",
+    "house": "Upper House",
+    "generation": 8
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6057"
+    },
+    "name": {
+      "hanzi": "馮媛甄",
+      "pinyin": "Féng Yuán Zhēn",
+      "english": "Abby Fung",
+      "wade_giles": "Fung Yuan-Chen",
+      "katakana": "フジイ アイコ"
+    },
+    "generation": 10,
+    "gender": "Female",
+    "note": "A Taiwanese female artist, she is known as 'Little Lin Chi-ling' for her sweet baby voice and beauty that resembles supermodel Lin Chi-ling.",
+    "birth_year": 1982,
+    "house": "Upper House",
+    "branch": "Wenfeng Branch",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Amigo_Feng.JPG",
+    "links": [
+      "https://zh.wikipedia.org/wiki/%E9%A6%AE%E5%AA%9B%E7%94%84"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6059"
+    },
+    "name": {
+      "hanzi": "林澄堂",
+      "pinyin": "Lín Chéngtáng",
+      "english": "Lin Chengtang",
+      "wade_giles": "Lin Hsien-t'ang",
+      "katakana": "リンシエンタング"
+    },
+    "branch": "Wenfeng Branch",
+    "house": "Upper House",
+    "generation": 6,
+    "gender": "Male",
+    "relation": "Son of Lin Wen-feng [37]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b605a"
+    },
+    "name": {
+      "hanzi": "林垂明",
+      "pinyin": "Lín Chuí Míng",
+      "english": "Lin Chuiming",
+      "wade_giles": "Lin Ch'ui Ming",
+      "katakana": "リンユウミン"
+    },
+    "branch": "Wenfeng Branch",
+    "house": "Upper House",
+    "generation": 7,
+    "gender": "Male"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6060"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "hanzi": "長女",
+      "english": "Lin Chou"
+    },
+    "generation": 9,
+    "house": "Upper House",
+    "gender": "Female"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6061"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "english": "Jack Chen",
+      "hanzi": null,
+      "pinyin": null,
+      "kanji": null,
+      "wade_giles": null,
+      "katakana": null
+    },
+    "gender": "Male",
+    "house": "Upper House",
+    "generation": 10,
+    "birth_year": null,
+    "death_year": null,
+    "historical_significance": null,
+    "image": null,
+    "links": [],
+    "note": null
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6064"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "english": "Chris Woon",
+      "hanzi": null,
+      "pinyin": null,
+      "kanji": null,
+      "wade_giles": null,
+      "katakana": null
+    },
+    "gender": "Male",
+    "generation": 11,
+    "house": "Upper House",
+    "birth_year": null,
+    "death_year": null,
+    "historical_significance": null,
+    "image": null,
+    "links": [
+      "['[]']"
+    ],
+    "notes": null
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6068"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "english": "William Chiang"
+    },
+    "gender": "Male",
+    "generation": 10,
+    "house": "Upper House"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b606b"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "english": "Eva Chiang"
+    },
+    "generation": 11,
+    "house": "Upper House",
+    "gender": "Female"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b606c"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "hanzi": "林杏",
+      "english": "Hsing Lin"
+    },
+    "generation": 9,
+    "gender": "Female",
+    "house": "Upper House"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b606d"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "english": "Talot Algusane"
+    },
+    "gender": "Male",
+    "generation": 10,
+    "house": "Upper House"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b606f"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "english": "Shurouq Spanyol"
+    },
+    "generation": 10,
+    "house": "Upper House",
+    "gender": "Female"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6071"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "english": "Ruby Spanyol"
+    },
+    "generation": 11,
+    "birth_year": 2022,
+    "house": "Upper House",
+    "gender": "Female"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6079"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "english": "Catherine White"
+    },
+    "generation": 10,
+    "house": "Upper House",
+    "gender": "Female"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b5ff5"
+    },
+    "name": {
+      "hanzi": "陳氏",
+      "pinyin": "Chén Shì",
+      "wade_giles": "Ch'en Shih",
+      "kanji": "陳氏",
+      "english": "Chen Shi",
+      "katakana": "チェンシ"
+    },
+    "house": "Before Wu-feng",
+    "generation": 1,
+    "gender": "Female",
+    "relation": "Wife of Lin Shi [7]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6007"
+    },
+    "name": {
+      "english": "Lynn Nero"
+    },
+    "generation": 8,
+    "gender": "Female"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b600b"
+    },
+    "name": {
+      "hanzi": "Mother of Miss Ho (first and second wife)",
+      "pinyin": "Mother of Miss Ho (first and second wife)",
+      "english": "Mother of Miss Ho (first and second wife)"
+    },
+    "generation": 5,
+    "gender": "Female",
+    "relation": "Mother of Lin Ch'ao-hsuan's wives [24]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b600d"
+    },
+    "name": {
+      "hanzi": "林瑞麟",
+      "pinyin": "Lín Ruìlín",
+      "wade_giles": "Lin Jui-lin",
+      "kanji": "林瑞麟",
+      "english": "Lin Ruilin",
+      "katakana": "リンルイリン"
+    },
+    "house": "Taiping House",
+    "branch": "Taiping Branch",
+    "generation": 4,
+    "gender": "Male"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6013"
+    },
+    "name": {
+      "hanzi": "林瑞騰",
+      "pinyin": "Lín Ruìténg",
+      "wade_giles": "Lin Jui-t'eng",
+      "kanji": "林瑞騰",
+      "english": "Lin Ruiteng",
+      "katakana": "リンルイテン"
+    },
+    "house": "Taiping House",
+    "branch": "Taiping Branch",
+    "generation": 4,
+    "gender": "Male",
+    "note": "Japanese-ruled Taiping Village Councilor"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b601c"
+    },
+    "name": {
+      "hanzi": "林文明正妻",
+      "pinyin": "Lín Wénmíng Zhèngqī",
+      "wade_giles": "Lin Wen-ming Cheng Ch'i",
+      "english": "Lin Wenming Zhengqi",
+      "katakana": "リンウェンミン セイサイ"
+    },
+    "branch": "Wenming Branch",
+    "house": "Lower House",
+    "generation": 5,
+    "gender": "Female",
+    "historical_significance": "Mother of Lin Ch'ao-hsuan [24], died 1883 [18].",
+    "death_year": 1883,
+    "relation": "Main wife of Lin Wenming [18, 24]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b601d"
+    },
+    "name": {
+      "hanzi": "林文明妾",
+      "pinyin": "Lín Wénmíng Qiè",
+      "wade_giles": "Lin Wen-ming Ch'ieh",
+      "english": "Lin Wenming Qie",
+      "katakana": "リンウェンミン チェ"
+    },
+    "branch": "Wenming Branch",
+    "house": "Lower House",
+    "generation": 5,
+    "gender": "Female",
+    "relation": "Concubine of Lin Wenming"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b601e"
+    },
+    "name": {
+      "hanzi": "林文彩",
+      "pinyin": "Lín Wéncǎi",
+      "wade_giles": "Lin Wen-ts'ai",
+      "english": "Lin Wencai",
+      "katakana": "リンウェンツァイ"
+    },
+    "house": "Lower House",
+    "generation": 5,
+    "gender": "Male",
+    "relation": "Son of Lin Ting-pang [16]",
+    "historical_significance": "Had descendants, received little from the common estate [25]."
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6020"
+    },
+    "name": {
+      "hanzi": "楊夫人",
+      "pinyin": "Yáng Fūrén",
+      "wade_giles": "Yang Fu-jen",
+      "english": "Yang Furen",
+      "katakana": "ヤンフジン"
+    },
+    "branch": "Wencha Branch",
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Female",
+    "historical_significance": "Wife of Lin Ch'ao-tung, known for strong will and intelligence, rescued her husband during a siege [21, 30, 31].",
+    "relation": "Wife of Lin Ch'ao-tung [21, 30]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6029"
+    },
+    "name": {
+      "hanzi": "何氏 (second wife)",
+      "pinyin": "Hé Shì",
+      "wade_giles": "Ho Shih (second wife)",
+      "english": "He Shi (second wife)",
+      "katakana": "ホシ (セカンドワイフ)"
+    },
+    "branch": "Wenming Branch",
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Female",
+    "relation": "Second wife of Lin Ch'ao-hsuan, sister of his first wife [24]",
+    "former_spouse": "林朝崧"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6035"
+    },
+    "name": {
+      "hanzi": "林文欽妻",
+      "pinyin": "Lín Wénqīn Qī",
+      "wade_giles": "Lin Wen-ch'in Ch'i",
+      "english": "Lin Wenqin Qi",
+      "katakana": "リンウェンチン チー"
+    },
+    "house": "Upper House",
+    "generation": 5,
+    "gender": "Female",
+    "historical_significance": "Adulterous first wife of Lin Wen-ch'in, sent back to her family [19].",
+    "relation": "First wife of Lin Wen-ch'in [19]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6045"
+    },
+    "branch": "Xiantang Branch",
+    "name": {
+      "hanzi": "林政光",
+      "pinyin": "Lín Zhèng Guāng",
+      "english": "Lin Zhengguang",
+      "wade_giles": "Lin Ch'eng-kuang",
+      "katakana": "リンチェングァン"
+    },
+    "house": "Upper House",
+    "generation": 9,
+    "gender": "Male",
+    "note": "Chairman of Mingtai High School"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6047"
+    },
+    "branch": "Xiantang Branch",
+    "name": {
+      "hanzi": "林承峰",
+      "pinyin": "Lín Chéng Fēng",
+      "english": "Lin Chengfeng",
+      "wade_giles": "Lin Ch'eng-feng",
+      "katakana": "リンチェンフォン"
+    },
+    "house": "Upper House",
+    "generation": 10,
+    "gender": "Male",
+    "note": "Director of Lin Xiantang museum",
+    "relation": "Son of Lin Zhengguang and Lin Fanying"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b604f"
+    },
+    "name": {
+      "hanzi": "Sons of Lin Wen-feng"
+    },
+    "branch": "Wenfeng Branch",
+    "house": "Upper House",
+    "generation": 6,
+    "gender": "Male",
+    "relation": "Sons of Lin Wen-feng [24]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6050"
+    },
+    "name": {
+      "hanzi": "林烈堂",
+      "pinyin": "Lín Liètáng",
+      "english": "Lin Lietang",
+      "wade_giles": "Lin Hsien-t'ang",
+      "katakana": "リンリエータン"
+    },
+    "branch": "Wenfeng Branch",
+    "house": "Upper House",
+    "generation": 6,
+    "gender": "Male",
+    "relation": "Son of Lin Wenfeng [37]",
+    "birth_year": 1876,
+    "death_year": 1947,
+    "note": "Japanese-ruled Taichung Office Counselor"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6056"
+    },
+    "name": {
+      "hanzi": "林帛亨",
+      "pinyin": "Lín Bó Hēng",
+      "english": "Hans Lin",
+      "wade_giles": "Lin Po-heng",
+      "katakana": "リンボウホウ"
+    },
+    "branch": "Wenfeng Branch",
+    "note": "a Taiwanese racing driver and Elda Formula One race commentator. The Japanese call him 'Fire Fox'. He won the 2005 Asian Formula Renault championship and served as a Formula One race commentator for TVSports and FOX Sports.",
+    "gender": "Male",
+    "generation": 10,
+    "house": "Upper House",
+    "birth_year": 1980,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/2004_Hanss_Lin_FBMW.jpg",
+    "links": [
+      "https://zh.wikipedia.org/wiki/%E6%9E%97%E5%B8%9B%E4%BA%A8"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6062"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "english": "Jason Chen"
+    },
+    "gender": "Male",
+    "generation": 11,
+    "house": "Upper House"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6065"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "english": "Maiya Woon"
+    },
+    "generation": 12,
+    "house": "Upper House",
+    "gender": "Female"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6069"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "english": "Evan Chiang"
+    },
+    "gender": "Male",
+    "generation": 10,
+    "house": "Upper House"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b606a"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "english": "Nanthawan Chai",
+      "hanzi": null,
+      "pinyin": null,
+      "kanji": null,
+      "wade_giles": null,
+      "katakana": null
+    },
+    "house": "Upper House",
+    "gender": "Male",
+    "generation": 10,
+    "birth_year": null,
+    "death_year": null,
+    "historical_significance": null,
+    "image": null,
+    "links": [],
+    "notes": null
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6070"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "english": "Jon Spanyol"
+    },
+    "gender": "Male",
+    "generation": 10,
+    "house": "Upper House"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6076"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "english": "Christian Sidor"
+    },
+    "generation": 10,
+    "gender": "Male",
+    "house": "Upper House"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6077"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "english": "Teddy Sidor"
+    },
+    "gender": "Male",
+    "generation": 11,
+    "house": "Upper House",
+    "birth_year": 2020
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b5ff7"
+    },
+    "name": {
+      "hanzi": "林賴",
+      "pinyin": "Lín Lài",
+      "wade_giles": "Lin Lai",
+      "kanji": "林賴",
+      "english": "Lin Lai",
+      "katakana": "リンライ"
+    },
+    "house": "Before Wu-feng",
+    "generation": 2,
+    "gender": "Male",
+    "relation": "Third younger brother of Lin Shi [8, 9]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b5ff9"
+    },
+    "name": {
+      "hanzi": "林瓊瑤",
+      "pinyin": "Lín Qióngyáo",
+      "wade_giles": "Lin Ch'iung-yao",
+      "kanji": "林瓊瑤",
+      "english": "Lin Qiongyao",
+      "katakana": "リンチョンヤオ"
+    },
+    "house": "Before Wu-feng",
+    "generation": 3,
+    "gender": "Male"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b5ffb"
+    },
+    "name": {
+      "hanzi": "林隸",
+      "pinyin": "Lín Lì",
+      "wade_giles": "Lin Li",
+      "kanji": "林隸",
+      "english": "Lin Li",
+      "katakana": "リンリ"
+    },
+    "house": "Before Wu-feng",
+    "generation": 2,
+    "gender": "Male",
+    "relation": "Forth younger brother of Lin Shi [8, 9]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b5ffd"
+    },
+    "name": {
+      "hanzi": "林陸",
+      "pinyin": "Lín Lù",
+      "wade_giles": "Lin Lu",
+      "kanji": "林陸",
+      "english": "Lin Lu",
+      "katakana": "リンル"
+    },
+    "house": "Before Wu-feng",
+    "generation": 2,
+    "gender": "Male",
+    "relation": "Sixth younger brother of Lin Shi [8, 9]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6000"
+    },
+    "name": {
+      "hanzi": "林甲寅四子"
+    },
+    "generation": 4,
+    "gender": "Male",
+    "relation": "Fourth son of Lin Chia-yin (adopted) [13]",
+    "historical_significance": "Had a marginal status in the family [13]."
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6002"
+    },
+    "name": {
+      "hanzi": "Notable Chang-hua family"
+    },
+    "generation": 5,
+    "relation": "Family of Mrs. Yang [30]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6003"
+    },
+    "name": {
+      "hanzi": "Yang family from Chang-hua"
+    },
+    "generation": 5,
+    "relation": "Family of Lin Hsien-tang's wife [38]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6004"
+    },
+    "name": {
+      "hanzi": "梧棲楊子培",
+      "english": "Yang Zipei of Wuxi"
+    },
+    "generation": 4
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b600e"
+    },
+    "name": {
+      "hanzi": "林春旺",
+      "pinyin": "Lín Chūnwàng",
+      "wade_giles": "Lin Ch'un-wang",
+      "kanji": "林春旺",
+      "english": "Lin Chunwang",
+      "katakana": "リンチュンワン"
+    },
+    "house": "Taiping House",
+    "branch": "Taiping Branch",
+    "generation": 5,
+    "gender": "Male"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6021"
+    },
+    "name": {
+      "english": "Lin Chi-shang (born after barrenness)"
+    },
+    "branch": "Wencha Branch",
+    "house": "Lower House",
+    "generation": 7,
+    "gender": "Male",
+    "relation": "Eldest son of Lin Ch'ao-tung and Mrs. Yang [32]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6023"
+    },
+    "name": {
+      "hanzi": "林朝宗",
+      "pinyin": "Lín Cháozōng",
+      "wade_giles": "Lin Ch'ao-tsung",
+      "english": "Lin Chaozong",
+      "katakana": "リンチャオゾン"
+    },
+    "branch": "Wencha Branch",
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Male",
+    "relation": "Son of Lin Wen-ch'a [20]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6027"
+    },
+    "name": {
+      "hanzi": "林濬堂",
+      "pinyin": "Lín Jùntáng",
+      "wade_giles": "Lin Chun-tang",
+      "english": "Lin Juntang",
+      "katakana": "リンジュンタオ"
+    },
+    "branch": "Wenming Branch",
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Male",
+    "historical_significance": "Adopted sixth son of Lin Wenming, poet [36].",
+    "birth_year": 1875,
+    "death_year": 1915,
+    "relation": "Adopted son of Lin Wenming [36]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6028"
+    },
+    "name": {
+      "hanzi": "何氏 (first wife)",
+      "pinyin": "Hé Shì",
+      "wade_giles": "Ho Shih (first wife)",
+      "english": "He Shi (first wife)",
+      "katakana": "ホシ (ファーストワイフ)"
+    },
+    "branch": "Wenming Branch",
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Female",
+    "relation": "First wife of Lin Ch'ao-hsuan, sister of his second wife [24]",
+    "former_spouse": "林朝崧"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b602b"
+    },
+    "name": {
+      "hanzi": "林資詮",
+      "pinyin": "Lín Zīquán",
+      "wade_giles": "Tzu-ch'uan",
+      "english": "Lin Ziquan",
+      "katakana": "リンズーチュアン"
+    },
+    "branch": "Wencha Branch",
+    "house": "Lower House",
+    "generation": 7,
+    "gender": "Male",
+    "historical_significance": "Second son of Lin Ch'ao-tung, poet [36].",
+    "birth_year": 1877
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b602d"
+    },
+    "name": {
+      "hanzi": "何氏",
+      "pinyin": "Hé Shì",
+      "wade_giles": "Ho Shih",
+      "english": "He Shi",
+      "katakana": "ホシ"
+    },
+    "branch": "Wenming Branch",
+    "house": "Lower House",
+    "generation": 6,
+    "gender": "Female",
+    "relation": "First wife of Lin Ch'ao-hsuan [24]",
+    "former_spouse": "林朝崧"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b602e"
+    },
+    "name": {
+      "hanzi": "林文典遺孀",
+      "pinyin": "Lín Wéndiǎn Yí Shuāng",
+      "wade_giles": "Lin Wen-t'ian I Shuang",
+      "english": "Lin Wendian Yishuang",
+      "katakana": "リンウェンディエシュアン"
+    },
+    "house": "Upper House",
+    "generation": 6,
+    "gender": "Female",
+    "historical_significance": "Widow of Lin Wen-tien, raised their son Chi-t'ang with a sense of responsibility [37].",
+    "relation": "Widow of Lin Wen-tien [37]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b602f"
+    },
+    "name": {
+      "hanzi": "林階堂",
+      "pinyin": "Lín Jiētáng",
+      "wade_giles": "Lin Chia-t'ang",
+      "english": "Lin Jietang",
+      "katakana": "リンジェータン"
+    },
+    "house": "Upper House",
+    "generation": 6,
+    "gender": "Male",
+    "birth_year": 1884,
+    "death_year": 1954,
+    "note": "Entrepreneur, businessman, politician.",
+    "links": [
+      "https://zh.wikipedia.org/wiki/%E6%9E%97%E9%9A%8E%E5%A0%82"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6030"
+    },
+    "name": {
+      "hanzi": "林奠國",
+      "pinyin": "Lín Diànguó",
+      "english": "Lin Dianguo",
+      "wade_giles": "Lin Tien-kuo",
+      "katakana": "リンティエンクオ"
+    },
+    "house": "Upper House",
+    "generation": 4,
+    "gender": "Male",
+    "historical_significance": "Son of Lin Chia-yin, founder of the Upper House lineage [3], local strongman, involved in military service [16], died in jail in 1880 [9].",
+    "birth_year": 1814,
+    "death_year": 1880
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6031"
+    },
+    "name": {
+      "hanzi": "林奠國妻妾",
+      "pinyin": "Lín Diànguó Qīqiè",
+      "wade_giles": "Lin Tien-kuo Ch'i-ch'ieh",
+      "english": "Lin Dianguo Qiqie",
+      "katakana": "リンティエンクオ チーヒェ"
+    },
+    "house": "Upper House",
+    "generation": 4,
+    "gender": "Female",
+    "relation": "Wives/Concubines of Lin Tien-kuo"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b603c"
+    },
+    "name": {
+      "hanzi": "林階堂",
+      "pinyin": "Lín Jiētáng",
+      "wade_giles": "Lin Chia-t'ang",
+      "english": "Lin Jietang",
+      "katakana": "リンジェータン"
+    },
+    "house": "Upper House",
+    "generation": 6,
+    "gender": "Male",
+    "birth_year": 1884,
+    "death_year": 1954,
+    "note": "Entrepreneur, businessman, politician.",
+    "links": [
+      "https://zh.wikipedia.org/wiki/%E6%9E%97%E9%9A%8E%E5%A0%82"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b603e"
+    },
+    "branch": "Xiantang Branch",
+    "name": {
+      "hanzi": "楊水心",
+      "pinyin": "Yáng Shuǐxīn",
+      "wade_giles": "Yang Shui-hsin",
+      "english": "Yang Shuixin",
+      "katakana": "ヤンシュイシン"
+    },
+    "house": "Upper House",
+    "generation": 6,
+    "birth_year": 1882,
+    "death_year": 1957,
+    "gender": "Female",
+    "relation": "Wife of Lin Hsien-tang (father) [38]"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b603f"
+    },
+    "branch": "Xiantang Branch",
+    "name": {
+      "hanzi": "林攀龍",
+      "pinyin": "Lín Pān Lóng",
+      "wade_giles": "Lin Pan-lung",
+      "english": "Lin Panlong",
+      "katakana": "リンパンロン"
+    },
+    "house": "Upper House",
+    "generation": 8,
+    "birth_year": 1901,
+    "death_year": 1983,
+    "gender": "Male",
+    "note": "Son of 林獻堂. Plays an active role assisting his father according to the diary entries.",
+    "relation": "Son of 林獻堂 and Lin Xiantang's Wife, Brother of 林猶龍 and 林雲龍",
+    "links": [
+      "https://zh.wikipedia.org/wiki/%E6%9E%97%E6%94%80%E9%BE%8D"
+    ],
+    "image": "https://www.telltaiwan.org/wp-content/uploads/2023/11/%E4%B8%8B1-%E6%9E%97%E6%94%80%E9%BE%8D%E7%85%A7%E7%89%87.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6040"
+    },
+    "branch": "Xiantang Branch",
+    "name": {
+      "hanzi": "林博正",
+      "pinyin": "Lín Bó Zhèng",
+      "wade_giles": "Lin Po-cheng",
+      "english": "Lin Bozheng",
+      "katakana": "リンボウセイ"
+    },
+    "house": "Upper House",
+    "generation": 9,
+    "gender": "Male",
+    "birth_year": 1935,
+    "historical_significance": "Chairman of Ming Tai Property & Casualty Insurance",
+    "relation": "Heir to Lin Panlong, adopted"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6046"
+    },
+    "branch": "Xiantang Branch",
+    "name": {
+      "hanzi": "林芳媖",
+      "pinyin": "Lín Fāng Yīng",
+      "english": "Lin Fangying",
+      "wade_giles": "Lin Fang-ying",
+      "katakana": "リンファンイン"
+    },
+    "house": "Upper House",
+    "generation": 9,
+    "gender": "Female",
+    "note": "Chairman of Mingtai High School",
+    "relation": "Wife of Lin Zhengguang"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6049"
+    },
+    "branch": "Xiantang Branch",
+    "name": {
+      "hanzi": "林政忠",
+      "pinyin": "Lín Zhèngzhōng",
+      "english": "Lin Zhengzhong",
+      "wade_giles": "Lin Ch'eng-chung",
+      "katakana": "リンチェンチュン"
+    },
+    "house": "Upper House",
+    "generation": 9,
+    "gender": "Male"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b605b"
+    },
+    "name": {
+      "hanzi": "林垂訓",
+      "pinyin": "Lín Chuí Xùn",
+      "english": "Lin Chuixun",
+      "wade_giles": "Lin Ch'ui Hsün",
+      "katakana": "リンユウシュン"
+    },
+    "branch": "Wenfeng Branch",
+    "house": "Upper House",
+    "generation": 7,
+    "gender": "Male",
+    "note": "Wufeng Township Mayor"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b605d"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "hanzi": "楊雪霞",
+      "pinyin": "Yáng Xuěxiá",
+      "english": "Yang Xuexia",
+      "wade_giles": "Yang Hsueh-hsia",
+      "katakana": "ヤンユエシャ"
+    },
+    "gender": "Female",
+    "house": "Upper House",
+    "generation": 8
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6063"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "english": "Sabrina Woon-Chen"
+    },
+    "generation": 11,
+    "house": "Upper House",
+    "gender": "Female"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6067"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "hanzi": "次女",
+      "english": "Lin Mei"
+    },
+    "generation": 9,
+    "house": "Upper House",
+    "gender": "Female"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b606e"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "english": "Bassima Algusane"
+    },
+    "generation": 10,
+    "house": "Upper House",
+    "gender": "Female"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6072"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "hanzi": "林龍明",
+      "english": "Long Ming Lin"
+    },
+    "gender": "Male",
+    "generation": 9,
+    "house": "Upper House"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6073"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "english": "Mimi Nero"
+    },
+    "house": "Upper House",
+    "generation": 9,
+    "gender": "Female",
+    "former_spouse": "Long Ming Lin"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6075"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "english": "Kristina Mimi Lin"
+    },
+    "generation": 10,
+    "house": "Upper House",
+    "birth_year": 1984,
+    "gender": "Female"
+  },
+  {
+    "_id": {
+      "$oid": "684e69386c95fed46b8b6078"
+    },
+    "branch": "Yunlong Branch",
+    "name": {
+      "english": "Geoffrey Bruce Lin"
+    },
+    "gender": "Male",
+    "birth_year": 1988,
+    "generation": 10,
+    "house": "Upper House"
+  },
+  {
+    "_id": {
+      "$oid": "6855ee022bd4a181a39ef31d"
+    },
+    "name": {
+      "english": "Lin Shuangying",
+      "hanzi": "林双英"
+    },
+    "house": "Lower House",
+    "branch": "Wencha Branch",
+    "generation": 8,
+    "gender": "Male",
+    "birth_year": null,
+    "death_year": null,
+    "historical_significance": "",
+    "image": "",
+    "links": [],
+    "notes": null
+  },
+  {
+    "_id": {
+      "$oid": "6855ee292bd4a181a39ef322"
+    },
+    "name": {
+      "english": "Lin Shuangpan",
+      "hanzi": "林双盼"
+    },
+    "house": "Lower House",
+    "branch": "Wencha Branch",
+    "generation": 8,
+    "gender": "Male",
+    "birth_year": null,
+    "death_year": null,
+    "historical_significance": "",
+    "image": "",
+    "links": [],
+    "notes": null
+  },
+  {
+    "_id": {
+      "$oid": "6855ee782bd4a181a39ef327"
+    },
+    "name": {
+      "english": "Lin Zhengheng",
+      "hanzi": "林正亨"
+    },
+    "house": "Lower House",
+    "branch": "Wencha Branch",
+    "generation": 8,
+    "gender": "Male",
+    "birth_year": null,
+    "death_year": null,
+    "historical_significance": "",
+    "image": "",
+    "links": [],
+    "notes": null
+  },
+  {
+    "_id": {
+      "$oid": "6855eecb2bd4a181a39ef32e"
+    },
+    "name": {
+      "english": "Lin Zhengxiong",
+      "hanzi": "林正熊"
+    },
+    "house": "Lower House",
+    "branch": "Wencha Branch",
+    "generation": 8,
+    "gender": "Male",
+    "birth_year": null,
+    "death_year": null,
+    "historical_significance": "",
+    "image": "",
+    "links": [],
+    "notes": null
+  },
+  {
+    "_id": {
+      "$oid": "6855ef1c2bd4a181a39ef333"
+    },
+    "name": {
+      "english": "Lin Zhengli",
+      "hanzi": "林正利"
+    },
+    "house": "Lower House",
+    "branch": "Wencha Branch",
+    "generation": 8,
+    "gender": "Male",
+    "birth_year": null,
+    "death_year": null,
+    "historical_significance": "",
+    "image": "",
+    "links": [],
+    "notes": null
+  },
+  {
+    "_id": {
+      "$oid": "6855efaf2bd4a181a39ef339"
+    },
+    "name": {
+      "english": "Lin Zhengli's son",
+      "hanzi": "林正利的儿子",
+      "pinyin": "Lín Zhènglì de érzi",
+      "kanji": "林正利の息子",
+      "wade_giles": "Lin Cheng-li te erh-tzu",
+      "katakana": "ハヤシショウリのムスコ"
+    },
+    "house": "Lower House",
+    "branch": "Wencha Branch",
+    "generation": 9,
+    "gender": "Male",
+    "birth_year": null,
+    "death_year": null,
+    "historical_significance": "",
+    "image": "",
+    "links": [],
+    "notes": null
+  },
+  {
+    "_id": {
+      "$oid": "6855f22c2bd4a181a39ef376"
+    },
+    "name": {
+      "english": "Azai Daichi",
+      "hanzi": "林睦宸",
+      "pinyin": "Lin Muchen",
+      "kanji": "朝井大智",
+      "wade_giles": null,
+      "katakana": "アサイダイチ"
+    },
+    "house": "Lower House",
+    "branch": "Wencha Branch",
+    "generation": 10,
+    "gender": "Male",
+    "birth_year": 1985,
+    "death_year": null,
+    "historical_significance": "",
+    "image": "",
+    "links": [
+      "['https://ja.wikipedia.org/wiki/%E6%9C%9D%E4%BA%95%E5%A4%A7%E6%99%BA']"
+    ],
+    "notes": null,
+    "note": "Japanese Actor"
+  }
+]

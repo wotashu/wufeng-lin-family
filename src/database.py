@@ -15,15 +15,18 @@ def load_documents():
     # Specify the database and collection names.
     # These will be created on the first write if they don't exist.
     db = client["wufeng"]
-    collection = db["members"]
+    members_col = db["members"]
+    relationships_col = db["relationships"]
 
     # Retrieve all documents from the collection
-    documents: list[dict[Any, Any]] = list(collection.find({}))
+    members: list[dict[Any, Any]] = list(members_col.find({}))
+    relationships = list(relationships_col.find({}))
 
     # Now you can use the retrieved documents as needed.
-    st.write(f"Retrieved {len(documents)} records from MongoDB.")
+    st.write(f"Retrieved {len(members)} records from MongoDB.")
+    st.write(f"Retrieved {len(relationships)} relationships from MongoDB.")
 
-    return documents
+    return members, relationships
 
 
 def add_document(document: dict[Any, Any]):

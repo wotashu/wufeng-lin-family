@@ -1,48 +1,29 @@
-import json
-from pathlib import Path
-
 import streamlit as st
 from pymongo import MongoClient
 
+mongodb_uri = st.secrets["mongodb"]["uri"]
+client = MongoClient(mongodb_uri)
+db = client["wufeng"]
+members_col = db["members"]
+relationships_col = db["relationships"]
 
-def merge_json_files(data_dir: Path) -> list:
-    """
-    Recursively merge all JSON files within data_dir into a single list.
-    """
-    merged_data = []
-    for json_file in data_dir.rglob("*.json"):
-        try:
-            with open(json_file, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                if isinstance(data, list):
-                    merged_data.extend(data)
-                else:
-                    merged_data.append(data)
-        except Exception as error:
-            print(f"Error reading {json_file}: {error}")
-    return merged_data
+# Get all member IDs as strings
+all_member_ids = {str(doc["_id"]) for doc in members_col.find({}, {"_id": 1})}
 
+# Get all source and target IDs from relationships as strings
+source_ids = {
+    str(rel.get("source_id")) for rel in relationships_col.find({}, {"source_id": 1})
+}
+target_ids = {
+    str(rel.get("target")) for rel in relationships_col.find({}, {"target": 1})
+}
 
-def migrate_data_to_mongodb(data_dir: Path):
-    merged_data = merge_json_files(data_dir)
-    print(f"Merged {len(merged_data)} records from JSON files.")
+# Nodes with any edge
+connected_ids = source_ids | target_ids
 
-    # Use your MongoDB Atlas connection string from Streamlit secrets.
-    mongodb_uri = st.secrets["mongodb"]["uri"]
-    client = MongoClient(mongodb_uri)
+# Nodes with no edges
+isolated_ids = all_member_ids - connected_ids
 
-    # Specify the new database name; it will be created on first insert if it doesn't exist.
-    db = client["wufeng"]
-    # Also specify the collection name.
-    collection = db["members"]
-
-    if merged_data:
-        result = collection.insert_many(merged_data)
-        print(f"Inserted {len(result.inserted_ids)} documents.")
-    else:
-        print("No data to insert.")
-
-
-if __name__ == "__main__":
-    data_dir = Path("data")
-    migrate_data_to_mongodb(data_dir)
+print(f"Found {len(isolated_ids)} isolated nodes (no edges):")
+for node_id in isolated_ids:
+    print(node_id)

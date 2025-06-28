@@ -4,7 +4,7 @@ from typing import Any
 import networkx as nx
 from unidecode import unidecode
 
-from src.models import FamilyMember
+from src.models import FamilyMember, Relationship
 
 
 def get_member_key(member: FamilyMember, cannon_key: str | None = None) -> str:
@@ -91,61 +91,54 @@ def encode_local_image(image_path: str) -> str:
 
 
 def create_family_graph(
-    members: list[FamilyMember], cannon_key: str | None = None
+    members: list[FamilyMember],
+    relationships: list[Relationship],
+    name_display_type: str | None = None,
 ) -> nx.DiGraph:
     """
-    Create a NetworkX graph using the new unified relationships model.
-    Nodes are added with visual properties reflecting house, gender, generation, and optionally an image.
+    Create a NetworkX graph using the unified relationships model.
+    Nodes are keyed by stringified ObjectId (member.id).
     """
-    G = nx.DiGraph()  # directed graph so we can show arrows for parent -> child
-    spouse_edges = set()  # to track unique spouse relationships
+    G = nx.DiGraph()
+    spouse_edges = set()
 
-    # Build alternate key mapping: alternate name -> canonical key.
-    alt_mapping = {}
+    # Add nodes
     for member in members:
-        canon = get_member_key(member, cannon_key)
-        for key in get_alternate_keys(member):
-            alt_mapping[key] = canon
-
-    # Add nodes.
-    for member in members:
-        key = get_member_key(member, cannon_key)
+        node_id = str(member.id)
         house = member.house or "unknown house"
         branch = member.branch or "unknown branch"
         house_branch = member.branch or member.house or "unknown"
         generation = member.generation if member.generation is not None else 0
         color = get_color_by_house(house_branch)
         gender = member.gender if member.gender else "Male"
-        # Default shape from gender.
         shape = get_shape_by_gender(gender)
-
-        # Check if the member has an image (adjust the attribute name as needed)
         model_data = member.model_dump()
+        model_data["id"] = node_id
         image_url = model_data.get("image", None)
-        if image_url:
-            # If the path is local, encode it.
-            if image_url.startswith("http") is False:
-                image_url = encode_local_image(image_url)
-            shape = "image"  # switch to image node shape
-
+        if image_url and not image_url.startswith("http"):
+            image_url = encode_local_image(image_url)
+            shape = "image"
         note = (
             f"note: {member.note}"
-            if member.note
-            else member.historical_significance
-            if member.historical_significance
+            if getattr(member, "note", None)
+            else getattr(member, "historical_significance", None)
+            if getattr(member, "historical_significance", None)
             else "No additional note"
         )
-        birth_date = member.birth_year if member.birth_year else ""
-        end_date = member.death_year if member.death_year else ""
+        birth_date = getattr(member, "birth_year", "") or ""
+        end_date = getattr(member, "death_year", "") or ""
         life_span = (
             f"dates: ({birth_date} - {end_date})"
             if birth_date or end_date
             else "unknown dates"
         )
-        title = f"{key}\n{house}\n{branch}\n{life_span}\n{note}"
+
+        label = get_member_key(member, name_display_type)
+
+        title = f"{label}\n{house}\n{branch}\n{life_span}\n{note}"
         G.add_node(
-            key,
-            label=key,
+            node_id,
+            label=label,
             color={
                 "background": color,
                 "border": "#FFFFFF",
@@ -153,79 +146,79 @@ def create_family_graph(
             },
             title=title,
             generation=generation,
-            data=model_data,  # Contains generation and other info.
+            data=model_data,
             shape=shape,
             use_physics=False,
             image=image_url if image_url else "",
         )
 
-    # Process relationships from the unified "relationships" field.
-    for member in members:
-        source_key = get_member_key(member, cannon_key)
-        rels = member.model_dump().get("relationships", [])
-        for rel in rels:
-            rel_type = rel.get("type")
-            target = rel.get("target")
-            target_key = target
-            # Use alt_mapping if needed.
-            if target_key not in G.nodes:
-                target_key = alt_mapping.get(target, target)
-            if target_key in G.nodes and target_key != source_key:
-                if rel_type in ["parent", "child_of"]:
-                    parent_branch = G.nodes[source_key]["data"].get("branch", None)
-                    if parent_branch is None:
-                        parent_branch = G.nodes[source_key]["data"].get(
-                            "house", "unknown"
-                        )
-                    parent_color = get_color_by_house(parent_branch)
-                    G.add_edge(
-                        target_key, source_key, width=4, arrows="to", color=parent_color
-                    )
-                elif rel_type == "child":
-                    parent_branch = G.nodes[source_key]["data"].get("branch", None)
-                    if parent_branch is None:
-                        parent_branch = G.nodes[source_key]["data"].get(
-                            "house", "unknown"
-                        )
-                    parent_color = get_color_by_house(parent_branch)
-                    G.add_edge(
-                        source_key,
-                        target_key,
-                        width=4,
-                        arrows={"to": {"enabled": False}},
-                        color=parent_color,
-                    )
-                elif rel_type in ["spouse", "concubine", "former_spouse"]:
-                    edge = tuple(sorted([source_key, target_key]))
-                    if edge not in spouse_edges:
-                        spouse_edges.add(edge)
-                        G.add_edge(
-                            source_key,
-                            target_key,
-                            color="white",
-                            weight=0.1,
-                            dashes=True,
-                            arrows={"to": {"enabled": False}},
-                        )
+    # Add edges using the relationships collection
+    for rel in relationships:
+        source_id = str(rel.source_id)
+        target_id = str(rel.target)
+        rel_type = rel.type
 
-                else:
-                    G.add_edge(
-                        source_key,
-                        target_key,
-                        width=2,
-                        dashes=True,
-                        arrows={"to": {"enabled": False}},
-                    )
+        # Only add edge if both nodes exist
+        if source_id not in G.nodes or target_id not in G.nodes:
+            print(
+                f"Skipping edge: missing node for source_id={source_id} or target_id={target_id}"
+            )
+            continue
+
+        if rel_type == "child":
+            parent_branch = G.nodes[source_id]["data"].get("branch", None)
+            if parent_branch is None:
+                parent_branch = G.nodes[source_id]["data"].get("house", "unknown")
+            parent_color = get_color_by_house(parent_branch)
+            G.add_edge(
+                target_id,
+                source_id,
+                width=4,
+                arrows={"from": {"enabled": True}},
+                color=parent_color,
+            )
+        elif rel_type in ["spouse", "concubine", "former_spouse"]:
+            edge = tuple(sorted([source_id, target_id]))
+            if edge not in spouse_edges:
+                spouse_edges.add(edge)
+                G.add_edge(
+                    target_id,
+                    source_id,
+                    color="white",
+                    weight=0.1,
+                    dashes=True,
+                    arrows={"to": {"enabled": False}},
+                )
+        else:
+            G.add_edge(
+                target_id,
+                source_id,
+                width=2,
+                dashes=True,
+                arrows={"to": {"enabled": False}},
+            )
     return G
 
 
-def load_family_members(documents: list[dict[Any, Any]]):
+def load_family_members(member_docs: list[dict[Any, Any]]):
     """
     Load all family member JSON files from the data directory.
     Returns a list of FamilyMember instances.
     """
     members = []
-    for record in documents:
+    for record in member_docs:
         member = FamilyMember.model_validate(record)
         members.append(member)
     return members
+
+
+def load_relationships(relationship_docs: list[dict[Any, Any]]):
+    """Load all relationship JSON files from the data directory.
+    Returns a list of Relationship instances.
+    """
+    relationships = []
+    for record in relationship_docs:
+        relationship = Relationship.model_validate(record)
+        relationships.append(relationship)
+
+    return relationships

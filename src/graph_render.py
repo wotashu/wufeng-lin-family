@@ -1,17 +1,23 @@
 from pathlib import Path
 
+import graphviz
 import streamlit as st
 from pyvis.network import Network
 from streamlit.components import v1 as components
 
-from .graph_create import create_family_graph  # import any necessary functions
-from .models import FamilyMember
+from .graph_create import create_family_graph, get_member_key
+from .models import FamilyMember, Relationship
 
 
 def render_family_graph(
-    members: list[FamilyMember], cannon_key: str | None = None, plot_height: int = 600
+    members: list[FamilyMember],
+    relationships: list[Relationship],
+    name_display_type: str | None = None,
+    plot_height: int = 600,
 ):
-    graph = create_family_graph(members, cannon_key)
+    graph = create_family_graph(
+        members, relationships, name_display_type=name_display_type
+    )
 
     # Let the user select a layout
     layout_option = st.selectbox(
@@ -115,3 +121,39 @@ def render_family_graph(
         components.html(html_content, height=plot_height + 10, scrolling=True)
     else:
         st.write("Interactive graph file not found.")
+
+
+def render_family_graph_graphviz(
+    members, relationships, name_language: str | None = None, plot_height: int = 600
+):
+    """
+    Render a hierarchical family graph using Graphviz (top-down).
+    """
+    dot = graphviz.Digraph(comment="Family Tree", format="png")
+    dot.attr(rankdir="LR")  # Top to Bottom
+    dot.attr(
+        size=f"{plot_height * 1000},{plot_height * 1000}"
+    )  # Set size based on plot height
+
+    # Add nodes
+    for member in members:
+        node_id = str(member.id)
+        label = (
+            member.name.english
+            or member.name.hanzi
+            or get_member_key(member, name_language)
+        )
+        dot.node(node_id, label)
+
+    # Add edges using the relationships collection
+    for rel in relationships:
+        source_id = str(rel.source_id)
+        target_id = str(rel.target)
+        rel_type = rel.type
+
+        # Only add edge if both nodes exist
+        # (optional, but prevents errors if data is incomplete)
+        # You can build a set of node_ids for efficiency if needed
+        dot.edge(source_id, target_id, label=rel_type)
+
+    st.graphviz_chart(dot, use_container_width=True)

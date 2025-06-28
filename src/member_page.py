@@ -1,5 +1,3 @@
-import json
-
 import streamlit as st
 from bson import ObjectId
 
@@ -99,20 +97,6 @@ def member_form(
             height=100,
             value=existing_member.get("note", "") if existing_member else "",
         )
-        relationships = st.text_area(
-            "Relationships (JSON format)",
-            height=300,
-            placeholder='[{"type": "parent", "target": "unkown"}]',
-            value=json.dumps(
-                existing_member.get(
-                    "relationships", [{"type": "parent", "target": "unkown"}]
-                ),
-                indent=2,
-                ensure_ascii=False,
-            )
-            if existing_member
-            else '[{"type": "parent", "target": "unkown"}]',
-        )
         submitted = st.form_submit_button(form_key.replace("_", " ").title())
         if submitted:
             return {
@@ -134,9 +118,6 @@ def member_form(
                 "image": image,
                 "links": links,
                 "note": note,
-                "relationships": json.loads(relationships)
-                if relationships
-                else [{"type": "parent", "target": "unkown"}],
             }
 
     return {}
@@ -147,17 +128,17 @@ def member_page():
     st.write(
         "This page will display detailed information about a selected family member."
     )
-    documents = load_documents()
-    st.write(f"Object ID for the first member: {documents[0]['_id']}")
+    member_docs, _ = load_documents()
+    st.write(f"Object ID for the first member: {member_docs[0]['_id']}")
 
     # 1. Extract unique house values
     all_houses = sorted(
-        {doc.get("house", "Unknown") for doc in documents if doc.get("house")}
+        {doc.get("house", "Unknown") for doc in member_docs if doc.get("house")}
     )
     house_filter = st.selectbox("Filter by House", options=["All"] + all_houses)
 
-    ids = [doc["_id"] for doc in documents]
-    members = load_family_members(documents)
+    ids = [doc["_id"] for doc in member_docs]
+    members = load_family_members(member_docs)
 
     # Add a radio selector for the canonical key.
     cannon_key_selected = st.selectbox(
@@ -172,7 +153,7 @@ def member_page():
             m for m in members if getattr(m, "house", None) == house_filter
         ]
         filtered_ids = [
-            doc["_id"] for doc in documents if doc.get("house") == house_filter
+            doc["_id"] for doc in member_docs if doc.get("house") == house_filter
         ]
     else:
         filtered_members = members

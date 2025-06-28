@@ -1,6 +1,7 @@
 from typing import List, Optional
 
-from pydantic import BaseModel
+from bson import ObjectId
+from pydantic import BaseModel, Field, field_validator
 
 
 class Name(BaseModel):
@@ -12,14 +13,33 @@ class Name(BaseModel):
     katakana: Optional[str] = None
 
 
-class Relationships(BaseModel):
+class Relationship(BaseModel):
+    id: Optional[ObjectId] = Field(default=None, alias="_id")
+    source_id: ObjectId
     type: str
-    target: str
+    target: ObjectId
     start_date: Optional[str] = None
     end_date: Optional[str] = None
 
+    @field_validator("source_id", mode="before")
+    def ensure_source_id_objectid(cls, v):
+        if isinstance(v, str):
+            return ObjectId(v)
+        return v
+
+    @field_validator("target", mode="before")
+    def ensure_target_objectid(cls, v):
+        if isinstance(v, str):
+            return ObjectId(v)
+        return v
+
+    class Config:
+        arbitrary_types_allowed = True
+        json_encoders = {ObjectId: str}
+
 
 class FamilyMember(BaseModel):
+    id: Optional[ObjectId] = Field(default=None, alias="_id")
     name: Name
     house: Optional[str] = None
     branch: Optional[str] = None
@@ -30,13 +50,14 @@ class FamilyMember(BaseModel):
     death_year: Optional[int] = None
     note: Optional[str] = None
     relation: Optional[str] = None
-    relationships: List[Relationships] = []
     image: Optional[str] = None  # URL or path to image
     links: Optional[List[str]] = None  # List of URLs or paths to additional resources
 
     class Config:
         from_attributes = True
         arbitrary_types_allowed = True
+        json_encoders = {ObjectId: str}
 
 
 FamilyMember.model_rebuild()
+Relationship.model_rebuild()
