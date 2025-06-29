@@ -1,5 +1,5 @@
+from collections import defaultdict
 from pathlib import Path
-from typing import Literal
 
 import graphviz
 import streamlit as st
@@ -129,11 +129,21 @@ def render_family_graph_graphviz(
     relationships,
     name_language: str | None = None,
     plot_height: int = 600,
-    orientation: Literal["LR", "TB"] = "LR",
 ):
     """
     Render a hierarchical family graph using Graphviz (top-down) with custom node colors.
     """
+
+    orientation_selection = st.selectbox(
+        "Select Graph Orientation",
+        options=["TB (Top-Bottom)", "LR (Left-Right)"],
+        index=0,
+    )
+    orientation = "TB"
+
+    if orientation_selection == "LR (Left-Right)":
+        orientation = "LR"
+
     dot = graphviz.Digraph(comment="Family Tree", format="png")
     dot.attr(rankdir=orientation)  # Top to Bottom
     dot.attr(
@@ -156,10 +166,23 @@ def render_family_graph_graphviz(
             label,
             style="filled",
             fillcolor=fillcolor,
-            fontcolor="white",
+            fontcolor="black",
             color="white",  # border color
         )
 
+    # Group nodes by generation for same-rank placement
+    generation_groups = defaultdict(list)
+    for member in members:
+        node_id = str(member.id)
+        generation = getattr(member, "generation", None)
+        if generation is not None:
+            generation_groups[generation].append(node_id)
+
+    for generation, node_ids in generation_groups.items():
+        with dot.subgraph() as s:  # type: ignore
+            s.attr(rank="same")
+            for node_id in node_ids:
+                s.node(node_id)
     # Add edges using the relationships collection
     for rel in relationships:
         source_id = str(rel.source_id)
@@ -168,3 +191,7 @@ def render_family_graph_graphviz(
         dot.edge(source_id, target_id, label=rel_type)
 
     st.graphviz_chart(dot, use_container_width=True)
+
+    st.info(
+        "To save the graph as SVG, right-click the graph, choose 'Inspect', find the <svg> element, and save it as an SVG file. Direct SVG/PNG export is not available on this server."
+    )

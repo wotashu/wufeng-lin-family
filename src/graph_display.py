@@ -34,23 +34,11 @@ def display_page():
     plot_height = st.slider(
         "Select plot height (px)", min_value=200, max_value=1000, value=700
     )
+
     if layout_type == "Pyvis (Interactive)":
         render_family_graph(members, relationships, name_lang, plot_height=plot_height)
+
     elif layout_type == "Graphviz (Hierarchical)":
-        orientation_selection = st.selectbox(
-            "Select Graph Orientation",
-            options=["TB (Top-Bottom)", "LR (Left-Right)"],
-            index=0,
-        )
-        orientation = "TB"
-
-        if orientation_selection == "LR (Left-Right)":
-            orientation = "LR"
-
         render_family_graph_graphviz(
-            members,
-            relationships,
-            name_lang,
-            plot_height=plot_height,
-            orientation=orientation,
+            members, relationships, name_lang, plot_height=plot_height
         )
