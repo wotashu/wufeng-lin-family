@@ -1,11 +1,12 @@
 from pathlib import Path
+from typing import Literal
 
 import graphviz
 import streamlit as st
 from pyvis.network import Network
 from streamlit.components import v1 as components
 
-from .graph_create import create_family_graph, get_member_key
+from .graph_create import create_family_graph, get_color_by_house, get_member_key
 from .models import FamilyMember, Relationship
 
 
@@ -124,18 +125,22 @@ def render_family_graph(
 
 
 def render_family_graph_graphviz(
-    members, relationships, name_language: str | None = None, plot_height: int = 600
+    members,
+    relationships,
+    name_language: str | None = None,
+    plot_height: int = 600,
+    orientation: Literal["LR", "TB"] = "LR",
 ):
     """
-    Render a hierarchical family graph using Graphviz (top-down).
+    Render a hierarchical family graph using Graphviz (top-down) with custom node colors.
     """
     dot = graphviz.Digraph(comment="Family Tree", format="png")
-    dot.attr(rankdir="LR")  # Top to Bottom
+    dot.attr(rankdir=orientation)  # Top to Bottom
     dot.attr(
         size=f"{plot_height * 1000},{plot_height * 1000}"
     )  # Set size based on plot height
 
-    # Add nodes
+    # Add nodes with custom fill color
     for member in members:
         node_id = str(member.id)
         label = (
@@ -143,17 +148,23 @@ def render_family_graph_graphviz(
             or member.name.hanzi
             or get_member_key(member, name_language)
         )
-        dot.node(node_id, label)
+        # Use your color function (adjust as needed)
+        house_branch = member.branch or member.house or "unknown"
+        fillcolor = get_color_by_house(house_branch)
+        dot.node(
+            node_id,
+            label,
+            style="filled",
+            fillcolor=fillcolor,
+            fontcolor="white",
+            color="white",  # border color
+        )
 
     # Add edges using the relationships collection
     for rel in relationships:
         source_id = str(rel.source_id)
         target_id = str(rel.target)
         rel_type = rel.type
-
-        # Only add edge if both nodes exist
-        # (optional, but prevents errors if data is incomplete)
-        # You can build a set of node_ids for efficiency if needed
         dot.edge(source_id, target_id, label=rel_type)
 
     st.graphviz_chart(dot, use_container_width=True)

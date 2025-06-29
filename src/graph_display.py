@@ -37,6 +37,20 @@ def display_page():
     if layout_type == "Pyvis (Interactive)":
         render_family_graph(members, relationships, name_lang, plot_height=plot_height)
     elif layout_type == "Graphviz (Hierarchical)":
+        orientation_selection = st.selectbox(
+            "Select Graph Orientation",
+            options=["TB (Top-Bottom)", "LR (Left-Right)"],
+            index=0,
+        )
+        orientation = "TB"
+
+        if orientation_selection == "LR (Left-Right)":
+            orientation = "LR"
+
         render_family_graph_graphviz(
-            members, relationships, name_lang, plot_height=plot_height
+            members,
+            relationships,
+            name_lang,
+            plot_height=plot_height,
+            orientation=orientation,
         )

@@ -84,10 +84,14 @@ def get_shape_by_gender(gender: str) -> str:
 
 def encode_local_image(image_path: str) -> str:
     """Encode image file as a Base64 data URI."""
-    with open(image_path, "rb") as img_file:
-        encoded = base64.b64encode(img_file.read()).decode("utf-8")
-    # Change the MIME type if needed (e.g. image/jpeg)
-    return f"data:image/jpeg;base64,{encoded}"
+    try:
+        with open(image_path, "rb") as img_file:
+            encoded = base64.b64encode(img_file.read()).decode("utf-8")
+        # Change the MIME type if needed (e.g. image/jpeg)
+        return f"data:image/jpeg;base64,{encoded}"
+    except FileNotFoundError:
+        print(f"Image file not found: {image_path}")
+        return ""
 
 
 def create_family_graph(
