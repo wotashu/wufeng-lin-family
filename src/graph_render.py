@@ -1,3 +1,4 @@
+import json
 from collections import defaultdict
 from pathlib import Path
 
@@ -32,67 +33,58 @@ def render_family_graph(
 
     # Apply layout options.
     if layout_option == "hierarchical":
+        direction = st.selectbox("Select direction", options=["UD", "LR"])
         net.from_nx(graph)
 
         # Use the generation attribute to set the hierarchical level
         for node in net.nodes:
             # Each node should have a "generation" attribute if provided
+            node["shape"] = "box"  # or "ellipse"
             if "generation" in node:
                 # Assign the generation value to a "level" property.
                 node["level"] = node["generation"]
 
-        net.set_options("""
-        var options = {
+        options = {
             "layout": {
                 "hierarchical": {
-                    "enabled": true,
+                    "enabled": True,
                     "levelSeparation": 150,
-                    "nodeSpacing": 100,
+                    "nodeSpacing": 200,
                     "treeSpacing": 200,
-                    "direction": "UD",
+                    "direction": direction,
                     "sortMethod": "hubsize",
-                    "parentCentralization": true
+                    "parentCentralization": True,
                 }
             },
-            "physics": {
-                "enabled": false
-            }
+            "physics": {"enabled": False},
+            "nodes": {"shape": "box"},
         }
-        """)
+
+        net.set_options(f"var options = {json.dumps(options)}")
     else:
         # Default (force-directed) layout
         net.from_nx(graph)
-        net.set_options(
-            """
-            {
-                "nodes": {
-                    "font": {
-                        "size": 16,
-                        "face": "arial",
-                        "color": "#ffffff"
-                    }
+
+        options = {
+            "nodes": {"font": {"size": 16, "face": "arial", "color": "#ffffff"}},
+            "edges": {"color": {"inherit": True}},
+            "physics": {
+                "enabled": True,
+                "hierarchicalRepulsion": {
+                    "centralGravity": 0,
+                    "springLength": 100,
+                    "springConstant": 0.01,
+                    "nodeDistance": 120,
+                    "damping": 0.09,
                 },
-                "edges": {
-                    "color": { "inherit": true }
-                },
-                "physics": {
-                    "enabled": true,
-                    "hierarchicalRepulsion": {
-                        "centralGravity": 0,
-                        "springLength": 100,
-                        "springConstant": 0.01,
-                        "nodeDistance": 120,
-                        "damping": 0.09
-                    },
-                    "minVelocity": 0.75
-                }
-            }
-            """
-        )
+                "minVelocity": 0.75,
+            },
+        }
+        net.set_options(f"var options = {json.dumps(options)}")
 
     for node in net.nodes:
         # Use the node's main color for the label text color.
-        node["font"] = {"color": "#FFFFFF"}
+        node["font"] = {"color": "#FFFFFFFF"}
 
     # Re-generate the interactive HTML to include layout changes.
     net.write_html("family_graph_interactive.html", notebook=False)

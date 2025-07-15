@@ -57,18 +57,18 @@ def get_color_by_house(house: str) -> str:
     Return a color code based on the house name.
     """
     house_branch_color_map = {
-        "Before Wu-feng": "#1f77b4",
-        "Taiping Branch": "#FBFF00",
-        "Single House": "#0084ff",
-        "Lower House": "#2ca02c",
-        "Wencha Branch": "#bbff00",
-        "Wenming Branch": "#00ffc8",
-        "Upper House": "#d62728",
-        "Wenfeng Branch": "#ff7b00",
-        "Xiantang Branch": "#f700a5",
-        "Yunlong Branch": "#c688ff",
+        "Before Wu-feng": "#1976d2",  # Deep Blue
+        "Taiping Branch": "#c62828",  # Strong Red
+        "Single House": "#00897b",  # Teal
+        "Lower House": "#43a047",  # Green
+        "Wencha Branch": "#fbc02d",  # Yellow (dark enough for white text)
+        "Wenming Branch": "#7b1fa2",  # Purple
+        "Upper House": "#f57c00",  # Orange
+        "Wenfeng Branch": "#d81b60",  # Pink
+        "Xiantang Branch": "#455a64",  # Slate
+        "Yunlong Branch": "#5e35b1",  # Indigo
     }
-    return house_branch_color_map.get(house, "#cacaca")
+    return house_branch_color_map.get(house, "#8a8a8a")
 
 
 def get_shape_by_gender(gender: str) -> str:
