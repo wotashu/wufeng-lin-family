@@ -56,17 +56,33 @@ def get_color_by_house(house: str) -> str:
     """
     Return a color code based on the house name.
     """
-    house_branch_color_map = {
+    taiping_branch = {
+        "Taiping Branch": "#455a64",
+    }  # Slate  # Strong Red
+
+    before_split = {
         "Before Wu-feng": "#1976d2",  # Deep Blue
-        "Taiping Branch": "#c62828",  # Strong Red
         "Single House": "#00897b",  # Teal
+    }
+
+    lower_house = {
         "Lower House": "#43a047",  # Green
         "Wencha Branch": "#fbc02d",  # Yellow (dark enough for white text)
-        "Wenming Branch": "#7b1fa2",  # Purple
-        "Upper House": "#f57c00",  # Orange
+        "Wenming Branch": "#f57c00",  # Orange
+    }
+
+    upper_house = {
+        "Upper House": "#c62828",  # Red
         "Wenfeng Branch": "#d81b60",  # Pink
-        "Xiantang Branch": "#455a64",  # Slate
+        "Xiantang Branch": "#7b1fa2",  # Purple
         "Yunlong Branch": "#5e35b1",  # Indigo
+    }
+
+    house_branch_color_map = {
+        **taiping_branch,
+        **before_split,
+        **lower_house,
+        **upper_house,
     }
     return house_branch_color_map.get(house, "#8a8a8a")
 
