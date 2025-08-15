@@ -180,3 +180,4 @@ cython_debug/
 
 # local files
 family_graph_interactive.html
+data/
