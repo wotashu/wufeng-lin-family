@@ -72,7 +72,7 @@ def render_family_graph_graphviz(
         rel_type = rel.type
         dot.edge(source_id, target_id, label=rel_type)
 
-    st.graphviz_chart(dot, use_container_width=True)
+    st.graphviz_chart(dot)
 
     st.info(
         "To save the graph as SVG, right-click the graph, choose 'Inspect', find the <svg> element, and save it as an SVG file. Direct SVG/PNG export is not available on this server."
